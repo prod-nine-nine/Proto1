@@ -595,3 +595,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.10-20.42.26:576][512]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2020.02.10-20.42.28:066][512]LogSlate: Window 'Pick Parent Class' being destroyed
 [2020.02.10-20.42.35:870][416]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_DrownedDCB678BE4E0A7A57A73EF1A1AA5F56A8.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/BP_Drowned.uasset'
+[2020.02.10-20.43.03:300][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.02.10-20.43.03:331][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.02.10-20.43.03:442][426]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap8F50399D46EE2E1AAB809D9144555369.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.02.10-20.43.03:463][426]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.154
