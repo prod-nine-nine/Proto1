@@ -1,0 +1,21 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\guo.lu8015\Desktop\Proto1\Proto1).
+  Creating makefile for CombatArenaEditor (ini files are newer than makefile)
+  Parsing headers for CombatArenaEditor
+    Running UnrealHeaderTool "D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\CombatArena.uproject" "D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CombatArenaEditor in 4.7806713 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 12 processes...
+    [1/10] SharedPCH.Engine.cpp
+    [2/10] CombatArena.cpp
+    [3/10] CombatArena.init.gen.cpp
+    [4/10] CombatArenaGameMode.cpp
+    [5/10] CombatArenaCharacter.gen.cpp
+    [6/10] CombatArenaGameMode.gen.cpp
+    [7/10] CombatArenaCharacter.cpp
+    [8/10] UE4Editor-CombatArena-0001.lib
+       Creating library D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena-0001.lib and object D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena-0001.exp
+    [9/10] UE4Editor-CombatArena-0001.dll
+       Creating library D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena-0001.suppressed.lib and object D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena-0001.suppressed.exp
+    [10/10] CombatArenaEditor.target
+  Total time in Parallel executor: 14.55 seconds
+  Total execution time: 21.23 seconds
