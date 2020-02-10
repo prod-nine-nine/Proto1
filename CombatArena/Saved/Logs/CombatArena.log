@@ -599,3 +599,196 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.10-20.43.03:331][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2020.02.10-20.43.03:442][426]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap8F50399D46EE2E1AAB809D9144555369.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
 [2020.02.10-20.43.03:463][426]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.154
+[2020.02.10-20.46.12:373][182]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned
+[2020.02.10-20.46.12:642][182]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2020.02.10-20.46.15:448][357]LogRenderer: Reallocating scene render targets to support 1208x908 Format 10 NumSamples 1 (Frame:176).
+[2020.02.10-20.48.18:412][989]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.10-20.49.10:729][ 96]LogSlate: Took 0.004160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.10-20.50.47:225][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.50.57:389][  5]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.10-20.51.04:292][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.51.12:157][455]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-20.51.12:315][455]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.02.10-20.51.30:379][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.51.47:371][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.52.00:996][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.52.28:106][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.52.35:906][ 11]LogSlate: Took 0.004267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.10-20.54.14:263][306]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-20.54.14:417][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.02.10-20.54.17:098][619]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned84F910E04209E90420CE249BF7613431.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/BP_Drowned.uasset'
+[2020.02.10-20.54.26:840][569]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.10-20.54.26:852][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.54.26:852][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.10-20.54.26:852][569]PIE: New page: PIE session: ThirdPersonExampleMap (11/02/2020 10:54:26 pm)
+[2020.02.10-20.54.26:864][569]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.10-20.54.26:873][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008705s)
+[2020.02.10-20.54.26:873][569]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.10-20.54.26:873][569]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2020.02.10-20.54.26:873][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009548s)
+[2020.02.10-20.54.26:899][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2020.02.10-20.54.26:916][569]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.10-20.54.26:922][569]LogInit: FAudioDevice initialized.
+[2020.02.10-20.54.26:960][569]LogLoad: Game class is 'CombatArenaGameMode'
+[2020.02.10-20.54.26:962][569]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.02.11-09.54.26
+[2020.02.10-20.54.26:963][569]LogWorld: Bringing up level for play took: 0.001296
+[2020.02.10-20.54.26:978][569]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.02.10-20.54.26:980][569]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.02.10-20.54.26:980][569]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.02.10-20.54.26:981][569]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.673
+[2020.02.10-20.54.26:981][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.54.30:070][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.54.30:070][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.54.30:097][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.10-20.54.30:097][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.54.30:135][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.54.30:152][901]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2020.02.10-20.54.30:186][903]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.10-20.54.33:111][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.54.38:415][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2020.02.10-20.54.41:015][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.02.10-20.54.48:005][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.54.59:051][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.54.59:117][287]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.10-20.54.59:128][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.54.59:128][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.10-20.54.59:129][287]PIE: New page: PIE session: ThirdPersonExampleMap (11/02/2020 10:54:59 pm)
+[2020.02.10-20.54.59:129][287]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.10-20.54.59:137][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008475s)
+[2020.02.10-20.54.59:138][287]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.10-20.54.59:138][287]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2020.02.10-20.54.59:138][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009397s)
+[2020.02.10-20.54.59:173][287]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.02.10-20.54.59:189][287]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.10-20.54.59:195][287]LogInit: FAudioDevice initialized.
+[2020.02.10-20.54.59:225][287]LogLoad: Game class is 'CombatArenaGameMode'
+[2020.02.10-20.54.59:235][287]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.02.11-09.54.59
+[2020.02.10-20.54.59:267][287]LogWorld: Bringing up level for play took: 0.041554
+[2020.02.10-20.54.59:280][287]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.374
+[2020.02.10-20.54.59:280][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.55.16:957][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.55.16:958][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.55.16:989][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.10-20.55.16:989][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.55.17:023][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.55.17:027][402]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.02.10-20.55.17:070][404]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.02.10-20.55.22:773][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.55.22:864][ 99]LogSlate: Window 'BP_Drowned' being destroyed
+[2020.02.10-20.55.22:868][ 99]LogSlate: Window 'BP_Drowned' being destroyed
+[2020.02.10-20.55.38:542][518]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned
+[2020.02.10-20.56.21:647][179]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-20.56.21:838][179]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2020.02.10-20.56.22:315][216]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned542788604FD272CE3316F49128A11B0A.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/BP_Drowned.uasset'
+[2020.02.10-20.56.25:591][441]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.02.10-20.56.25:740][441]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap_Auto1E6A38C4B481D73D633DD4DBD5CCF2244.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2020.02.10-20.56.25:746][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.196
+[2020.02.10-20.56.25:746][441]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.196
+[2020.02.10-20.56.26:477][517]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.10-20.56.26:490][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.56.26:490][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.10-20.56.26:491][517]PIE: New page: PIE session: ThirdPersonExampleMap (11/02/2020 10:56:26 pm)
+[2020.02.10-20.56.26:491][517]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.10-20.56.26:502][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011273s)
+[2020.02.10-20.56.26:502][517]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.10-20.56.26:503][517]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2020.02.10-20.56.26:503][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012030s)
+[2020.02.10-20.56.26:533][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.02.10-20.56.26:550][517]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.10-20.56.26:555][517]LogInit: FAudioDevice initialized.
+[2020.02.10-20.56.26:581][517]LogLoad: Game class is 'CombatArenaGameMode'
+[2020.02.10-20.56.26:582][517]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.02.11-09.56.26
+[2020.02.10-20.56.26:583][517]LogWorld: Bringing up level for play took: 0.001334
+[2020.02.10-20.56.26:594][517]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.94
+[2020.02.10-20.56.26:595][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.56.36:171][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.56.36:171][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.56.36:205][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.10-20.56.36:205][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.56.36:235][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.56.36:239][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.02.10-20.56.36:274][666]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.02.10-20.56.37:359][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-20.56.37:416][803]LogSlate: Window 'BP_Drowned' being destroyed
+[2020.02.10-20.56.37:420][803]LogSlate: Window 'BP_Drowned' being destroyed
+[2020.02.10-20.58.06:412][693]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.10-20.58.35:470][690]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.10-20.58.35:484][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.58.35:484][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.10-20.58.35:484][690]PIE: New page: PIE session: ThirdPersonExampleMap (11/02/2020 10:58:35 pm)
+[2020.02.10-20.58.35:484][690]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.02.10-20.58.35:493][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008159s)
+[2020.02.10-20.58.35:493][690]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.02.10-20.58.35:494][690]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2020.02.10-20.58.35:494][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008846s)
+[2020.02.10-20.58.35:557][690]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.02.10-20.58.35:576][690]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.10-20.58.35:581][690]LogInit: FAudioDevice initialized.
+[2020.02.10-20.58.35:606][690]LogLoad: Game class is 'CombatArenaGameMode'
+[2020.02.10-20.58.35:608][690]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.02.11-09.58.35
+[2020.02.10-20.58.35:608][690]LogWorld: Bringing up level for play took: 0.001510
+[2020.02.10-20.58.35:621][690]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.035
+[2020.02.10-20.58.35:622][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.59.36:464][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.59.36:464][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.59.36:494][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.10-20.59.36:494][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.02.10-20.59.36:524][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.10-20.59.36:529][962]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.02.10-20.59.36:566][965]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.10-21.03.04:027][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.10-21.03.08:368][269]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned
+[2020.02.10-21.03.29:545][717]LogSlate: Took 0.011995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.10-21.04.03:067][733]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.04.03:194][733]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.02.10-21.07.02:925][162]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.07.03:058][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.02.10-21.09.28:325][486]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.02.10-21.09.28:477][486]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap_Auto21782B334459A927A591A1B907141832F.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2020.02.10-21.09.28:479][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.181
+[2020.02.10-21.09.28:479][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2020.02.10-21.09.28:480][486]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned] ([1] browsable assets)...
+[2020.02.10-21.09.28:490][486]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned]
+[2020.02.10-21.09.28:490][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned]
+[2020.02.10-21.09.28:547][486]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned_Auto218E186F44A7FA4F169FE48B3F163BDB6.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/BP_Drowned_Auto2.uasset'
+[2020.02.10-21.09.28:547][486]LogFileHelpers: Auto-saving content packages took 0.067
+[2020.02.10-21.11.18:376][661]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.11.18:512][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2020.02.10-21.17.33:888][891]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.17.34:028][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.02.10-21.19.28:676][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.02.10-21.19.28:822][919]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap_Auto33FB23C4247EC72E4E12EB89BCCD0501B.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.02.10-21.19.28:824][919]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.177
+[2020.02.10-21.19.28:824][919]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2020.02.10-21.19.28:825][919]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned] ([1] browsable assets)...
+[2020.02.10-21.19.28:841][919]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned]
+[2020.02.10-21.19.28:841][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned]
+[2020.02.10-21.19.28:870][919]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned_Auto37AF91088461D3B2427160F9BB9857FF6.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/BP_Drowned_Auto3.uasset'
+[2020.02.10-21.19.28:870][919]LogFileHelpers: Auto-saving content packages took 0.045
+[2020.02.10-21.31.07:464][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.02.10-21.31.07:464][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.026
+[2020.02.10-21.31.07:465][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned] ([1] browsable assets)...
+[2020.02.10-21.31.07:465][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned]
+[2020.02.10-21.31.07:488][438]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned_Auto49BBAC91A4B2F3B12AFAD4F90D1E100B8.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/BP_Drowned_Auto4.uasset'
+[2020.02.10-21.31.07:488][438]LogFileHelpers: Auto-saving content packages took 0.023
+[2020.02.10-21.33.53:479][818]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.33.53:615][818]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.02.10-21.36.43:355][539]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.10-21.36.45:757][785]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.02.10-21.36.59:403][315]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2020.02.10-21.36.59:542][315]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.02.10-21.37.05:532][ 26]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonCharacter49607D2B4ACA3FC602851F99150ED155.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2020.02.10-21.37.06:487][135]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned9F6CDC8B4D9798A2C72F7CAA08893E99.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/BP_Drowned.uasset'
+[2020.02.10-21.40.55:113][935]BlueprintLog: New page: Compile BP_Drowned
+[2020.02.10-21.40.55:253][935]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.02.10-21.42.17:685][664]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.02.10-21.42.17:833][664]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonExampleMap_Auto5E140F6144D2ED1DC4954F0AE51968C89.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2020.02.10-21.42.17:835][664]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.179
+[2020.02.10-21.42.17:835][664]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
+[2020.02.10-21.42.17:836][664]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned] ([1] browsable assets)...
+[2020.02.10-21.42.17:844][664]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/BP_Drowned.BP_Drowned]
+[2020.02.10-21.42.17:844][664]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/BP_Drowned]
+[2020.02.10-21.42.17:875][664]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_Drowned_Auto5B6D4CE2D4B8A18FCD25775ABC58E678E.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/BP_Drowned_Auto5.uasset'
+[2020.02.10-21.42.17:875][664]LogFileHelpers: Auto-saving content packages took 0.040
+[2020.02.10-21.44.47:215][505]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/BP_DrownedD1C708EF41E4F308E71D4AAD30E4D85B.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/BP_Drowned.uasset'
+[2020.02.10-21.46.20:790][346]LogSavePackage: Moving '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Saved/ThirdPersonCharacterFBC9087C496CD842A48413AF4EB24458.tmp' to '../../../../../Users/guo.lu8015/Desktop/Proto1/Proto1/CombatArena/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
