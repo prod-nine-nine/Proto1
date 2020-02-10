@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CombatArena.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A2761136-1132-49B6-9803-E525B1E48101}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CombatArena.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CombatArenaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C4DAEA27-9DC3-42CF-96ED-1B0479CF8208}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CombatArena">
+      <UniqueIdentifier>{10AE2CFE-25CF-4A9F-8B01-1DA3BC4E7FF9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CombatArena\CombatArena.Build.cs">
+      <Filter>Source\CombatArena</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CombatArena\CombatArena.cpp">
+      <Filter>Source\CombatArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CombatArena\CombatArena.h">
+      <Filter>Source\CombatArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CombatArena\CombatArenaCharacter.cpp">
+      <Filter>Source\CombatArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CombatArena\CombatArenaCharacter.h">
+      <Filter>Source\CombatArena</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CombatArena\CombatArenaGameMode.cpp">
+      <Filter>Source\CombatArena</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CombatArena\CombatArenaGameMode.h">
+      <Filter>Source\CombatArena</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
