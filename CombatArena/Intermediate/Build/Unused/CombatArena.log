@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\guo.lu8015\Desktop\Proto1\Proto1).
   Creating makefile for CombatArenaEditor (ini files are newer than makefile)
   Parsing headers for CombatArenaEditor
@@ -19,3 +20,15 @@
     [10/10] CombatArenaEditor.target
   Total time in Parallel executor: 14.55 seconds
   Total execution time: 21.23 seconds
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\school\3rd year\Production\Proto1).
+  Creating makefile for CombatArenaEditor (ini files are newer than makefile)
+  Parsing headers for CombatArenaEditor
+    Running UnrealHeaderTool "E:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CombatArenaEditor in 4.6963753 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 12 processes...
+    [1/1] CombatArenaEditor.target
+  Total time in Parallel executor: 0.14 seconds
+  Total execution time: 6.29 seconds
+>>>>>>> Pickup

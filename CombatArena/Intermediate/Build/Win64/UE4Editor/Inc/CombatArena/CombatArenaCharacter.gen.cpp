@@ -34,6 +34,15 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pickUpRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_pickUpRange;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_holdingWeapon_MetaData[];
+#endif
+		static void NewProp_holdingWeapon_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_holdingWeapon;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
@@ -64,6 +73,25 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		{ "ModuleRelativePath", "CombatArenaCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_pickUpRange_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "CombatArenaCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_pickUpRange = { "pickUpRange", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACombatArenaCharacter, pickUpRange), METADATA_PARAMS(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_pickUpRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_pickUpRange_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "CombatArenaCharacter.h" },
+		{ "ToolTip", "bool for if the character is holding a weapon or not" },
+	};
+#endif
+	void Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon_SetBit(void* Obj)
+	{
+		((ACombatArenaCharacter*)Obj)->holdingWeapon = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon = { "holdingWeapon", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACombatArenaCharacter), &Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
@@ -101,6 +129,8 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACombatArenaCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACombatArenaCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_pickUpRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_holdingWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_FollowCamera,
@@ -133,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACombatArenaCharacter, 288648281);
+	IMPLEMENT_CLASS(ACombatArenaCharacter, 4226984386);
 	template<> COMBATARENA_API UClass* StaticClass<ACombatArenaCharacter>()
 	{
 		return ACombatArenaCharacter::StaticClass();

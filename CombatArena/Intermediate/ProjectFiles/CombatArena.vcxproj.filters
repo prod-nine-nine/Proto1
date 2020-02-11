@@ -54,4 +54,14 @@
       <Filter>Source\CombatArena</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\CombatArena\SwordBase.h">
+      <Filter>Source\CombatArena</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\CombatArena\SwordBase.cpp">
+      <Filter>Source\CombatArena</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
