@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "SwordBase.h"
 #include "CombatArenaCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -18,6 +19,7 @@ class ACombatArenaCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	ACombatArenaCharacter();
 
@@ -28,6 +30,17 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+	///custom variables
+
+	//bool for if the character is holding a weapon or not
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		bool holdingWeapon = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		int pickUpRange = 5000;
+
+	ASwordBase* previousTarget = 0;
 
 protected:
 
@@ -58,6 +71,11 @@ protected:
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
+	///custom functions
+
+	//pick up weapon
+	void PickUpWeapon();
+
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -68,5 +86,8 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 };
 

@@ -6,4 +6,6 @@ D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\SwordBase.h
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
 E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.generated.h
