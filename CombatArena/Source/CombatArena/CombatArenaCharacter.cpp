@@ -5,9 +5,17 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/StaticMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+
+#include "Engine/EngineTypes.h"
+
+//debugging includes
+#include <EngineGlobals.h>
+#include <Runtime/Engine/Classes/Engine/Engine.h>
+#include "DrawDebugHelpers.h"
 
 //////////////////////////////////////////////////////////////////////////
 // ACombatArenaCharacter
@@ -45,6 +53,7 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -74,6 +83,11 @@ void ACombatArenaCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ACombatArenaCharacter::OnResetVR);
+
+	///Custom controls
+
+	//handle pickup
+	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &ACombatArenaCharacter::PickUpWeapon);
 }
 
 
@@ -131,4 +145,60 @@ void ACombatArenaCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+
+///Custom Function Definitions
+
+void ACombatArenaCharacter::PickUpWeapon()
+{
+	if (!holdingWeapon)
+	{
+		/*APlayerCameraManager* camManager = GetWorld()->GetFirstPlayerController()->PlayerCameraManager;
+
+		FVector camLocation = camManager->GetCameraLocation();
+		FVector camForward = camManager->GetCameraRotation().Vector();*/
+		FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
+
+		FHitResult hit;
+		//FVector cameraWorldLocation = FollowCamera->GetRelativeTransform().GetLocation() + CameraBoom->SocketOffset + this->GetTransform().GetLocation();
+		this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), ECC_Visibility);
+		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
+
+		if (Weapon)
+		{
+			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("hand_rSocket"));
+		}
+	}
+}
+
+// Called every frame
+void ACombatArenaCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+	FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
+
+	FHitResult hit;
+	//FVector cameraWorldLocation = FollowCamera->GetRelativeTransform().GetLocation() + CameraBoom->SocketOffset + this->GetTransform().GetLocation();
+	this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), ECC_Visibility);
+	//DrawDebugLine(this->GetWorld(), cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), FColor::Red, false, 1.0f, (uint8)'\000', 5);
+
+	ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
+
+	if (Weapon)
+	{
+		if (previousTarget)
+		{
+			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+		}
+		Weapon->MyMesh->SetMaterial(0, (UMaterialInterface*)Weapon->OnMaterial);
+		previousTarget = Weapon;
+	}
+	else if(previousTarget)
+	{
+		previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+		previousTarget = 0;
+	}
+
 }
