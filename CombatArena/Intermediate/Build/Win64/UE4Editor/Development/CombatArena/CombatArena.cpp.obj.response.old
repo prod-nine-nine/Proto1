@@ -28,9 +28,15 @@
 /wd4838
 /we4668
 /I .
+<<<<<<< HEAD
 /I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
 /I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source
 /I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena
+=======
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
+>>>>>>> Pickup
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -437,12 +443,21 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< HEAD
 /FI"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\CombatArena.cpp"
 /FI"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
 /Fo"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArena.cpp.obj"
+=======
+/FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArena.cpp"
+/FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
+/Fo"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArena.cpp.obj"
+>>>>>>> Pickup
 /TP
 /GR-
 /W4
