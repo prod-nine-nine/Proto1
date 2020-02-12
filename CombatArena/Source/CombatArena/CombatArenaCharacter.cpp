@@ -88,6 +88,14 @@ void ACombatArenaCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	//handle pickup
 	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &ACombatArenaCharacter::PickUpWeapon);
+
+	//handle attacks
+	PlayerInputComponent->BindAction("Attack 1", IE_Pressed, this, &ACombatArenaCharacter::AttackSlice);
+
+	PlayerInputComponent->BindAction("Attack 2", IE_Pressed, this, &ACombatArenaCharacter::AttackStab);
+
+	PlayerInputComponent->BindAction("Block", IE_Pressed, this, &ACombatArenaCharacter::Block);
+	PlayerInputComponent->BindAction("Block", IE_Released, this, &ACombatArenaCharacter::Unblock);
 }
 
 
@@ -152,7 +160,7 @@ void ACombatArenaCharacter::MoveRight(float Value)
 
 void ACombatArenaCharacter::PickUpWeapon()
 {
-	if (!holdingWeapon)
+	if (!currentWeapon)
 	{
 		/*APlayerCameraManager* camManager = GetWorld()->GetFirstPlayerController()->PlayerCameraManager;
 
@@ -168,8 +176,26 @@ void ACombatArenaCharacter::PickUpWeapon()
 		if (Weapon)
 		{
 			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("hand_rSocket"));
+			currentWeapon = Weapon;
+			currentWeapon->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
 		}
 	}
+}
+
+void ACombatArenaCharacter::Attack(bool slice)
+{
+	gSlice = slice;
+
+	if (currentWeapon)
+	{
+		attackDamage = (slice) ? 25.0f : 50.0f;
+	}
+	else
+	{
+		attackDamage = 10.0f;
+	}
+
+	attacking = true;
 }
 
 // Called every frame
@@ -177,28 +203,30 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
-
-	FHitResult hit;
-	//FVector cameraWorldLocation = FollowCamera->GetRelativeTransform().GetLocation() + CameraBoom->SocketOffset + this->GetTransform().GetLocation();
-	this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), ECC_Visibility);
-	//DrawDebugLine(this->GetWorld(), cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), FColor::Red, false, 1.0f, (uint8)'\000', 5);
-
-	ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
-
-	if (Weapon)
+	if (!currentWeapon)
 	{
-		if (previousTarget)
+		FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
+
+		FHitResult hit;
+		//FVector cameraWorldLocation = FollowCamera->GetRelativeTransform().GetLocation() + CameraBoom->SocketOffset + this->GetTransform().GetLocation();
+		this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), ECC_Visibility);
+		//DrawDebugLine(this->GetWorld(), cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), FColor::Red, false, 1.0f, (uint8)'\000', 5);
+
+		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
+
+		if (Weapon)
+		{
+			if (previousTarget)
+			{
+				previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			}
+			Weapon->MyMesh->SetMaterial(0, (UMaterialInterface*)Weapon->OnMaterial);
+			previousTarget = Weapon;
+		}
+		else if (previousTarget)
 		{
 			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			previousTarget = 0;
 		}
-		Weapon->MyMesh->SetMaterial(0, (UMaterialInterface*)Weapon->OnMaterial);
-		previousTarget = Weapon;
 	}
-	else if(previousTarget)
-	{
-		previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-		previousTarget = 0;
-	}
-
 }
