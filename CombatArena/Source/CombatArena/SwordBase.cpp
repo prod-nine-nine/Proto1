@@ -10,7 +10,9 @@ ASwordBase::ASwordBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
-	RootComponent = NULL;
+
+	RootComponent = (USceneComponent*)MyMesh;
+	
 	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
 	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
 }
@@ -20,7 +22,7 @@ void ASwordBase::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyMesh->SetMaterial(0, OffMaterial);
+	MyMesh->SetMaterial(0, (UMaterialInterface*)OffMaterial);
 }
 
 // Called every frame

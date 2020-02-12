@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena.Target.cs
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
-=======
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena.Target.cs
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
->>>>>>> develop
+D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
+D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Source\CombatArena.Target.cs
+D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
