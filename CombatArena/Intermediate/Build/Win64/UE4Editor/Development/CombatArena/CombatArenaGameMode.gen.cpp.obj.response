@@ -426,9 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+<<<<<<< HEAD
 /I "D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
 /I "D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source"
 /I "D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source\CombatArena"
+=======
+<<<<<<< HEAD
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena
+=======
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena
+>>>>>>> develop
+>>>>>>> develop
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
