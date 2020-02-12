@@ -9,8 +9,11 @@ ASwordBase::ASwordBase()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	TouchCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CollisionCylinder"));
+	RootComponent = (USceneComponent*)TouchCapsule;
+
 	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
-	RootComponent = NULL;
+	
 	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
 	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
 }
@@ -20,7 +23,7 @@ void ASwordBase::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyMesh->SetMaterial(0, OffMaterial);
+	MyMesh->SetMaterial(0, (UMaterialInterface*)OffMaterial);
 }
 
 // Called every frame
