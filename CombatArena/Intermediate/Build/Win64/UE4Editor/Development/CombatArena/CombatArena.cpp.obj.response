@@ -426,9 +426,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source
+/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
