@@ -2,6 +2,7 @@
 
 #include "SwordBase.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 ASwordBase::ASwordBase()
@@ -9,10 +10,10 @@ ASwordBase::ASwordBase()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	TouchCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CollisionCylinder"));
-	RootComponent = (USceneComponent*)TouchCapsule;
-
 	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
+	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Overlap);
+	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+	RootComponent = (USceneComponent*)MyMesh;
 	
 	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
 	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));

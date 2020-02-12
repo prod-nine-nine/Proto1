@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
-=======
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
->>>>>>> develop
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\SwordBase.h
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

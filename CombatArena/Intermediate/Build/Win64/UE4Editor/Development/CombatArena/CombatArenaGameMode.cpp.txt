@@ -1,55 +1,15 @@
-<<<<<<< HEAD
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source\CombatArena\CombatArenaGameMode.h
-=======
-<<<<<<< HEAD
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena\CombatArenaGameMode.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaGameMode.generated.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.generated.h
-=======
-<<<<<<< HEAD
 E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
 E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArenaGameMode.h
-=======
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\CombatArenaGameMode.h
->>>>>>> develop
->>>>>>> develop
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaGameMode.generated.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.h
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaGameMode.generated.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-<<<<<<< HEAD
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.generated.h
-=======
-<<<<<<< HEAD
 E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\SwordBase.h
 E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
 E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.generated.h
-=======
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
-D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.generated.h
->>>>>>> develop
->>>>>>> develop
->>>>>>> develop

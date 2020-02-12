@@ -100,7 +100,7 @@ protected:
 	void Unblock() { blocking = false; }
 
 	UFUNCTION(BlueprintCallable, Category = Player)
-		void damagePlayer(float damage) { Health -= (blocking) ? damage / 2 : damage; }
+		void damagePlayer(float damage);
 
 protected:
 	// APawn interface
