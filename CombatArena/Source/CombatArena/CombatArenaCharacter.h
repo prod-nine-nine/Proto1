@@ -12,35 +12,46 @@ class ACombatArenaCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-	/** Camera boom positioning the camera behind the character */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* CameraBoom;
+		/** Camera boom positioning the camera behind the character */
+		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class USpringArmComponent* CameraBoom;
 
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* FollowCamera;
+		class UCameraComponent* FollowCamera;
 
 public:
 	ACombatArenaCharacter();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
-	float BaseTurnRate;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		float BaseTurnRate;
 
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
-	float BaseLookUpRate;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera)
+		float BaseLookUpRate;
 
 	///custom variables
 
-	//bool for if the character is holding a weapon or not
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		bool holdingWeapon = false;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool attacking = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		int pickUpRange = 5000;
+		bool gSlice = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		float Health = 100;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool blocking = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		float attackDamage = 0;
+
+	int pickUpRange = 500;
 	ASwordBase* previousTarget = 0;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+	ASwordBase* currentWeapon = 0;
 
 protected:
 
@@ -53,14 +64,14 @@ protected:
 	/** Called for side to side input */
 	void MoveRight(float Value);
 
-	/** 
-	 * Called via input to turn at a given rate. 
+	/**
+	 * Called via input to turn at a given rate.
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void TurnAtRate(float Rate);
 
 	/**
-	 * Called via input to turn look up/down at a given rate. 
+	 * Called via input to turn look up/down at a given rate.
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void LookUpAtRate(float Rate);
@@ -75,6 +86,21 @@ protected:
 
 	//pick up weapon
 	void PickUpWeapon();
+
+	//attack
+	void Attack(bool slice);
+
+	void AttackSlice() { Attack(true); }
+
+	void AttackStab(){ Attack(false); }
+
+	//block
+	void Block() { blocking = true; }
+
+	void Unblock() { blocking = false; }
+
+	UFUNCTION(BlueprintCallable, Category = Player)
+		void damagePlayer(float damage) { Health -= (blocking) ? damage / 2 : damage; }
 
 protected:
 	// APawn interface

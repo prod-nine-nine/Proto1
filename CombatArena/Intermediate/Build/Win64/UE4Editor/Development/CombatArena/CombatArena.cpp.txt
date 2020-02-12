@@ -1,2 +1,7 @@
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena\CombatArena.h
+<<<<<<< HEAD
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArena.h
+=======
+D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena\CombatArena.h
+>>>>>>> develop
