@@ -29,15 +29,36 @@
 /we4668
 /I .
 <<<<<<< HEAD
-/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
-/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source
-/I D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Source\CombatArena
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena
 =======
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 >>>>>>> Pickup
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\Net\Util
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Subsystems
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -77,30 +98,6 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\Net\Util
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Subsystems
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
 /I Runtime\ApplicationCore\Public
 /I Runtime\ApplicationCore
 /I Runtime\ApplicationCore\Public\GenericPlatform
@@ -435,6 +432,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
+/I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -443,21 +443,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-<<<<<<< HEAD
-/FI"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.gen.cpp"
-/FI"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
-/Fo"D:\Users\guo.lu8015\Desktop\Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.gen.cpp.obj"
-=======
-/FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.gen.cpp"
-/FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
-/Fo"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.gen.cpp.obj"
->>>>>>> Pickup
+/FI"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaCharacter.gen.cpp"
+/FI"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
+/Fo"D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4
