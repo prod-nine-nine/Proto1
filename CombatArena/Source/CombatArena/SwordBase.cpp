@@ -2,6 +2,7 @@
 
 #include "SwordBase.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 ASwordBase::ASwordBase()
@@ -10,7 +11,8 @@ ASwordBase::ASwordBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
-
+	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Overlap);
+	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 	RootComponent = (USceneComponent*)MyMesh;
 	
 	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));

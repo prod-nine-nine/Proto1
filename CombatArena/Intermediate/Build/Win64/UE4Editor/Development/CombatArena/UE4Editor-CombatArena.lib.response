@@ -6,6 +6,19 @@
 /NAME:"UE4Editor-CombatArena.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+<<<<<<< HEAD
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArena.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaGameMode.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\SwordBase.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArena.init.gen.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.gen.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaGameMode.gen.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\SwordBase.gen.cpp.obj"
+"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Default.rc2.res"
+/OUT:"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena.lib"
+=======
 "D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.obj"
 "D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArena.cpp.obj"
 "D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.cpp.obj"
@@ -17,4 +30,5 @@
 "D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\SwordBase.gen.cpp.obj"
 "D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Default.rc2.res"
 /OUT:"D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\UE4Editor-CombatArena.lib"
+>>>>>>> develop
 /INCLUDE:IMPLEMENT_MODULE_CombatArena
