@@ -226,6 +226,7 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 		else if (previousTarget)
 		{
 			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("material changed"));
 			previousTarget = 0;
 		}
 	}

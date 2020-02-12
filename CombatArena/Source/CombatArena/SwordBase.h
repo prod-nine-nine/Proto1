@@ -23,6 +23,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		class UMaterial* OffMaterial;
+
+	UPROPERTY(EditAnywhere)
+		class UCapsuleComponent* TouchCapsule;
 	
 protected:
 	// Called when the game starts or when spawned
