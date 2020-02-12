@@ -28,13 +28,7 @@
 /wd4838
 /we4668
 /I .
-<<<<<<< HEAD
-/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
-/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source
-/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena
-=======
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
->>>>>>> Pickup
 /I Runtime
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -432,9 +426,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
-/I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source
+/I D:\Users\jeoungeun.hwa8072\Documents\Team9\Proto1\CombatArena\Source\CombatArena
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
