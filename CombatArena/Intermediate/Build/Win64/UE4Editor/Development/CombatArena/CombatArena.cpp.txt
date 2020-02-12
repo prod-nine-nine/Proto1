@@ -1,2 +1,2 @@
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1\Proto1\CombatArena\Source\CombatArena\CombatArena.h
+D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Source\CombatArena\CombatArena.h

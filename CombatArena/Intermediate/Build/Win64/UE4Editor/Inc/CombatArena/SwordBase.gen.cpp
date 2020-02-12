@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 	COMBATARENA_API UClass* Z_Construct_UClass_ASwordBase();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CombatArena();
-	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
@@ -34,10 +33,6 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TouchCapsule_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TouchCapsule;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OffMaterial_MetaData[];
 #endif
@@ -65,14 +60,6 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::NewProp_TouchCapsule_MetaData[] = {
-		{ "Category", "SwordBase" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "SwordBase.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASwordBase_Statics::NewProp_TouchCapsule = { "TouchCapsule", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASwordBase, TouchCapsule), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASwordBase_Statics::NewProp_TouchCapsule_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASwordBase_Statics::NewProp_TouchCapsule_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::NewProp_OffMaterial_MetaData[] = {
 		{ "Category", "SwordBase" },
 		{ "ModuleRelativePath", "SwordBase.h" },
@@ -95,7 +82,6 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh = { "MyMesh", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASwordBase, MyMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASwordBase_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_TouchCapsule,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_OffMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_OnMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh,
@@ -127,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASwordBase, 125803197);
+	IMPLEMENT_CLASS(ASwordBase, 1545940705);
 	template<> COMBATARENA_API UClass* StaticClass<ASwordBase>()
 	{
 		return ASwordBase::StaticClass();
