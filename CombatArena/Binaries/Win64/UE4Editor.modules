@@ -2,10 +2,6 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"CombatArena": "UE4Editor-CombatArena-0009.dll"
-=======
-		"CombatArena": "UE4Editor-CombatArena.dll"
->>>>>>> develop
+		"CombatArena": "UE4Editor-CombatArena-0015.dll"
 	}
 }

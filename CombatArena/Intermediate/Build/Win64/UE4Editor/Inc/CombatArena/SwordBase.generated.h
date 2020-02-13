@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COMBATARENA_SwordBase_generated_h
 
-#define CombatArena_Source_CombatArena_SwordBase_h_12_RPC_WRAPPERS
-#define CombatArena_Source_CombatArena_SwordBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define CombatArena_Source_CombatArena_SwordBase_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDamageWeapon) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DamageWeapon(Z_Param_damage); \
+		P_NATIVE_END; \
+	}
+
+
+#define CombatArena_Source_CombatArena_SwordBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDamageWeapon) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damage); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DamageWeapon(Z_Param_damage); \
+		P_NATIVE_END; \
+	}
+
+
 #define CombatArena_Source_CombatArena_SwordBase_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASwordBase(); \

@@ -96,6 +96,8 @@ void ACombatArenaCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	PlayerInputComponent->BindAction("Block", IE_Pressed, this, &ACombatArenaCharacter::Block);
 	PlayerInputComponent->BindAction("Block", IE_Released, this, &ACombatArenaCharacter::Unblock);
+
+	PlayerInputComponent->BindAction("Dodge", IE_Pressed, this, &ACombatArenaCharacter::Dodge);
 }
 
 
@@ -128,7 +130,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && !attacking)
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -142,8 +144,9 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ( (Controller != NULL) && (Value != 0.0f) && !attacking)
 	{
+
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -187,6 +190,10 @@ void ACombatArenaCharacter::Attack(bool slice)
 {
 	gSlice = slice;
 
+	blocking = false;
+
+	SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
+
 	if (currentWeapon)
 	{
 		attackDamage = (slice) ? 25.0f : 50.0f;
@@ -197,6 +204,11 @@ void ACombatArenaCharacter::Attack(bool slice)
 	}
 
 	attacking = true;
+}
+
+void ACombatArenaCharacter::Dodge()
+{
+	if (dodgeRechargePercent == 100) { dodgeRechargePercent = 0; }
 }
 
 void ACombatArenaCharacter::damagePlayer(float damage)
@@ -239,5 +251,11 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("material changed"));
 			previousTarget = 0;
 		}
+	}
+
+	if (dodgeRechargePercent < 100)
+	{
+		float percentPerSecond = DeltaTime * 10;
+		dodgeRechargePercent = (dodgeRechargePercent + percentPerSecond > 100) ? 100 : dodgeRechargePercent + percentPerSecond;
 	}
 }
