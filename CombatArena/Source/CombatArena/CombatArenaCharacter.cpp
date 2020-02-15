@@ -178,6 +178,7 @@ void ACombatArenaCharacter::PickUpWeapon()
 			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("hand_rSocket"));
 			currentWeapon = Weapon;
 			currentWeapon->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			currentWeapon->MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Overlap);
 		}
 	}
 }
@@ -196,6 +197,15 @@ void ACombatArenaCharacter::Attack(bool slice)
 	}
 
 	attacking = true;
+}
+
+void ACombatArenaCharacter::damagePlayer(float damage)
+{
+	Health -= (blocking) ? damage / 2 : damage;
+	if (Health <= 0)
+	{
+		this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
+	}
 }
 
 // Called every frame

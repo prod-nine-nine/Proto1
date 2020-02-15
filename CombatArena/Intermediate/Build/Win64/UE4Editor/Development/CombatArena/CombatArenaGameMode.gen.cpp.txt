@@ -1,9 +1,20 @@
+<<<<<<< HEAD
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena/CombatArenaGameMode.h
+=======
 D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Source\CombatArena/CombatArenaGameMode.h
+>>>>>>> develop
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+<<<<<<< HEAD
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaGameMode.generated.h
+=======
 D:\Users\rhyan.mcl7998\Desktop\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\CombatArenaGameMode.generated.h
+>>>>>>> develop
