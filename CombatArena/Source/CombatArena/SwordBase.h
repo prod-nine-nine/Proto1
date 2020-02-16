@@ -23,6 +23,12 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		class UMaterial* OffMaterial;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Sword)
+		float durability = 100;
+
+	UFUNCTION(BlueprintCallable)
+		void DamageWeapon(float damage);
 	
 protected:
 	// Called when the game starts or when spawned
