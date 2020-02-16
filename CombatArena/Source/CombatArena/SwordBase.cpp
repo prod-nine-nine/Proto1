@@ -19,6 +19,15 @@ ASwordBase::ASwordBase()
 	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
 }
 
+void ASwordBase::DamageWeapon(float damage)
+{
+	durability -= damage;
+	if (durability <= 0)
+	{
+		this->Destroy();
+	}
+}
+
 // Called when the game starts or when spawned
 void ASwordBase::BeginPlay()
 {

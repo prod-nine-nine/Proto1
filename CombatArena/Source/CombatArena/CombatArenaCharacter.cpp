@@ -96,6 +96,8 @@ void ACombatArenaCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 	PlayerInputComponent->BindAction("Block", IE_Pressed, this, &ACombatArenaCharacter::Block);
 	PlayerInputComponent->BindAction("Block", IE_Released, this, &ACombatArenaCharacter::Unblock);
+
+	PlayerInputComponent->BindAction("Dodge", IE_Pressed, this, &ACombatArenaCharacter::Dodge);
 }
 
 
@@ -128,7 +130,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && !attacking)
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -136,20 +138,27 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+
+		Value *= (blocking) ? 0.5f : 1.0f;
+
 		AddMovementInput(Direction, Value);
 	}
 }
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ( (Controller != NULL) && (Value != 0.0f) && !attacking)
 	{
+
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 	
-		// get right vector 
+		// get right vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+		Value *= (blocking) ? 0.5f : 1.0f;
+
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
@@ -187,6 +196,8 @@ void ACombatArenaCharacter::Attack(bool slice)
 {
 	gSlice = slice;
 
+	SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
+
 	if (currentWeapon)
 	{
 		attackDamage = (slice) ? 25.0f : 50.0f;
@@ -199,9 +210,19 @@ void ACombatArenaCharacter::Attack(bool slice)
 	attacking = true;
 }
 
+void ACombatArenaCharacter::Dodge()
+{
+	if (dodgeRechargePercent == 100) { 
+		dodgeRechargePercent = 0;
+		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
+		phaseOn = true;
+		LaunchCharacter(GetActorForwardVector() * dodgeAmount, false, false);
+	}
+}
+
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
-	Health -= (blocking) ? damage / 2 : damage;
+	Health -= (blocking && !attacking) ? damage / 2 : damage;
 	if (Health <= 0)
 	{
 		this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
@@ -238,6 +259,17 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("material changed"));
 			previousTarget = 0;
+		}
+	}
+
+	if (dodgeRechargePercent < 100)
+	{
+		float rechargeThisTick = DeltaTime * percentPerSecond;
+		dodgeRechargePercent = (dodgeRechargePercent + rechargeThisTick > 100) ? 100 : dodgeRechargePercent + rechargeThisTick;
+		if (dodgeRechargePercent >= percentPerSecond * phaseTimeS && phaseOn)
+		{
+			GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
+			phaseOn = false;
 		}
 	}
 }

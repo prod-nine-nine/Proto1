@@ -48,10 +48,18 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		float attackDamage = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		ASwordBase* currentWeapon = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		float dodgeRechargePercent = 0;
+
+	float dodgeAmount = 2000;
+	float percentPerSecond = 100;
+	float phaseTimeS = 0.2f;
+	bool phaseOn = false;
 	int pickUpRange = 500;
 	ASwordBase* previousTarget = 0;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-	ASwordBase* currentWeapon = 0;
 
 protected:
 
@@ -98,6 +106,8 @@ protected:
 	void Block() { blocking = true; }
 
 	void Unblock() { blocking = false; }
+
+	void Dodge();
 
 	UFUNCTION(BlueprintCallable, Category = Player)
 		void damagePlayer(float damage);
