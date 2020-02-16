@@ -1,16 +1,27 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\school\3rd year\Production\Proto1).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\school\3rd year\Production\Proto1).
   Creating makefile for CombatArenaEditor (ini files are newer than makefile)
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> develop' in UnrealBuildTool.ConfigFileSection of D:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> develop' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
   Parsing headers for CombatArenaEditor
-    Running UnrealHeaderTool "D:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" "D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\DebugGame\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CombatArenaEditor in 10.2685105 seconds
-  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] CombatArenaCharacter.cpp
-    [2/4] UE4Editor-CombatArena-Win64-DebugGame.dll
-LINK : fatal error LNK1104: cannot open file 'D:\school\3rd year\Production\Proto1\CombatArena\Binaries\Win64\UE4Editor-CombatArena-Win64-DebugGame.dll'
-    [3/4] UE4Editor-CombatArena-Win64-DebugGame.lib
-       Creating library D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib and object D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.exp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" CombatArenaEditor Win64 DebugGame -Project="D:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+    Running UnrealHeaderTool "E:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\DebugGame\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CombatArenaEditor in 13.7637412 seconds
+  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 13 actions with 12 processes...
+    [1/13] Default.rc2
+    [2/13] SharedPCH.Engine.NonOptimized.cpp
+    [3/13] CombatArena.cpp
+    [4/13] SwordBase.cpp
+    [5/13] CombatArena.init.gen.cpp
+    [6/13] CombatArenaGameMode.gen.cpp
+    [7/13] CombatArenaGameMode.cpp
+    [8/13] SwordBase.gen.cpp
+    [9/13] CombatArenaCharacter.gen.cpp
+    [10/13] CombatArenaCharacter.cpp
+    [11/13] UE4Editor-CombatArena-Win64-DebugGame.lib
+       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.exp
+    [12/13] UE4Editor-CombatArena-Win64-DebugGame.dll
+       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.exp
+    [13/13] CombatArenaEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 40.03 seconds
+  Total execution time: 56.02 seconds

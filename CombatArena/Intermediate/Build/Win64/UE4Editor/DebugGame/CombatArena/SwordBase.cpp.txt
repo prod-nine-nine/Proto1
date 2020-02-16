@@ -1,7 +1,7 @@
-D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\Definitions.CombatArena.h
-D:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\SwordBase.h
-D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
-C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\Definitions.CombatArena.h
+E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\SwordBase.h
+E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

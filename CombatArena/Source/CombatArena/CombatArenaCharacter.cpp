@@ -138,6 +138,9 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+
+		Value *= (blocking) ? 0.5f : 1.0f;
+
 		AddMovementInput(Direction, Value);
 	}
 }
@@ -151,8 +154,11 @@ void ACombatArenaCharacter::MoveRight(float Value)
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 	
-		// get right vector 
+		// get right vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+		Value *= (blocking) ? 0.5f : 1.0f;
+
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
