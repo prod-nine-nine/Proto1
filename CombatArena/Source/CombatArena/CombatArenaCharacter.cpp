@@ -208,7 +208,12 @@ void ACombatArenaCharacter::Attack(bool slice)
 
 void ACombatArenaCharacter::Dodge()
 {
-	if (dodgeRechargePercent == 100) { dodgeRechargePercent = 0; }
+	if (dodgeRechargePercent == 100) { 
+		dodgeRechargePercent = 0;
+		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
+		phaseOn = true;
+		LaunchCharacter(GetActorForwardVector() * dodgeAmount, false, false);
+	}
 }
 
 void ACombatArenaCharacter::damagePlayer(float damage)
@@ -255,7 +260,13 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 
 	if (dodgeRechargePercent < 100)
 	{
-		float percentPerSecond = DeltaTime * 10;
-		dodgeRechargePercent = (dodgeRechargePercent + percentPerSecond > 100) ? 100 : dodgeRechargePercent + percentPerSecond;
+		float rechargeThisTick = DeltaTime * percentPerSecond;
+		dodgeRechargePercent = (dodgeRechargePercent + rechargeThisTick > 100) ? 100 : dodgeRechargePercent + rechargeThisTick;
+	}
+
+	if (dodgeRechargePercent >= percentPerSecond * phaseTimeS && phaseOn)
+	{
+		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
+		phaseOn = false;
 	}
 }

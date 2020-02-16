@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CombatArena.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9ABBDEEF-270F-4B28-AC44-2BD61CF037DC}</UniqueIdentifier>
+      <UniqueIdentifier>{78D2909F-881E-4CBD-8081-9FD47EF97B02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CombatArena.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{95C6D46F-1D8C-4CE5-99E7-528325089141}</UniqueIdentifier>
+      <UniqueIdentifier>{134416DB-2617-4225-97F8-F324F319D13A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CombatArena">
-      <UniqueIdentifier>{97BE10BC-1B39-45CB-82E4-E7856A7B0086}</UniqueIdentifier>
+      <UniqueIdentifier>{F0F0C06D-8BE5-4D05-A3AD-E121FF11B8CD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CombatArena\CombatArena.Build.cs">
       <Filter>Source\CombatArena</Filter>

@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CombatArena-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArena.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArenaCharacter.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArenaGameMode.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\SwordBase.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArena.init.gen.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArenaCharacter.gen.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\CombatArenaGameMode.gen.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\SwordBase.gen.cpp.obj"
+"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\Default.rc2.res"
+/OUT:"D:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_CombatArena
