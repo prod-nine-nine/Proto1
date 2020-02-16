@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
 D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena.Target.cs
 D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
+=======
+C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
+C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena.Target.cs
+C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
+>>>>>>> develop
