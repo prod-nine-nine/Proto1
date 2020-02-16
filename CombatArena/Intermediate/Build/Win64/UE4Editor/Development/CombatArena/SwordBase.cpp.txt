@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
+D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena\SwordBase.h
+D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+=======
 C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
 C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena\SwordBase.h
 C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena\SwordBase.generated.h
@@ -5,3 +14,4 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+>>>>>>> develop
