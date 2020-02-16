@@ -426,6 +426,7 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
+<<<<<<< HEAD
 /I "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
 /I "E:\school\3rd year\Production\Proto1\CombatArena\Source"
 /I "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena"
@@ -433,16 +434,50 @@
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE"
+=======
+<<<<<<< HEAD
+/I "D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena"
+/I "D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source"
+/I "D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena"
+=======
+/I C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Inc\CombatArena
+/I C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source
+/I C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena
+>>>>>>> develop
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I Runtime\AugmentedReality
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+>>>>>>> develop
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+<<<<<<< HEAD
 /FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
 /Yu"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
 /Fp"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.cpp"
 /FI"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
 /Fo"E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.cpp.obj"
+=======
+<<<<<<< HEAD
+/FI"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.cpp"
+/FI"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
+/Fo"D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.cpp.obj"
+=======
+/FI"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena\CombatArenaCharacter.cpp"
+/FI"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h"
+/Fo"C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\CombatArenaCharacter.cpp.obj"
+>>>>>>> develop
+>>>>>>> develop
 /TP
 /GR-
 /W4
