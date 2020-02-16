@@ -1,3 +1,34 @@
+<<<<<<< HEAD
+D:/Users/guo.lu8015/Desktop/REclone Proto1 again/Proto1/CombatArena/Intermediate/Build/Win64/CombatArenaEditor/Development/Engine/SharedPCH.Engine.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\CoreTypes.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/Build.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WIndowsPlatform.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\concurrencysal.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/Exec.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\CoreFwd.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\new
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\INCLUDE\vadefs.h
+=======
 C:/Users/JLu78/Desktop/YetAnotherSoulslike/Proto1/CombatArena/Intermediate/Build/Win64/CombatArenaEditor/Development/Engine/SharedPCH.Engine.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
@@ -27,6 +58,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\crtdefs.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\vcruntime.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\vadefs.h
+>>>>>>> develop
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\xkeycheck.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\INCLUDE\exception
