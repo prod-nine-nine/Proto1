@@ -196,8 +196,6 @@ void ACombatArenaCharacter::Attack(bool slice)
 {
 	gSlice = slice;
 
-	blocking = false;
-
 	SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
 
 	if (currentWeapon)
@@ -224,7 +222,7 @@ void ACombatArenaCharacter::Dodge()
 
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
-	Health -= (blocking) ? damage / 2 : damage;
+	Health -= (blocking && !attacking) ? damage / 2 : damage;
 	if (Health <= 0)
 	{
 		this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
@@ -268,11 +266,10 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 	{
 		float rechargeThisTick = DeltaTime * percentPerSecond;
 		dodgeRechargePercent = (dodgeRechargePercent + rechargeThisTick > 100) ? 100 : dodgeRechargePercent + rechargeThisTick;
-	}
-
-	if (dodgeRechargePercent >= percentPerSecond * phaseTimeS && phaseOn)
-	{
-		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
-		phaseOn = false;
+		if (dodgeRechargePercent >= percentPerSecond * phaseTimeS && phaseOn)
+		{
+			GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
+			phaseOn = false;
+		}
 	}
 }
