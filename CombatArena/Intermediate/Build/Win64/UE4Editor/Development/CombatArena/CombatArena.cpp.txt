@@ -1,12 +1,2 @@
-<<<<<<< HEAD
 E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
 E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArena.h
-=======
-<<<<<<< HEAD
-D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-D:\Users\guo.lu8015\Desktop\REclone Proto1 again\Proto1\CombatArena\Source\CombatArena\CombatArena.h
-=======
-C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\Development\CombatArena\Definitions.CombatArena.h
-C:\Users\JLu78\Desktop\YetAnotherSoulslike\Proto1\CombatArena\Source\CombatArena\CombatArena.h
->>>>>>> develop
->>>>>>> develop
