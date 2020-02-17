@@ -57,7 +57,7 @@ public: \
 
 #define CombatArena_Source_CombatArena_SwordBase_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASwordBase(const FObjectInitializer& ObjectInitializer); \
+	NO_API ASwordBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASwordBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASwordBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASwordBase); \
@@ -76,7 +76,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASwordBase); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASwordBase); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASwordBase)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASwordBase)
 
 
 #define CombatArena_Source_CombatArena_SwordBase_h_12_PRIVATE_PROPERTY_OFFSET

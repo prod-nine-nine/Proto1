@@ -2,19 +2,26 @@
 
 #include "SwordBase.h"
 #include "Components/StaticMeshComponent.h"
-#include "Components/CapsuleComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
-ASwordBase::ASwordBase()
+ASwordBase::ASwordBase(const FObjectInitializer& OI):Super(OI)
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
+	BoxCollision = OI.CreateDefaultSubobject<UBoxComponent>(this, TEXT("BoxCollision"));
+	SetRootComponent(BoxCollision);
 
 	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
-	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Overlap);
-	MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
-	RootComponent = (USceneComponent*)MyMesh;
-	
+	MyMesh->SetupAttachment(RootComponent);
+	//BoxCollision->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+	//MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Overlap);
+	//MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+
+	ProjMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjMovement"));
+
 	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
 	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
 }
@@ -22,10 +29,6 @@ ASwordBase::ASwordBase()
 void ASwordBase::DamageWeapon(float damage)
 {
 	durability -= damage;
-	if (durability <= 0)
-	{
-		this->Destroy();
-	}
 }
 
 // Called when the game starts or when spawned

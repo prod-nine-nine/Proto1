@@ -9,6 +9,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 #include "Engine/EngineTypes.h"
 
@@ -87,7 +88,7 @@ void ACombatArenaCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	///Custom controls
 
 	//handle pickup
-	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &ACombatArenaCharacter::PickUpWeapon);
+	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &ACombatArenaCharacter::PickUpOrThrowWeapon);
 
 	//handle attacks
 	PlayerInputComponent->BindAction("Attack 1", IE_Pressed, this, &ACombatArenaCharacter::AttackSlice);
@@ -212,12 +213,38 @@ void ACombatArenaCharacter::Attack(bool slice)
 
 void ACombatArenaCharacter::Dodge()
 {
-	if (dodgeRechargePercent == 100) { 
+	if (dodgeRechargePercent == 100 && !attacking) { 
 		dodgeRechargePercent = 0;
 		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		phaseOn = true;
-		LaunchCharacter(GetActorForwardVector() * dodgeAmount, false, false);
+		float launchAmount = (GetCharacterMovement()->IsFalling()) ? dodgeAmount /** 0.25f*/ : dodgeAmount;
+		LaunchCharacter(GetActorForwardVector() * launchAmount, false, false);
 	}
+}
+
+void ACombatArenaCharacter::ThrowWeapon()
+{
+	FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
+	FVector throwLoc = FVector();
+
+	FHitResult hit;
+
+	if (this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * throwRange), ECC_Visibility))
+	{
+		throwLoc = hit.ImpactPoint;
+	}
+	else
+	{
+		throwLoc = cameraWorldLocation + (FollowCamera->GetForwardVector() * throwRange);
+	}
+
+	FVector launchVector = throwLoc - currentWeapon->GetTransform().GetLocation();
+	
+	currentWeapon->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+	currentWeapon->ProjMovement->Velocity = launchVector;
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, launchVector.ToString());
+	currentWeapon->ProjMovement->Activate(true);
+	currentWeapon = 0;
 }
 
 void ACombatArenaCharacter::damagePlayer(float damage)
@@ -225,7 +252,7 @@ void ACombatArenaCharacter::damagePlayer(float damage)
 	Health -= (blocking && !attacking) ? damage / 2 : damage;
 	if (Health <= 0)
 	{
-		this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
+		//this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
 	}
 }
 
@@ -239,7 +266,7 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 		FVector cameraWorldLocation = GetWorld()->GetFirstPlayerController()->PlayerCameraManager->GetCameraLocation();
 
 		FHitResult hit;
-		//FVector cameraWorldLocation = FollowCamera->GetRelativeTransform().GetLocation() + CameraBoom->SocketOffset + this->GetTransform().GetLocation();
+
 		this->GetWorld()->LineTraceSingleByChannel(hit, cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), ECC_Visibility);
 		//DrawDebugLine(this->GetWorld(), cameraWorldLocation, cameraWorldLocation + (FollowCamera->GetForwardVector() * pickUpRange), FColor::Red, false, 1.0f, (uint8)'\000', 5);
 
@@ -257,8 +284,15 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 		else if (previousTarget)
 		{
 			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("material changed"));
 			previousTarget = 0;
+		}
+	}
+	else
+	{
+		if (currentWeapon->durability <= 0)
+		{
+			currentWeapon->Destroy();
+			currentWeapon = 0;
 		}
 	}
 

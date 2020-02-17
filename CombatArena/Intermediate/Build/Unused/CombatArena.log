@@ -1,10 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\school\3rd year\Production\Proto1).
+<<<<<<< Updated upstream
   Creating makefile for CombatArenaEditor (no existing makefile)
+=======
+  Creating makefile for CombatArenaEditor (ini files are newer than makefile)
+>>>>>>> Stashed changes
 UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '>>>>>>> develop' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
   Parsing headers for CombatArenaEditor
     Running UnrealHeaderTool "E:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\DebugGame\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+<<<<<<< Updated upstream
   Reflection code generated for CombatArenaEditor in 5.3676093 seconds
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 13 actions with 12 processes...
@@ -25,3 +30,21 @@ UnrealBuildTool : warning : Couldn't parse '>>>>>>> develop' in UnrealBuildTool.
     [13/13] CombatArenaEditor-Win64-DebugGame.target
   Total time in Parallel executor: 39.75 seconds
   Total execution time: 47.63 seconds
+=======
+  Reflection code generated for CombatArenaEditor in 5.3968537 seconds
+  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 12 processes...
+    [1/9] CombatArena.init.gen.cpp
+    [2/9] SwordBase.cpp
+    [3/9] SwordBase.gen.cpp
+    [4/9] CombatArenaCharacter.gen.cpp
+    [5/9] CombatArenaGameMode.cpp
+    [6/9] CombatArenaCharacter.cpp
+    [7/9] UE4Editor-CombatArena-Win64-DebugGame.lib
+       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.exp
+    [8/9] UE4Editor-CombatArena-Win64-DebugGame.dll
+       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.exp
+    [9/9] CombatArenaEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 2.54 seconds
+  Total execution time: 9.46 seconds
+>>>>>>> Stashed changes

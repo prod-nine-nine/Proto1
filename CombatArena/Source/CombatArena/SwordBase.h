@@ -13,10 +13,16 @@ class COMBATARENA_API ASwordBase : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	ASwordBase();
+	ASwordBase(const FObjectInitializer& OI);
 
 	UPROPERTY(EditAnywhere)
 		class UStaticMeshComponent* MyMesh;
+
+	UPROPERTY(EditAnywhere)
+		class UProjectileMovementComponent* ProjMovement;
+
+	UPROPERTY(EditAnywhere)
+		class UBoxComponent* BoxCollision;
 
 	UPROPERTY(EditAnywhere)
 		class UMaterial* OnMaterial;

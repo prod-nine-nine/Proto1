@@ -21,7 +21,11 @@ void EmptyLinkFunctionForGeneratedCodeCombatArena_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< Updated upstream
 				0x7C3E90BB,
+=======
+				0xEA9FAF00,
+>>>>>>> Stashed changes
 				0x62482303,
 				METADATA_PARAMS(nullptr, 0)
 			};

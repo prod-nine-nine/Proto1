@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 	UPackage* Z_Construct_UPackage__Script_CombatArena();
 	COMBATARENA_API UFunction* Z_Construct_UFunction_ASwordBase_DamageWeapon();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASwordBase::StaticRegisterNativesASwordBase()
@@ -85,6 +87,14 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OnMaterial;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoxCollision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BoxCollision;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjMovement_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjMovement;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MyMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MyMesh;
@@ -103,6 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "SwordBase.h" },
 		{ "ModuleRelativePath", "SwordBase.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
@@ -127,6 +138,22 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASwordBase_Statics::NewProp_OnMaterial = { "OnMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASwordBase, OnMaterial), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASwordBase_Statics::NewProp_OnMaterial_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASwordBase_Statics::NewProp_OnMaterial_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::NewProp_BoxCollision_MetaData[] = {
+		{ "Category", "SwordBase" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SwordBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASwordBase_Statics::NewProp_BoxCollision = { "BoxCollision", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASwordBase, BoxCollision), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASwordBase_Statics::NewProp_BoxCollision_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASwordBase_Statics::NewProp_BoxCollision_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::NewProp_ProjMovement_MetaData[] = {
+		{ "Category", "SwordBase" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "SwordBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASwordBase_Statics::NewProp_ProjMovement = { "ProjMovement", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASwordBase, ProjMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASwordBase_Statics::NewProp_ProjMovement_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASwordBase_Statics::NewProp_ProjMovement_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh_MetaData[] = {
 		{ "Category", "SwordBase" },
 		{ "EditInline", "true" },
@@ -138,6 +165,8 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_durability,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_OffMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_OnMaterial,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_BoxCollision,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_ProjMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASwordBase_Statics::NewProp_MyMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASwordBase_Statics::StaticCppClassTypeInfo = {
@@ -167,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeSwordBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASwordBase, 3562490050);
+	IMPLEMENT_CLASS(ASwordBase, 3403411);
 	template<> COMBATARENA_API UClass* StaticClass<ASwordBase>()
 	{
 		return ASwordBase::StaticClass();
