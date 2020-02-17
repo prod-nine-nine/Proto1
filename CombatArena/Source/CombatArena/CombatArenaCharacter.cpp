@@ -185,10 +185,11 @@ void ACombatArenaCharacter::PickUpWeapon()
 
 		if (Weapon)
 		{
-			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, FName("hand_rSocket"));
+			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale);
 			currentWeapon = Weapon;
 			currentWeapon->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
 			currentWeapon->MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Overlap);
+			currentWeapon->MyMesh->SetVisibility(false);
 		}
 	}
 }
@@ -241,9 +242,10 @@ void ACombatArenaCharacter::ThrowWeapon()
 	FVector launchVector = throwLoc - currentWeapon->GetTransform().GetLocation();
 	
 	currentWeapon->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
-	currentWeapon->ProjMovement->Velocity = launchVector;
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, launchVector.ToString());
+	/*currentWeapon->ProjMovement->Velocity = launchVector;
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, launchVector.ToString());*/
 	currentWeapon->ProjMovement->Activate(true);
+	currentWeapon->MyMesh->SetVisibility(true);
 	currentWeapon = 0;
 }
 

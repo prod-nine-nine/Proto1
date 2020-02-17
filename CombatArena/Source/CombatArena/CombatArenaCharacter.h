@@ -108,7 +108,7 @@ protected:
 	void AttackStab(){ Attack(false); }
 
 	//block
-	void Block() { blocking = true; }
+	void Block() { if (currentWeapon) { blocking = true; } }
 
 	void Unblock() { blocking = false; }
 
