@@ -2,10 +2,6 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-<<<<<<< Updated upstream
-		"CombatArena": "UE4Editor-CombatArena-1108.dll"
-=======
-		"CombatArena": "UE4Editor-CombatArena-9781.dll"
->>>>>>> Stashed changes
+		"CombatArena": "UE4Editor-CombatArena.dll"
 	}
 }

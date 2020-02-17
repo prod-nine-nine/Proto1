@@ -1,50 +1,65 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\school\3rd year\Production\Proto1).
-<<<<<<< Updated upstream
-  Creating makefile for CombatArenaEditor (no existing makefile)
-=======
   Creating makefile for CombatArenaEditor (ini files are newer than makefile)
->>>>>>> Stashed changes
 UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
 UnrealBuildTool : warning : Couldn't parse '>>>>>>> develop' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Config\DefaultEngine.ini
   Parsing headers for CombatArenaEditor
     Running UnrealHeaderTool "E:\school\3rd year\Production\Proto1\CombatArena\CombatArena.uproject" "E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\CombatArenaEditor\DebugGame\CombatArenaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-<<<<<<< Updated upstream
-  Reflection code generated for CombatArenaEditor in 5.3676093 seconds
+  Reflection code generated for CombatArenaEditor in 4.987951 seconds
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '<<<<<<< Updated upstream' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
+UnrealBuildTool : warning : Couldn't parse '>>>>>>> Stashed changes' in UnrealBuildTool.ConfigFileSection of E:\school\3rd year\Production\Proto1\CombatArena\Saved\Config\Windows\EditorPerProjectUserSettings.ini
   Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 13 actions with 12 processes...
-    [1/13] Default.rc2
-    [2/13] SharedPCH.Engine.NonOptimized.cpp
-    [3/13] CombatArena.cpp
-    [4/13] CombatArena.init.gen.cpp
-    [5/13] SwordBase.cpp
-    [6/13] CombatArenaGameMode.gen.cpp
-    [7/13] SwordBase.gen.cpp
-    [8/13] CombatArenaCharacter.gen.cpp
-    [9/13] CombatArenaGameMode.cpp
-    [10/13] CombatArenaCharacter.cpp
-    [11/13] UE4Editor-CombatArena-Win64-DebugGame.lib
+  Building 12 actions with 12 processes...
+    [1/12] SharedPCH.Engine.NonOptimized.cpp
+    [2/12] CombatArena.cpp
+    [3/12] CombatArena.init.gen.cpp
+    [4/12] SwordBase.cpp
+    [5/12] CombatArenaGameMode.cpp
+    [6/12] CombatArenaGameMode.gen.cpp
+    [7/12] CombatArenaCharacter.gen.cpp
+    [8/12] SwordBase.gen.cpp
+    [9/12] CombatArenaCharacter.cpp
+    [10/12] UE4Editor-CombatArena-Win64-DebugGame.lib
        Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.exp
-    [12/13] UE4Editor-CombatArena-Win64-DebugGame.dll
+    [11/12] UE4Editor-CombatArena-Win64-DebugGame.dll
        Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.exp
-    [13/13] CombatArenaEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 39.75 seconds
-  Total execution time: 47.63 seconds
-=======
-  Reflection code generated for CombatArenaEditor in 5.3968537 seconds
-  Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 12 processes...
-    [1/9] CombatArena.init.gen.cpp
-    [2/9] SwordBase.cpp
-    [3/9] SwordBase.gen.cpp
-    [4/9] CombatArenaCharacter.gen.cpp
-    [5/9] CombatArenaGameMode.cpp
-    [6/9] CombatArenaCharacter.cpp
-    [7/9] UE4Editor-CombatArena-Win64-DebugGame.lib
-       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.exp
-    [8/9] UE4Editor-CombatArena-Win64-DebugGame.dll
-       Creating library E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.lib and object E:\school\3rd year\Production\Proto1\CombatArena\Intermediate\Build\Win64\UE4Editor\DebugGame\CombatArena\UE4Editor-CombatArena-Win64-DebugGame.suppressed.exp
-    [9/9] CombatArenaEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 2.54 seconds
-  Total execution time: 9.46 seconds
->>>>>>> Stashed changes
+    [12/12] CombatArenaEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 44.08 seconds
+  Total execution time: 51.80 seconds
