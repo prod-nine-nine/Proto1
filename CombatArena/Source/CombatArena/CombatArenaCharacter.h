@@ -57,7 +57,10 @@ public:
 	float dodgeAmount = 2000;
 	float percentPerSecond = 100;
 	float phaseTimeS = 0.2f;
-	bool phaseOn = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool phaseOn = false;
+
 	int pickUpRange = 500;
 	ASwordBase* previousTarget = 0;
 

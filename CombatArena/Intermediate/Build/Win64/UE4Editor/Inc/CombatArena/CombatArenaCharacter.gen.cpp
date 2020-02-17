@@ -75,6 +75,11 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_phaseOn_MetaData[];
+#endif
+		static void NewProp_phaseOn_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_phaseOn;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dodgeRechargePercent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_dodgeRechargePercent;
@@ -139,6 +144,17 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		{ "ModuleRelativePath", "CombatArenaCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "CombatArenaCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn_SetBit(void* Obj)
+	{
+		((ACombatArenaCharacter*)Obj)->phaseOn = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn = { "phaseOn", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACombatArenaCharacter), &Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_dodgeRechargePercent_MetaData[] = {
 		{ "Category", "Player" },
@@ -238,6 +254,7 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACombatArenaCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_CameraBoom_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACombatArenaCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_phaseOn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_dodgeRechargePercent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_currentWeapon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACombatArenaCharacter_Statics::NewProp_attackDamage,
@@ -277,7 +294,7 @@ void EmptyLinkFunctionForGeneratedCodeCombatArenaCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACombatArenaCharacter, 1768613084);
+	IMPLEMENT_CLASS(ACombatArenaCharacter, 907064269);
 	template<> COMBATARENA_API UClass* StaticClass<ACombatArenaCharacter>()
 	{
 		return ACombatArenaCharacter::StaticClass();

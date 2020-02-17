@@ -266,10 +266,9 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 	{
 		float rechargeThisTick = DeltaTime * percentPerSecond;
 		dodgeRechargePercent = (dodgeRechargePercent + rechargeThisTick > 100) ? 100 : dodgeRechargePercent + rechargeThisTick;
-		if (dodgeRechargePercent >= percentPerSecond * phaseTimeS && phaseOn)
+		if (/*dodgeRechargePercent >= percentPerSecond * phaseTimeS && */!phaseOn)
 		{
 			GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Block);
-			phaseOn = false;
 		}
 	}
 }
