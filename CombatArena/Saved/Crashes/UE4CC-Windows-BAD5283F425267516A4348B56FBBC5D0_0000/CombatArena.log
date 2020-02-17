@@ -1,0 +1,2052 @@
+﻿Log file open, 02/17/20 11:00:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CombatArena
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.383614
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:007][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.16-22.00.46:007][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.16-22.00.46:008][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:008][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:011][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.16-22.00.46:011][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.16-22.00.46:012][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.16-22.00.46:012][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.16-22.00.46:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.16-22.00.46:022][  0]LogHAL: Display: Platform has ~ 32 GB [34122706944 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.16-22.00.46:022][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.16-22.00.46:022][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.16-22.00.46:022][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Scalability.ini]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.16-22.00.46:023][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Config/Windows/Engine.ini]
+[2020.02.16-22.00.46:023][  0]LogInit: Computer: 1406C007
+[2020.02.16-22.00.46:023][  0]LogInit: User: guolu8015
+[2020.02.16-22.00.46:023][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.16-22.00.46:023][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.16-22.00.46:024][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.02.16-22.00.46:024][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.16-22.00.46:024][  0]LogMemory: Process Physical Memory: 96.94 MB used, 96.95 MB peak
+[2020.02.16-22.00.46:024][  0]LogMemory: Process Virtual Memory: 89.76 MB used, 89.76 MB peak
+[2020.02.16-22.00.46:024][  0]LogMemory: Physical Memory: 7461.92 MB used,  25080.03 MB free, 32541.95 MB total
+[2020.02.16-22.00.46:024][  0]LogMemory: Virtual Memory: 4660.46 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2020.02.16-22.00.46:033][  0]LogInit: Using OS detected language (en-US).
+[2020.02.16-22.00.46:033][  0]LogInit: Using OS detected locale (en-NZ).
+[2020.02.16-22.00.46:033][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.16-22.00.46:153][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.16-22.00.46:176][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.16-22.00.46:176][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.16-22.00.46:295][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.16-22.00.46:295][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.16-22.00.46:359][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.02.16-22.00.46:359][  0]LogD3D11RHI:       8010/0/16270 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.16-22.00.46:387][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.02.16-22.00.46:387][  0]LogD3D11RHI:       128/0/16270 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.16-22.00.46:389][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.16-22.00.46:390][  0]LogD3D11RHI:       0/0/16270 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.16-22.00.46:390][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.16-22.00.46:395][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.16-22.00.46:395][  0]LogD3D11RHI:     GPU DeviceId: 0x1e82 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.16-22.00.46:395][  0]LogWindows: EnumDisplayDevices:
+[2020.02.16-22.00.46:395][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.02.16-22.00.46:396][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.02.16-22.00.46:396][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.02.16-22.00.46:396][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.02.16-22.00.46:396][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.16-22.00.46:396][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.16-22.00.46:397][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.16-22.00.46:397][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2020.02.16-22.00.46:397][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.16-22.00.46:397][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.02.16-22.00.46:397][  0]LogD3D11RHI:   Driver Version: 431.23 (internal:26.21.14.3123, unified:431.23)
+[2020.02.16-22.00.46:397][  0]LogD3D11RHI:      Driver Date: 6-24-2019
+[2020.02.16-22.00.46:397][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.02.16-22.00.46:432][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.16-22.00.46:435][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.16-22.00.46:435][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.16-22.00.46:435][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.16-22.00.46:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.16-22.00.46:737][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.16-22.00.46:747][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.16-22.00.46:757][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.16-22.00.46:767][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.16-22.00.46:780][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.16-22.00.46:791][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.16-22.00.46:801][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.16-22.00.46:812][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.16-22.00.46:816][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.16-22.00.46:878][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.16-22.00.46:879][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.16-22.00.46:922][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.16-22.00.46:922][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.16-22.00.46:943][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.16-22.00.46:943][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.16-22.00.46:953][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.16-22.00.46:965][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.16-22.00.46:977][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.16-22.00.46:988][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.16-22.00.47:022][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.16-22.00.47:022][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.16-22.00.47:022][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.16-22.00.47:027][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.16-22.00.47:053][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Intermediate/Shaders/WorkingDirectory/1076/).
+[2020.02.16-22.00.47:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/guo.lu8015/AppData/Local/Temp/UnrealShaderWorkingDir/2CB920E84F06069FD5A9C397B53DA3BC/'.
+[2020.02.16-22.00.47:054][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.16-22.00.47:054][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.16-22.00.47:054][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.16-22.00.47:515][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB D:/Users/guo.lu8015/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: Display: Loaded Boot cache: D:/Users/guo.lu8015/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.16-22.00.47:554][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.16-22.00.47:564][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.16-22.00.47:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.16-22.00.47:564][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.16-22.00.47:576][  0]LogDerivedDataCache: Using Local data cache path D:/Users/guo.lu8015/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.16-22.00.47:576][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.16-22.00.47:576][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.16-22.00.47:594][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.16-22.00.47:594][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.16-22.00.47:595][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.16-22.00.47:661][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2020.02.16-22.00.47:907][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.16-22.00.48:011][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.16-22.00.48:011][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.16-22.00.48:011][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.16-22.00.48:011][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.16-22.00.48:011][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.16-22.00.48:023][  0]LogNetVersion: CombatArena 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3729471570)
+[2020.02.16-22.00.48:297][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.023619 seconds
+[2020.02.16-22.00.48:302][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.16-22.00.48:302][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.16-22.00.48:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.16-22.00.48:865][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.16-22.00.48:877][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.16-22.00.49:125][  0]SourceControl: Source control is disabled
+[2020.02.16-22.00.49:126][  0]SourceControl: Source control is disabled
+[2020.02.16-22.00.49:126][  0]SourceControl: Source control is disabled
+[2020.02.16-22.00.49:127][  0]SourceControl: Source control is disabled
+[2020.02.16-22.00.49:170][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.16-22.00.49:246][  0]LogOcInput: OculusInput pre-init called
+[2020.02.16-22.00.49:750][  0]LogEngine: Initializing Engine...
+[2020.02.16-22.00.49:751][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.16-22.00.49:752][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.16-22.00.49:924][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.16-22.00.49:931][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.16-22.00.49:952][  0]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.16-22.00.49:968][  0]LogInit: FAudioDevice initialized.
+[2020.02.16-22.00.49:968][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.16-22.00.50:150][  0]LogDerivedDataCache: Saved boot cache 0.18s 78MB D:/Users/guo.lu8015/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.16-22.00.50:156][  0]LogInit: Texture streaming: Enabled
+[2020.02.16-22.00.50:165][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.16-22.00.50:178][  0]LogInit: Transaction tracking system initialized
+[2020.02.16-22.00.50:190][  0]BlueprintLog: New page: Editor Load
+[2020.02.16-22.00.50:233][  0]LocalizationService: Localization service is disabled
+[2020.02.16-22.00.50:428][  0]LogFileCache: Scanning file cache for directory 'D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Content/' took 0.01s
+[2020.02.16-22.00.50:428][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.16-22.00.50:428][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.16-22.00.50:535][  0]SourceControl: Source control is disabled
+[2020.02.16-22.00.50:535][  0]Cmd: MAP LOAD FILE="../../../../../Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Content/ThirdPersonCPP/Maps/AITestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.16-22.00.50:535][  0]LightingResults: New page: Lighting Build
+[2020.02.16-22.00.50:537][  0]MapCheck: New page: Map Check
+[2020.02.16-22.00.50:537][  0]LightingResults: New page: Lighting Build
+[2020.02.16-22.00.50:561][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.02.16-22.00.50:672][  0]LogAIModule: Creating AISystem for world AITestMap
+[2020.02.16-22.00.50:677][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.16-22.00.50:703][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.02.16-22.00.50:703][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.16-22.00.50:703][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.072ms to complete.
+[2020.02.16-22.00.50:703][  0]LogFileHelpers: Loading map 'AITestMap' took 0.168
+[2020.02.16-22.00.50:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.16-22.00.50:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.16-22.00.50:794][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.16-22.00.50:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.16-22.00.50:803][  0]LogCollectionManager: Loaded 0 collections in 0.000642 seconds
+[2020.02.16-22.00.50:816][  0]LogFileCache: Scanning file cache for directory 'D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Saved/Collections/' took 0.01s
+[2020.02.16-22.00.50:816][  0]LogFileCache: Scanning file cache for directory 'D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Content/Developers/guolu8015/Collections/' took 0.00s
+[2020.02.16-22.00.50:816][  0]LogFileCache: Scanning file cache for directory 'D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Content/Collections/' took 0.00s
+[2020.02.16-22.00.50:816][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.16-22.00.50:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2735 classes and 661 folders.
+[2020.02.16-22.00.50:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.16-22.00.50:828][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:829][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:830][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:832][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:833][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:834][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:835][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:836][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.16-22.00.50:850][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.16-22.00.50:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.02.16-22.00.50:866][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.16-22.00.50:867][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.16-22.00.50:871][  0]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.16-22.00.50:918][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2020.02.16-22.00.51:034][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.16-22.00.51:035][  0]LogLoad: (Engine Initialization) Total time: 6.30 seconds
+[2020.02.16-22.00.51:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.16-22.00.51:074][  0]LogAssetRegistry: Asset discovery search completed in 3.4347 seconds
+[2020.02.16-22.00.51:076][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.16-22.00.51:076][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2020.02.16-22.00.51:077][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.16-22.00.51:110][  0]LogSlate: Took 0.000075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.16-22.00.51:121][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/guo.lu8015/Desktop/Proto 1.5/Proto1/CombatArena/Content/' took 0.06s
+[2020.02.16-22.00.53:651][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.16-22.00.53:742][312]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.16-22.00.53:751][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel.AITestMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel.AITestMap'
+[2020.02.16-22.00.53:751][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.16-22.00.53:751][312]PIE: New page: PIE session: AITestMap (18/02/2020 12:00:53 am)
+[2020.02.16-22.00.53:764][312]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_AITestMap
+[2020.02.16-22.00.53:775][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011464s)
+[2020.02.16-22.00.53:775][312]LogAIModule: Creating AISystem for world AITestMap
+[2020.02.16-22.00.53:775][312]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2020.02.16-22.00.53:775][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/AITestMap.AITestMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_AITestMap.AITestMap (0.012301s)
+[2020.02.16-22.00.53:798][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.02.16-22.00.53:818][312]LogInit: XAudio2 using 'Headphones (Synaptics HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.16-22.00.53:824][312]LogInit: FAudioDevice initialized.
+[2020.02.16-22.00.53:862][312]LogLoad: Game class is 'CombatGamemodeBP_C'
+[2020.02.16-22.00.53:864][312]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_AITestMap.AITestMap up for play (max tick rate 0) at 2020.02.17-11.00.53
+[2020.02.16-22.00.53:865][312]LogWorld: Bringing up level for play took: 0.001289
+[2020.02.16-22.00.53:879][312]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.02.16-22.00.53:882][312]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_AITestMap 1.084
+[2020.02.16-22.00.53:882][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel.AITestMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/AITestMap.AITestMap:PersistentLevel.AITestMap'
+[2020.02.16-22.00.59:738][ 12]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-521.688 Y=-5.200 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.04:146][541]LogBlueprintUserMessages: [BP_Drowned_C_0] 80.0
+[2020.02.16-22.01.17:740][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=262.207 Y=343.268 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.18:348][245]LogBlueprintUserMessages: [BP_Drowned_C_7] 60.0
+[2020.02.16-22.01.20:222][470]LogBlueprintUserMessages: [BP_Drowned_C_10] 40.0
+[2020.02.16-22.01.20:740][532]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=171.000 Y=323.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.21:456][618]LogBlueprintUserMessages: [BP_Drowned_C_4] 20.0
+[2020.02.16-22.01.21:639][640]LogBlueprintUserMessages: [BP_Drowned_C_5] 0.0
+[2020.02.16-22.01.21:706][648]LogBlueprintUserMessages: [BP_Drowned_C_1] -20.0
+[2020.02.16-22.01.23:740][892]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.25:190][ 66]LogBlueprintUserMessages: [BP_Drowned_C_12] -40.0
+[2020.02.16-22.01.25:206][ 68]LogBlueprintUserMessages: [BP_Drowned_C_6] -60.0
+[2020.02.16-22.01.25:248][ 73]LogBlueprintUserMessages: [BP_Drowned_C_8] -80.0
+[2020.02.16-22.01.25:265][ 75]LogBlueprintUserMessages: [BP_Drowned_C_3] -100.0
+[2020.02.16-22.01.25:290][ 78]LogBlueprintUserMessages: [BP_Drowned_C_7] -120.0
+[2020.02.16-22.01.27:072][292]LogBlueprintUserMessages: [BP_Drowned_C_10] -140.0
+[2020.02.16-22.01.30:873][748]LogBlueprintUserMessages: [BP_Drowned_C_10] -160.0
+[2020.02.16-22.01.31:456][818]LogBlueprintUserMessages: [BP_Drowned_C_15] -180.0
+[2020.02.16-22.01.32:131][899]LogBlueprintUserMessages: [BP_Drowned_C_10] -200.0
+[2020.02.16-22.01.32:198][907]LogBlueprintUserMessages: [BP_Drowned_C_5] -220.0
+[2020.02.16-22.01.32:281][917]LogBlueprintUserMessages: [BP_Drowned_C_4] -240.0
+[2020.02.16-22.01.32:457][938]LogBlueprintUserMessages: [BP_Drowned_C_1] -260.0
+[2020.02.16-22.01.32:548][949]LogBlueprintUserMessages: [BP_Drowned_C_3] -280.0
+[2020.02.16-22.01.32:606][956]LogBlueprintUserMessages: [BP_Drowned_C_12] -300.0
+[2020.02.16-22.01.32:656][962]LogBlueprintUserMessages: [BP_Drowned_C_15] -320.0
+[2020.02.16-22.01.32:741][972]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1568.592 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.35:240][272]LogBlueprintUserMessages: [BP_Drowned_C_1] -340.0
+[2020.02.16-22.01.35:282][277]LogBlueprintUserMessages: [BP_Drowned_C_4] -360.0
+[2020.02.16-22.01.35:374][288]LogBlueprintUserMessages: [BP_Drowned_C_14] -380.0
+[2020.02.16-22.01.35:457][298]LogBlueprintUserMessages: [BP_Drowned_C_16] -400.0
+[2020.02.16-22.01.35:890][350]LogBlueprintUserMessages: [BP_Drowned_C_15] -420.0
+[2020.02.16-22.01.37:165][503]LogBlueprintUserMessages: [BP_Drowned_C_5] -440.0
+[2020.02.16-22.01.37:232][511]LogBlueprintUserMessages: [BP_Drowned_C_19] -460.0
+[2020.02.16-22.01.38:024][606]LogBlueprintUserMessages: [BP_Drowned_C_1] -480.0
+[2020.02.16-22.01.38:090][614]LogBlueprintUserMessages: [BP_Drowned_C_18] -500.0
+[2020.02.16-22.01.39:366][767]LogBlueprintUserMessages: [BP_Drowned_C_6] -520.0
+[2020.02.16-22.01.40:040][848]LogBlueprintUserMessages: [BP_Drowned_C_20] -540.0
+[2020.02.16-22.01.41:074][972]LogBlueprintUserMessages: [BP_Drowned_C_15] -560.0
+[2020.02.16-22.01.41:190][986]LogBlueprintUserMessages: [BP_Drowned_C_1] -580.0
+[2020.02.16-22.01.41:207][988]LogBlueprintUserMessages: [BP_Drowned_C_14] -600.0
+[2020.02.16-22.01.41:332][  3]LogBlueprintUserMessages: [BP_Drowned_C_19] -620.0
+[2020.02.16-22.01.41:741][ 52]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=209.636 Y=58.907 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.41:742][ 52]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.42:841][184]LogBlueprintUserMessages: [BP_Drowned_C_5] -640.0
+[2020.02.16-22.01.43:132][219]LogBlueprintUserMessages: [BP_Drowned_C_18] -660.0
+[2020.02.16-22.01.51:274][196]LogBlueprintUserMessages: [BP_Drowned_C_10] -680.0
+[2020.02.16-22.01.51:699][247]LogBlueprintUserMessages: [BP_Drowned_C_25] -700.0
+[2020.02.16-22.01.53:742][492]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-380.000 Y=228.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.01.56:826][860]LogBlueprintUserMessages: [BP_Drowned_C_12] -720.0
+[2020.02.16-22.01.57:809][978]LogBlueprintUserMessages: [BP_Drowned_C_5] -740.0
+[2020.02.16-22.01.58:776][ 94]LogBlueprintUserMessages: [BP_Drowned_C_4] -760.0
+[2020.02.16-22.01.58:885][107]LogBlueprintUserMessages: [BP_Drowned_C_10] -780.0
+[2020.02.16-22.01.59:418][171]LogBlueprintUserMessages: [BP_Drowned_C_23] -800.0
+[2020.02.16-22.01.59:635][197]LogBlueprintUserMessages: [BP_Drowned_C_14] -820.0
+[2020.02.16-22.01.59:643][198]LogBlueprintUserMessages: [BP_Drowned_C_0] -840.0
+[2020.02.16-22.01.59:660][200]LogBlueprintUserMessages: [BP_Drowned_C_16] -860.0
+[2020.02.16-22.01.59:717][207]LogBlueprintUserMessages: [BP_Drowned_C_1] -880.0
+[2020.02.16-22.02.04:518][783]LogBlueprintUserMessages: [BP_Drowned_C_5] -900.0
+[2020.02.16-22.02.04:643][798]LogBlueprintUserMessages: [BP_Drowned_C_1] -920.0
+[2020.02.16-22.02.06:010][962]LogBlueprintUserMessages: [BP_Drowned_C_24] -940.0
+[2020.02.16-22.02.06:235][989]LogBlueprintUserMessages: [BP_Drowned_C_18] -960.0
+[2020.02.16-22.02.06:377][  6]LogBlueprintUserMessages: [BP_Drowned_C_8] -980.0
+[2020.02.16-22.02.06:559][ 28]LogBlueprintUserMessages: [BP_Drowned_C_7] -1000.0
+[2020.02.16-22.02.08:502][261]LogBlueprintUserMessages: [BP_Drowned_C_4] -1020.0
+[2020.02.16-22.02.08:744][290]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=43.402 Y=-267.737 Z=330.404] for [BP_Drowned_C]
+[2020.02.16-22.02.11:319][599]LogBlueprintUserMessages: [BP_Drowned_C_14] -1040.0
+[2020.02.16-22.02.11:477][618]LogBlueprintUserMessages: [BP_Drowned_C_34] -1060.0
+[2020.02.16-22.02.13:077][810]LogBlueprintUserMessages: [BP_Drowned_C_7] -1080.0
+[2020.02.16-22.02.19:352][563]LogBlueprintUserMessages: [BP_Drowned_C_14] -1100.0
+[2020.02.16-22.02.20:277][674]LogBlueprintUserMessages: [BP_Drowned_C_19] -1120.0
+[2020.02.16-22.02.26:069][369]LogBlueprintUserMessages: [BP_Drowned_C_30] -1140.0
+[2020.02.16-22.02.26:395][408]LogBlueprintUserMessages: [BP_Drowned_C_25] -1160.0
+[2020.02.16-22.02.26:536][425]LogBlueprintUserMessages: [BP_Drowned_C_5] -1180.0
+[2020.02.16-22.02.26:903][469]LogBlueprintUserMessages: [BP_Drowned_C_16] -1200.0
+[2020.02.16-22.02.27:536][545]LogBlueprintUserMessages: [BP_Drowned_C_10] -1220.0
+[2020.02.16-22.02.27:536][545]LogBlueprintUserMessages: [BP_Drowned_C_38] -1240.0
+[2020.02.16-22.02.31:637][ 37]LogBlueprintUserMessages: [BP_Drowned_C_20] -1260.0
+[2020.02.16-22.02.31:669][ 41]LogBlueprintUserMessages: [BP_Drowned_C_7] -1280.0
+[2020.02.16-22.02.31:728][ 48]LogBlueprintUserMessages: [BP_Drowned_C_31] -1300.0
+[2020.02.16-22.02.31:753][ 51]LogBlueprintUserMessages: [BP_Drowned_C_10] -1320.0
+[2020.02.16-22.02.34:478][378]LogBlueprintUserMessages: [BP_Drowned_C_40] -1340.0
+[2020.02.16-22.02.38:853][903]LogBlueprintUserMessages: [BP_Drowned_C_3] -1360.0
+[2020.02.16-22.02.39:062][928]LogBlueprintUserMessages: [BP_Drowned_C_35] -1380.0
+[2020.02.16-22.02.39:245][950]LogBlueprintUserMessages: [BP_Drowned_C_0] -1400.0
+[2020.02.16-22.02.44:747][610]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=673.126 Y=11.007 Z=349.662] for [BP_Drowned_C]
+[2020.02.16-22.02.44:747][610]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=-8.238 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.02.46:262][792]LogBlueprintUserMessages: [BP_Drowned_C_40] -1420.0
+[2020.02.16-22.02.50:614][314]LogBlueprintUserMessages: [BP_Drowned_C_0] -1440.0
+[2020.02.16-22.02.50:755][331]LogBlueprintUserMessages: [BP_Drowned_C_8] -1460.0
+[2020.02.16-22.02.50:964][356]LogBlueprintUserMessages: [BP_Drowned_C_20] -1480.0
+[2020.02.16-22.02.51:105][373]LogBlueprintUserMessages: [BP_Drowned_C_5] -1500.0
+[2020.02.16-22.02.52:889][587]LogBlueprintUserMessages: [BP_Drowned_C_24] -1520.0
+[2020.02.16-22.02.53:080][610]LogBlueprintUserMessages: [BP_Drowned_C_12] -1540.0
+[2020.02.16-22.02.57:566][146]LogBlueprintUserMessages: [BP_Drowned_C_5] -1560.0
+[2020.02.16-22.02.57:690][161]LogBlueprintUserMessages: [BP_Drowned_C_35] -1580.0
+[2020.02.16-22.02.57:707][163]LogBlueprintUserMessages: [BP_Drowned_C_34] -1600.0
+[2020.02.16-22.03.02:367][722]LogBlueprintUserMessages: [BP_Drowned_C_45] -1620.0
+[2020.02.16-22.03.02:733][766]LogBlueprintUserMessages: [BP_Drowned_C_49] -1640.0
+[2020.02.16-22.03.02:751][768]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-147.623 Y=315.970 Z=263.807] for [BP_Drowned_C]
+[2020.02.16-22.03.05:753][128]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-381.424 Y=580.447 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.03.09:343][559]LogBlueprintUserMessages: [BP_Drowned_C_8] -1660.0
+[2020.02.16-22.03.10:601][710]LogBlueprintUserMessages: [BP_Drowned_C_37] -1680.0
+[2020.02.16-22.03.10:760][729]LogBlueprintUserMessages: [BP_Drowned_C_12] -1700.0
+[2020.02.16-22.03.10:810][735]LogBlueprintUserMessages: [BP_Drowned_C_24] -1720.0
+[2020.02.16-22.03.10:985][756]LogBlueprintUserMessages: [BP_Drowned_C_53] -1740.0
+[2020.02.16-22.03.11:102][770]LogBlueprintUserMessages: [BP_Drowned_C_49] -1760.0
+[2020.02.16-22.03.11:202][782]LogBlueprintUserMessages: [BP_Drowned_C_44] -1780.0
+[2020.02.16-22.03.11:753][848]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=130.754 Y=353.139 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.03.14:560][185]LogBlueprintUserMessages: [BP_Drowned_C_24] -1800.0
+[2020.02.16-22.03.20:498][897]LogBlueprintUserMessages: [BP_Drowned_C_8] -1820.0
+[2020.02.16-22.03.20:758][928]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1506.604 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.03.21:099][969]LogBlueprintUserMessages: [BP_Drowned_C_38] -1840.0
+[2020.02.16-22.03.21:349][999]LogBlueprintUserMessages: [BP_Drowned_C_1] -1860.0
+[2020.02.16-22.03.21:457][ 12]LogBlueprintUserMessages: [BP_Drowned_C_0] -1880.0
+[2020.02.16-22.03.21:457][ 12]LogBlueprintUserMessages: [BP_Drowned_C_12] -1900.0
+[2020.02.16-22.03.21:474][ 14]LogBlueprintUserMessages: [BP_Drowned_C_15] -1920.0
+[2020.02.16-22.03.21:474][ 14]LogBlueprintUserMessages: [BP_Drowned_C_53] -1940.0
+[2020.02.16-22.03.21:516][ 19]LogBlueprintUserMessages: [BP_Drowned_C_57] -1960.0
+[2020.02.16-22.03.21:782][ 51]LogBlueprintUserMessages: [BP_Drowned_C_45] -1980.0
+[2020.02.16-22.03.22:207][102]LogBlueprintUserMessages: [BP_Drowned_C_23] -2000.0
+[2020.02.16-22.03.22:274][110]LogBlueprintUserMessages: [BP_Drowned_C_35] -2020.0
+[2020.02.16-22.03.23:759][288]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=353.731 Y=192.523 Z=334.363] for [BP_Drowned_C]
+[2020.02.16-22.03.29:102][929]LogBlueprintUserMessages: [BP_Drowned_C_55] -2040.0
+[2020.02.16-22.03.31:130][172]LogBlueprintUserMessages: [BP_Drowned_C_40] -2060.0
+[2020.02.16-22.03.31:138][173]LogBlueprintUserMessages: [BP_Drowned_C_14] -2080.0
+[2020.02.16-22.03.31:221][183]LogBlueprintUserMessages: [BP_Drowned_C_18] -2100.0
+[2020.02.16-22.03.32:667][356]LogBlueprintUserMessages: [BP_Drowned_C_66] -2120.0
+[2020.02.16-22.03.34:692][599]LogBlueprintUserMessages: [BP_Drowned_C_50] -2140.0
+[2020.02.16-22.03.35:769][728]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=247.000 Y=-47.947 Z=335.168] for [BP_Drowned_C]
+[2020.02.16-22.03.36:552][822]LogBlueprintUserMessages: [BP_Drowned_C_57] -2160.0
+[2020.02.16-22.03.36:627][831]LogBlueprintUserMessages: [BP_Drowned_C_15] -2180.0
+[2020.02.16-22.03.36:694][839]LogBlueprintUserMessages: [BP_Drowned_C_29] -2200.0
+[2020.02.16-22.03.36:736][844]LogBlueprintUserMessages: [BP_Drowned_C_38] -2220.0
+[2020.02.16-22.03.36:763][847]LogBlueprintUserMessages: [BP_Drowned_C_25] -2240.0
+[2020.02.16-22.03.36:763][847]LogBlueprintUserMessages: [BP_Drowned_C_51] -2260.0
+[2020.02.16-22.03.36:806][852]LogBlueprintUserMessages: [BP_Drowned_C_12] -2280.0
+[2020.02.16-22.03.36:830][855]LogBlueprintUserMessages: [BP_Drowned_C_64] -2300.0
+[2020.02.16-22.03.38:201][ 19]LogBlueprintUserMessages: [BP_Drowned_C_5] -2320.0
+[2020.02.16-22.03.38:202][ 19]LogBlueprintUserMessages: [BP_Drowned_C_55] -2340.0
+[2020.02.16-22.03.38:260][ 26]LogBlueprintUserMessages: [BP_Drowned_C_62] -2360.0
+[2020.02.16-22.03.38:326][ 34]LogBlueprintUserMessages: [BP_Drowned_C_42] -2380.0
+[2020.02.16-22.03.38:343][ 36]LogBlueprintUserMessages: [BP_Drowned_C_58] -2400.0
+[2020.02.16-22.03.38:351][ 37]LogBlueprintUserMessages: [BP_Drowned_C_28] -2420.0
+[2020.02.16-22.03.38:376][ 40]LogBlueprintUserMessages: [BP_Drowned_C_34] -2440.0
+[2020.02.16-22.03.38:401][ 43]LogBlueprintUserMessages: [BP_Drowned_C_48] -2460.0
+[2020.02.16-22.03.38:401][ 43]LogBlueprintUserMessages: [BP_Drowned_C_50] -2480.0
+[2020.02.16-22.03.38:467][ 51]LogBlueprintUserMessages: [BP_Drowned_C_37] -2500.0
+[2020.02.16-22.03.38:509][ 56]LogBlueprintUserMessages: [BP_Drowned_C_3] -2520.0
+[2020.02.16-22.03.38:526][ 58]LogBlueprintUserMessages: [BP_Drowned_C_18] -2540.0
+[2020.02.16-22.03.39:144][132]LogBlueprintUserMessages: [BP_Drowned_C_51] -2560.0
+[2020.02.16-22.03.40:284][268]LogBlueprintUserMessages: [BP_Drowned_C_71] -2580.0
+[2020.02.16-22.03.40:476][291]LogBlueprintUserMessages: [BP_Drowned_C_68] -2600.0
+[2020.02.16-22.03.40:492][293]LogBlueprintUserMessages: [BP_Drowned_C_57] -2620.0
+[2020.02.16-22.03.40:642][311]LogBlueprintUserMessages: [BP_Drowned_C_29] -2640.0
+[2020.02.16-22.03.40:668][314]LogBlueprintUserMessages: [BP_Drowned_C_1] -2660.0
+[2020.02.16-22.03.40:676][315]LogBlueprintUserMessages: [BP_Drowned_C_38] -2680.0
+[2020.02.16-22.03.40:701][318]LogBlueprintUserMessages: [BP_Drowned_C_25] -2700.0
+[2020.02.16-22.03.40:701][318]LogBlueprintUserMessages: [BP_Drowned_C_44] -2720.0
+[2020.02.16-22.03.40:776][327]LogBlueprintUserMessages: [BP_Drowned_C_64] -2740.0
+[2020.02.16-22.03.40:875][339]LogBlueprintUserMessages: [BP_Drowned_C_51] -2760.0
+[2020.02.16-22.03.41:912][463]LogBlueprintUserMessages: [BP_Drowned_C_48] -2780.0
+[2020.02.16-22.03.42:029][477]LogBlueprintUserMessages: [BP_Drowned_C_8] -2800.0
+[2020.02.16-22.03.42:105][486]LogBlueprintUserMessages: [BP_Drowned_C_32] -2820.0
+[2020.02.16-22.03.42:179][495]LogBlueprintUserMessages: [BP_Drowned_C_55] -2840.0
+[2020.02.16-22.03.42:321][512]LogBlueprintUserMessages: [BP_Drowned_C_5] -2860.0
+[2020.02.16-22.03.42:488][532]LogBlueprintUserMessages: [BP_Drowned_C_62] -2880.0
+[2020.02.16-22.03.42:571][542]LogBlueprintUserMessages: [BP_Drowned_C_24] -2900.0
+[2020.02.16-22.03.42:646][551]LogBlueprintUserMessages: [BP_Drowned_C_37] -2920.0
+[2020.02.16-22.03.42:696][557]LogBlueprintUserMessages: [BP_Drowned_C_18] -2940.0
+[2020.02.16-22.03.42:721][560]LogBlueprintUserMessages: [BP_Drowned_C_69] -2960.0
+[2020.02.16-22.03.42:738][562]LogBlueprintUserMessages: [BP_Drowned_C_28] -2980.0
+[2020.02.16-22.03.42:797][569]LogBlueprintUserMessages: [BP_Drowned_C_60] -3000.0
+[2020.02.16-22.03.43:680][675]LogBlueprintUserMessages: [BP_Drowned_C_61] -3020.0
+[2020.02.16-22.03.44:355][756]LogBlueprintUserMessages: [BP_Drowned_C_26] -3040.0
+[2020.02.16-22.03.44:372][758]LogBlueprintUserMessages: [BP_Drowned_C_0] -3060.0
+[2020.02.16-22.03.44:397][761]LogBlueprintUserMessages: [BP_Drowned_C_71] -3080.0
+[2020.02.16-22.03.44:431][765]LogBlueprintUserMessages: [BP_Drowned_C_4] -3100.0
+[2020.02.16-22.03.44:448][767]LogBlueprintUserMessages: [BP_Drowned_C_36] -3120.0
+[2020.02.16-22.03.44:497][773]LogBlueprintUserMessages: [BP_Drowned_C_42] -3140.0
+[2020.02.16-22.03.45:109][846]LogBlueprintUserMessages: [BP_Drowned_C_43] -3160.0
+[2020.02.16-22.03.47:380][118]LogBlueprintUserMessages: [BP_Drowned_C_30] -3180.0
+[2020.02.16-22.03.47:564][140]LogBlueprintUserMessages: [BP_Drowned_C_19] -3200.0
+[2020.02.16-22.03.47:659][151]LogBlueprintUserMessages: [BP_Drowned_C_73] -3220.0
+[2020.02.16-22.03.47:709][157]LogBlueprintUserMessages: [BP_Drowned_C_7] -3240.0
+[2020.02.16-22.03.47:718][158]LogBlueprintUserMessages: [BP_Drowned_C_38] -3260.0
+[2020.02.16-22.03.47:734][160]LogBlueprintUserMessages: [BP_Drowned_C_25] -3280.0
+[2020.02.16-22.03.47:759][163]LogBlueprintUserMessages: [BP_Drowned_C_51] -3300.0
+[2020.02.16-22.03.47:800][168]LogBlueprintUserMessages: [BP_Drowned_C_16] -3320.0
+[2020.02.16-22.03.47:816][170]LogCharacterMovement: BP_Drowned_C_52 is stuck and failed to move! Velocity: X=193.93 Y=-390.07 Z=0.00 Location: X=-1183.47 Y=-359.80 Z=228.57 Normal: X=-0.05 Y=0.87 Z=-0.49 PenetrationDepth:48.614 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.47:832][172]LogCharacterMovement: BP_Drowned_C_51 is stuck and failed to move! Velocity: X=327.96 Y=-360.80 Z=0.00 Location: X=-1221.91 Y=-440.36 Z=226.43 Normal: X=-0.59 Y=-0.76 Z=-0.27 PenetrationDepth:14.158 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.47:842][173]LogBlueprintUserMessages: [BP_Drowned_C_68] -3340.0
+[2020.02.16-22.03.47:850][174]LogCharacterMovement: BP_Drowned_C_68 is stuck and failed to move! Velocity: X=-13.86 Y=9.96 Z=0.00 Location: X=-1138.25 Y=-433.07 Z=228.53 Normal: X=0.68 Y=-0.69 Z=-0.26 PenetrationDepth:17.822 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.47:876][177]LogBlueprintUserMessages: [BP_Drowned_C_52] -3360.0
+[2020.02.16-22.03.48:026][195]LogBlueprintUserMessages: [BP_Drowned_C_15] -3380.0
+[2020.02.16-22.03.48:101][204]LogBlueprintUserMessages: [BP_Drowned_C_6] -3400.0
+[2020.02.16-22.03.48:126][207]LogBlueprintUserMessages: [BP_Drowned_C_29] -3420.0
+[2020.02.16-22.03.48:177][213]LogBlueprintUserMessages: [BP_Drowned_C_50] -3440.0
+[2020.02.16-22.03.48:760][283]LogBlueprintUserMessages: [BP_Drowned_C_0] -3460.0
+[2020.02.16-22.03.48:760][283]LogBlueprintUserMessages: [BP_Drowned_C_12] -3480.0
+[2020.02.16-22.03.48:760][283]LogBlueprintUserMessages: [BP_Drowned_C_48] -3500.0
+[2020.02.16-22.03.48:835][292]LogBlueprintUserMessages: [BP_Drowned_C_44] -3520.0
+[2020.02.16-22.03.48:843][293]LogBlueprintUserMessages: [BP_Drowned_C_8] -3540.0
+[2020.02.16-22.03.48:919][302]LogBlueprintUserMessages: [BP_Drowned_C_31] -3560.0
+[2020.02.16-22.03.48:927][303]LogBlueprintUserMessages: [BP_Drowned_C_32] -3580.0
+[2020.02.16-22.03.48:927][303]LogBlueprintUserMessages: [BP_Drowned_C_64] -3600.0
+[2020.02.16-22.03.48:977][309]LogBlueprintUserMessages: [BP_Drowned_C_53] -3620.0
+[2020.02.16-22.03.48:984][310]LogCharacterMovement: BP_Drowned_C_53 is stuck and failed to move! Velocity: X=-2.43 Y=16.89 Z=0.00 Location: X=-1254.07 Y=-63.49 Z=228.43 Normal: X=0.21 Y=-0.98 Z=0.00 PenetrationDepth:15.278 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.49:068][320]LogBlueprintUserMessages: [BP_Drowned_C_14] -3640.0
+[2020.02.16-22.03.49:068][320]LogBlueprintUserMessages: [BP_Drowned_C_41] -3660.0
+[2020.02.16-22.03.49:085][322]LogBlueprintUserMessages: [BP_Drowned_C_23] -3680.0
+[2020.02.16-22.03.49:085][322]LogBlueprintUserMessages: [BP_Drowned_C_69] -3700.0
+[2020.02.16-22.03.49:485][370]LogBlueprintUserMessages: [BP_Drowned_C_49] -3720.0
+[2020.02.16-22.03.49:715][397]LogBlueprintUserMessages: [BP_Drowned_C_24] -3740.0
+[2020.02.16-22.03.49:723][398]LogBlueprintUserMessages: [BP_Drowned_C_18] -3760.0
+[2020.02.16-22.03.51:486][609]LogBlueprintUserMessages: [BP_Drowned_C_20] -3780.0
+[2020.02.16-22.03.51:714][636]LogBlueprintUserMessages: [BP_Drowned_C_57] -3800.0
+[2020.02.16-22.03.52:965][786]LogBlueprintUserMessages: [BP_Drowned_C_29] -3820.0
+[2020.02.16-22.03.53:774][882]LogBlueprintUserMessages: [BP_Drowned_C_39] -3840.0
+[2020.02.16-22.03.53:792][884]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-38.000 Y=-634.548 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.03.54:584][979]LogBlueprintUserMessages: [BP_Drowned_C_66] -3860.0
+[2020.02.16-22.03.54:601][981]LogBlueprintUserMessages: [BP_Drowned_C_40] -3880.0
+[2020.02.16-22.03.54:626][984]LogBlueprintUserMessages: [BP_Drowned_C_7] -3900.0
+[2020.02.16-22.03.54:634][985]LogBlueprintUserMessages: [BP_Drowned_C_28] -3920.0
+[2020.02.16-22.03.54:692][992]LogBlueprintUserMessages: [BP_Drowned_C_0] -3940.0
+[2020.02.16-22.03.54:701][993]LogBlueprintUserMessages: [BP_Drowned_C_6] -3960.0
+[2020.02.16-22.03.55:561][ 96]LogBlueprintUserMessages: [BP_Drowned_C_29] -3980.0
+[2020.02.16-22.03.56:142][165]LogBlueprintUserMessages: [BP_Drowned_C_31] -4000.0
+[2020.02.16-22.03.56:151][166]LogBlueprintUserMessages: [BP_Drowned_C_32] -4020.0
+[2020.02.16-22.03.56:210][173]LogBlueprintUserMessages: [BP_Drowned_C_24] -4040.0
+[2020.02.16-22.03.56:210][173]LogBlueprintUserMessages: [BP_Drowned_C_53] -4060.0
+[2020.02.16-22.03.56:235][176]LogBlueprintUserMessages: [BP_Drowned_C_60] -4080.0
+[2020.02.16-22.03.56:821][246]LogBlueprintUserMessages: [BP_Drowned_C_3] -4100.0
+[2020.02.16-22.03.57:583][334]LogBlueprintUserMessages: [BP_Drowned_C_35] -4120.0
+[2020.02.16-22.03.57:635][340]LogBlueprintUserMessages: [BP_Drowned_C_20] -4140.0
+[2020.02.16-22.03.57:652][342]LogBlueprintUserMessages: [BP_Drowned_C_10] -4160.0
+[2020.02.16-22.03.57:652][342]LogBlueprintUserMessages: [BP_Drowned_C_37] -4180.0
+[2020.02.16-22.03.57:652][342]LogBlueprintUserMessages: [BP_Drowned_C_74] -4200.0
+[2020.02.16-22.03.57:660][343]LogBlueprintUserMessages: [BP_Drowned_C_58] -4220.0
+[2020.02.16-22.03.57:770][356]LogBlueprintUserMessages: [BP_Drowned_C_48] -4240.0
+[2020.02.16-22.03.57:787][358]LogBlueprintUserMessages: [BP_Drowned_C_18] -4260.0
+[2020.02.16-22.03.57:839][364]LogBlueprintUserMessages: [BP_Drowned_C_57] -4280.0
+[2020.02.16-22.03.57:965][379]LogBlueprintUserMessages: [BP_Drowned_C_55] -4300.0
+[2020.02.16-22.03.58:107][396]LogBlueprintUserMessages: [BP_Drowned_C_14] -4320.0
+[2020.02.16-22.03.58:541][448]LogBlueprintUserMessages: [BP_Drowned_C_3] -4340.0
+[2020.02.16-22.03.58:625][458]LogBlueprintUserMessages: [BP_Drowned_C_62] -4360.0
+[2020.02.16-22.03.58:702][467]LogBlueprintUserMessages: [BP_Drowned_C_49] -4380.0
+[2020.02.16-22.03.58:719][469]LogBlueprintUserMessages: [BP_Drowned_C_44] -4400.0
+[2020.02.16-22.03.58:744][472]LogBlueprintUserMessages: [BP_Drowned_C_23] -4420.0
+[2020.02.16-22.03.58:744][472]LogBlueprintUserMessages: [BP_Drowned_C_69] -4440.0
+[2020.02.16-22.03.58:786][477]LogBlueprintUserMessages: [BP_Drowned_C_64] -4460.0
+[2020.02.16-22.03.58:795][478]LogBlueprintUserMessages: [BP_Drowned_C_30] -4480.0
+[2020.02.16-22.03.58:812][480]LogBlueprintUserMessages: [BP_Drowned_C_53] -4500.0
+[2020.02.16-22.03.58:819][481]LogCharacterMovement: BP_Drowned_C_43 is stuck and failed to move! Velocity: X=-110.35 Y=-45.32 Z=0.00 Location: X=-1130.28 Y=-167.02 Z=228.43 Normal: X=0.46 Y=0.89 Z=0.00 PenetrationDepth:23.648 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.58:819][481]LogCharacterMovement: BP_Drowned_C_61 is stuck and failed to move! Velocity: X=-20.48 Y=25.13 Z=0.00 Location: X=-1206.57 Y=-221.83 Z=228.43 Normal: X=-1.00 Y=-0.06 Z=-0.00 PenetrationDepth:32.727 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.03.58:828][482]LogBlueprintUserMessages: [BP_Drowned_C_26] -4520.0
+[2020.02.16-22.03.58:837][483]LogBlueprintUserMessages: [BP_Drowned_C_4] -4540.0
+[2020.02.16-22.03.58:837][483]LogBlueprintUserMessages: [BP_Drowned_C_6] -4560.0
+[2020.02.16-22.03.58:837][483]LogBlueprintUserMessages: [BP_Drowned_C_68] -4580.0
+[2020.02.16-22.03.58:871][487]LogBlueprintUserMessages: [BP_Drowned_C_12] -4600.0
+[2020.02.16-22.03.58:888][489]LogBlueprintUserMessages: [BP_Drowned_C_61] -4620.0
+[2020.02.16-22.03.58:888][489]LogBlueprintUserMessages: [BP_Drowned_C_71] -4640.0
+[2020.02.16-22.03.58:939][495]LogBlueprintUserMessages: [BP_Drowned_C_50] -4660.0
+[2020.02.16-22.03.58:999][502]LogBlueprintUserMessages: [BP_Drowned_C_15] -4680.0
+[2020.02.16-22.03.59:007][503]LogBlueprintUserMessages: [BP_Drowned_C_1] -4700.0
+[2020.02.16-22.03.59:803][597]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-434.737 Y=1143.443 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.03.59:804][597]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.00:007][621]LogBlueprintUserMessages: [BP_Drowned_C_43] -4720.0
+[2020.02.16-22.04.00:429][671]LogBlueprintUserMessages: [BP_Drowned_C_49] -4740.0
+[2020.02.16-22.04.00:446][673]LogBlueprintUserMessages: [BP_Drowned_C_44] -4760.0
+[2020.02.16-22.04.00:471][676]LogBlueprintUserMessages: [BP_Drowned_C_23] -4780.0
+[2020.02.16-22.04.00:521][682]LogBlueprintUserMessages: [BP_Drowned_C_30] -4800.0
+[2020.02.16-22.04.00:553][686]LogBlueprintUserMessages: [BP_Drowned_C_26] -4820.0
+[2020.02.16-22.04.00:562][687]LogBlueprintUserMessages: [BP_Drowned_C_4] -4840.0
+[2020.02.16-22.04.00:562][687]LogBlueprintUserMessages: [BP_Drowned_C_6] -4860.0
+[2020.02.16-22.04.00:562][687]LogBlueprintUserMessages: [BP_Drowned_C_68] -4880.0
+[2020.02.16-22.04.00:595][691]LogBlueprintUserMessages: [BP_Drowned_C_12] -4900.0
+[2020.02.16-22.04.00:612][693]LogBlueprintUserMessages: [BP_Drowned_C_71] -4920.0
+[2020.02.16-22.04.00:629][695]LogBlueprintUserMessages: [BP_Drowned_C_31] -4940.0
+[2020.02.16-22.04.00:663][699]LogBlueprintUserMessages: [BP_Drowned_C_50] -4960.0
+[2020.02.16-22.04.00:722][706]LogBlueprintUserMessages: [BP_Drowned_C_15] -4980.0
+[2020.02.16-22.04.00:731][707]LogBlueprintUserMessages: [BP_Drowned_C_1] -5000.0
+[2020.02.16-22.04.00:984][737]LogBlueprintUserMessages: [BP_Drowned_C_39] -5020.0
+[2020.02.16-22.04.01:630][814]LogBlueprintUserMessages: [BP_Drowned_C_0] -5040.0
+[2020.02.16-22.04.01:731][826]LogBlueprintUserMessages: [BP_Drowned_C_43] -5060.0
+[2020.02.16-22.04.02:155][877]LogBlueprintUserMessages: [BP_Drowned_C_49] -5080.0
+[2020.02.16-22.04.02:174][879]LogBlueprintUserMessages: [BP_Drowned_C_44] -5100.0
+[2020.02.16-22.04.02:191][881]LogBlueprintUserMessages: [BP_Drowned_C_23] -5120.0
+[2020.02.16-22.04.02:241][887]LogBlueprintUserMessages: [BP_Drowned_C_30] -5140.0
+[2020.02.16-22.04.02:274][891]LogBlueprintUserMessages: [BP_Drowned_C_26] -5160.0
+[2020.02.16-22.04.02:283][892]LogBlueprintUserMessages: [BP_Drowned_C_4] -5180.0
+[2020.02.16-22.04.02:283][892]LogBlueprintUserMessages: [BP_Drowned_C_6] -5200.0
+[2020.02.16-22.04.02:283][892]LogBlueprintUserMessages: [BP_Drowned_C_68] -5220.0
+[2020.02.16-22.04.02:316][896]LogBlueprintUserMessages: [BP_Drowned_C_12] -5240.0
+[2020.02.16-22.04.02:333][898]LogBlueprintUserMessages: [BP_Drowned_C_71] -5260.0
+[2020.02.16-22.04.02:350][900]LogBlueprintUserMessages: [BP_Drowned_C_31] -5280.0
+[2020.02.16-22.04.02:383][904]LogBlueprintUserMessages: [BP_Drowned_C_50] -5300.0
+[2020.02.16-22.04.02:441][911]LogBlueprintUserMessages: [BP_Drowned_C_15] -5320.0
+[2020.02.16-22.04.02:449][912]LogBlueprintUserMessages: [BP_Drowned_C_1] -5340.0
+[2020.02.16-22.04.02:708][943]LogBlueprintUserMessages: [BP_Drowned_C_39] -5360.0
+[2020.02.16-22.04.03:352][ 20]LogBlueprintUserMessages: [BP_Drowned_C_0] -5380.0
+[2020.02.16-22.04.03:461][ 33]LogBlueprintUserMessages: [BP_Drowned_C_43] -5400.0
+[2020.02.16-22.04.03:878][ 83]LogBlueprintUserMessages: [BP_Drowned_C_49] -5420.0
+[2020.02.16-22.04.03:895][ 85]LogBlueprintUserMessages: [BP_Drowned_C_44] -5440.0
+[2020.02.16-22.04.03:911][ 87]LogBlueprintUserMessages: [BP_Drowned_C_23] -5460.0
+[2020.02.16-22.04.03:961][ 93]LogBlueprintUserMessages: [BP_Drowned_C_30] -5480.0
+[2020.02.16-22.04.03:996][ 97]LogBlueprintUserMessages: [BP_Drowned_C_26] -5500.0
+[2020.02.16-22.04.04:004][ 98]LogBlueprintUserMessages: [BP_Drowned_C_4] -5520.0
+[2020.02.16-22.04.04:004][ 98]LogBlueprintUserMessages: [BP_Drowned_C_6] -5540.0
+[2020.02.16-22.04.04:004][ 98]LogBlueprintUserMessages: [BP_Drowned_C_68] -5560.0
+[2020.02.16-22.04.04:037][102]LogBlueprintUserMessages: [BP_Drowned_C_12] -5580.0
+[2020.02.16-22.04.04:054][104]LogBlueprintUserMessages: [BP_Drowned_C_71] -5600.0
+[2020.02.16-22.04.04:070][106]LogBlueprintUserMessages: [BP_Drowned_C_31] -5620.0
+[2020.02.16-22.04.04:104][110]LogBlueprintUserMessages: [BP_Drowned_C_50] -5640.0
+[2020.02.16-22.04.04:163][117]LogBlueprintUserMessages: [BP_Drowned_C_15] -5660.0
+[2020.02.16-22.04.04:171][118]LogBlueprintUserMessages: [BP_Drowned_C_1] -5680.0
+[2020.02.16-22.04.04:429][149]LogBlueprintUserMessages: [BP_Drowned_C_39] -5700.0
+[2020.02.16-22.04.05:071][225]LogBlueprintUserMessages: [BP_Drowned_C_0] -5720.0
+[2020.02.16-22.04.05:180][238]LogBlueprintUserMessages: [BP_Drowned_C_43] -5740.0
+[2020.02.16-22.04.05:263][248]LogBlueprintUserMessages: [BP_Drowned_C_57] -5760.0
+[2020.02.16-22.04.05:288][251]LogBlueprintUserMessages: [BP_Drowned_C_41] -5780.0
+[2020.02.16-22.04.05:297][252]LogBlueprintUserMessages: [BP_Drowned_C_3] -5800.0
+[2020.02.16-22.04.05:313][254]LogBlueprintUserMessages: [BP_Drowned_C_58] -5820.0
+[2020.02.16-22.04.05:338][257]LogBlueprintUserMessages: [BP_Drowned_C_64] -5840.0
+[2020.02.16-22.04.05:397][264]LogBlueprintUserMessages: [BP_Drowned_C_55] -5860.0
+[2020.02.16-22.04.05:398][264]LogBlueprintUserMessages: [BP_Drowned_C_62] -5880.0
+[2020.02.16-22.04.05:414][266]LogBlueprintUserMessages: [BP_Drowned_C_42] -5900.0
+[2020.02.16-22.04.05:414][266]LogBlueprintUserMessages: [BP_Drowned_C_48] -5920.0
+[2020.02.16-22.04.05:431][268]LogBlueprintUserMessages: [BP_Drowned_C_18] -5940.0
+[2020.02.16-22.04.05:439][269]LogBlueprintUserMessages: [BP_Drowned_C_35] -5960.0
+[2020.02.16-22.04.05:473][273]LogBlueprintUserMessages: [BP_Drowned_C_34] -5980.0
+[2020.02.16-22.04.05:499][276]LogBlueprintUserMessages: [BP_Drowned_C_20] -6000.0
+[2020.02.16-22.04.05:507][277]LogBlueprintUserMessages: [BP_Drowned_C_37] -6020.0
+[2020.02.16-22.04.05:525][279]LogBlueprintUserMessages: [BP_Drowned_C_14] -6040.0
+[2020.02.16-22.04.05:525][279]LogBlueprintUserMessages: [BP_Drowned_C_76] -6060.0
+[2020.02.16-22.04.06:528][398]LogBlueprintUserMessages: [BP_Drowned_C_5] -6080.0
+[2020.02.16-22.04.07:892][558]LogBlueprintUserMessages: [BP_Drowned_C_82] -6100.0
+[2020.02.16-22.04.07:949][565]LogBlueprintUserMessages: [BP_Drowned_C_66] -6120.0
+[2020.02.16-22.04.07:966][567]LogBlueprintUserMessages: [BP_Drowned_C_40] -6140.0
+[2020.02.16-22.04.08:084][581]LogBlueprintUserMessages: [BP_Drowned_C_34] -6160.0
+[2020.02.16-22.04.08:109][584]LogBlueprintUserMessages: [BP_Drowned_C_41] -6180.0
+[2020.02.16-22.04.08:228][598]LogBlueprintUserMessages: [BP_Drowned_C_62] -6200.0
+[2020.02.16-22.04.08:821][668]LogBlueprintUserMessages: [BP_Drowned_C_6] -6220.0
+[2020.02.16-22.04.09:450][743]LogBlueprintUserMessages: [BP_Drowned_C_51] -6240.0
+[2020.02.16-22.04.10:650][885]LogBlueprintUserMessages: [BP_Drowned_C_31] -6260.0
+[2020.02.16-22.04.10:667][887]LogBlueprintUserMessages: [BP_Drowned_C_19] -6280.0
+[2020.02.16-22.04.10:744][896]LogBlueprintUserMessages: [BP_Drowned_C_25] -6300.0
+[2020.02.16-22.04.10:778][900]LogBlueprintUserMessages: [BP_Drowned_C_24] -6320.0
+[2020.02.16-22.04.12:466][ 98]LogBlueprintUserMessages: [BP_Drowned_C_35] -6340.0
+[2020.02.16-22.04.12:482][100]LogBlueprintUserMessages: [BP_Drowned_C_10] -6360.0
+[2020.02.16-22.04.13:087][171]LogBlueprintUserMessages: [BP_Drowned_C_48] -6380.0
+[2020.02.16-22.04.13:463][216]LogCharacterMovement: BP_Drowned_C_23 is stuck and failed to move! Velocity: X=-16.34 Y=-4.94 Z=0.00 Location: X=-1241.83 Y=508.00 Z=228.43 Normal: X=0.57 Y=-0.82 Z=0.00 PenetrationDepth:0.000 Actor:BP_Drowned_C_37 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.04.13:744][249]LogBlueprintUserMessages: [BP_Drowned_C_53] -6400.0
+[2020.02.16-22.04.13:820][258]LogBlueprintUserMessages: [BP_Drowned_C_24] -6420.0
+[2020.02.16-22.04.14:039][284]LogBlueprintUserMessages: [BP_Drowned_C_1] -6440.0
+[2020.02.16-22.04.14:048][285]LogBlueprintUserMessages: [BP_Drowned_C_52] -6460.0
+[2020.02.16-22.04.14:148][297]LogBlueprintUserMessages: [BP_Drowned_C_85] -6480.0
+[2020.02.16-22.04.14:268][311]LogBlueprintUserMessages: [BP_Drowned_C_30] -6500.0
+[2020.02.16-22.04.14:360][322]LogBlueprintUserMessages: [BP_Drowned_C_12] -6520.0
+[2020.02.16-22.04.14:492][337]LogBlueprintUserMessages: [BP_Drowned_C_73] -6540.0
+[2020.02.16-22.04.14:539][342]LogBlueprintUserMessages: [BP_Drowned_C_68] -6560.0
+[2020.02.16-22.04.14:826][374]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-412.756 Y=387.882 Z=146.433] for [BP_Drowned_C]
+[2020.02.16-22.04.15:902][500]LogBlueprintUserMessages: [BP_Drowned_C_62] -6580.0
+[2020.02.16-22.04.15:961][507]LogBlueprintUserMessages: [BP_Drowned_C_28] -6600.0
+[2020.02.16-22.04.15:961][507]LogBlueprintUserMessages: [BP_Drowned_C_35] -6620.0
+[2020.02.16-22.04.16:013][513]LogBlueprintUserMessages: [BP_Drowned_C_41] -6640.0
+[2020.02.16-22.04.16:073][520]LogBlueprintUserMessages: [BP_Drowned_C_40] -6660.0
+[2020.02.16-22.04.16:082][521]LogBlueprintUserMessages: [BP_Drowned_C_58] -6680.0
+[2020.02.16-22.04.16:090][522]LogBlueprintUserMessages: [BP_Drowned_C_72] -6700.0
+[2020.02.16-22.04.16:117][525]LogBlueprintUserMessages: [BP_Drowned_C_14] -6720.0
+[2020.02.16-22.04.16:220][537]LogBlueprintUserMessages: [BP_Drowned_C_44] -6740.0
+[2020.02.16-22.04.19:194][887]LogBlueprintUserMessages: [BP_Drowned_C_85] -6760.0
+[2020.02.16-22.04.19:307][900]LogBlueprintUserMessages: [BP_Drowned_C_24] -6780.0
+[2020.02.16-22.04.19:315][901]LogBlueprintUserMessages: [BP_Drowned_C_52] -6800.0
+[2020.02.16-22.04.19:409][912]LogBlueprintUserMessages: [BP_Drowned_C_12] -6820.0
+[2020.02.16-22.04.19:451][917]LogBlueprintUserMessages: [BP_Drowned_C_31] -6840.0
+[2020.02.16-22.04.19:477][920]LogBlueprintUserMessages: [BP_Drowned_C_61] -6860.0
+[2020.02.16-22.04.19:494][922]LogBlueprintUserMessages: [BP_Drowned_C_71] -6880.0
+[2020.02.16-22.04.20:164][999]LogBlueprintUserMessages: [BP_Drowned_C_5] -6900.0
+[2020.02.16-22.04.20:304][ 15]LogBlueprintUserMessages: [BP_Drowned_C_84] -6920.0
+[2020.02.16-22.04.20:331][ 18]LogBlueprintUserMessages: [BP_Drowned_C_32] -6940.0
+[2020.02.16-22.04.20:383][ 24]LogBlueprintUserMessages: [BP_Drowned_C_42] -6960.0
+[2020.02.16-22.04.20:408][ 27]LogBlueprintUserMessages: [BP_Drowned_C_18] -6980.0
+[2020.02.16-22.04.20:567][ 46]LogBlueprintUserMessages: [BP_Drowned_C_35] -7000.0
+[2020.02.16-22.04.20:601][ 50]LogBlueprintUserMessages: [BP_Drowned_C_41] -7020.0
+[2020.02.16-22.04.20:770][ 70]LogBlueprintUserMessages: [BP_Drowned_C_10] -7040.0
+[2020.02.16-22.04.20:832][ 77]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1691.546 Y=46.496 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.20:953][ 91]LogBlueprintUserMessages: [BP_Drowned_C_76] -7060.0
+[2020.02.16-22.04.21:004][ 97]LogBlueprintUserMessages: [BP_Drowned_C_28] -7080.0
+[2020.02.16-22.04.21:030][100]LogBlueprintUserMessages: [BP_Drowned_C_48] -7100.0
+[2020.02.16-22.04.21:048][102]LogBlueprintUserMessages: [BP_Drowned_C_16] -7120.0
+[2020.02.16-22.04.21:075][105]LogBlueprintUserMessages: [BP_Drowned_C_34] -7140.0
+[2020.02.16-22.04.21:083][106]LogBlueprintUserMessages: [BP_Drowned_C_29] -7160.0
+[2020.02.16-22.04.21:092][107]LogBlueprintUserMessages: [BP_Drowned_C_23] -7180.0
+[2020.02.16-22.04.21:118][110]LogBlueprintUserMessages: [BP_Drowned_C_88] -7200.0
+[2020.02.16-22.04.22:869][315]LogBlueprintUserMessages: [BP_Drowned_C_8] -7220.0
+[2020.02.16-22.04.25:448][615]LogBlueprintUserMessages: [BP_Drowned_C_19] -7240.0
+[2020.02.16-22.04.25:448][615]LogBlueprintUserMessages: [BP_Drowned_C_24] -7260.0
+[2020.02.16-22.04.25:508][622]LogBlueprintUserMessages: [BP_Drowned_C_38] -7280.0
+[2020.02.16-22.04.25:508][622]LogBlueprintUserMessages: [BP_Drowned_C_50] -7300.0
+[2020.02.16-22.04.26:288][711]LogBlueprintUserMessages: [BP_Drowned_C_48] -7320.0
+[2020.02.16-22.04.26:842][776]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=-53.293 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.27:820][893]LogBlueprintUserMessages: [BP_Drowned_C_41] -7340.0
+[2020.02.16-22.04.27:862][898]LogBlueprintUserMessages: [BP_Drowned_C_53] -7360.0
+[2020.02.16-22.04.28:028][918]LogBlueprintUserMessages: [BP_Drowned_C_10] -7380.0
+[2020.02.16-22.04.30:295][184]LogBlueprintUserMessages: [BP_Drowned_C_91] -7400.0
+[2020.02.16-22.04.31:106][274]LogBlueprintUserMessages: [BP_Drowned_C_41] -7420.0
+[2020.02.16-22.04.31:636][335]LogBlueprintUserMessages: [BP_Drowned_C_55] -7440.0
+[2020.02.16-22.04.32:927][481]LogBlueprintUserMessages: [BP_Drowned_C_39] -7460.0
+[2020.02.16-22.04.32:927][481]LogBlueprintUserMessages: [BP_Drowned_C_79] -7480.0
+[2020.02.16-22.04.33:090][499]LogBlueprintUserMessages: [BP_Drowned_C_25] -7500.0
+[2020.02.16-22.04.33:200][511]LogBlueprintUserMessages: [BP_Drowned_C_7] -7520.0
+[2020.02.16-22.04.33:200][511]LogBlueprintUserMessages: [BP_Drowned_C_78] -7540.0
+[2020.02.16-22.04.33:273][519]LogBlueprintUserMessages: [BP_Drowned_C_49] -7560.0
+[2020.02.16-22.04.33:328][525]LogBlueprintUserMessages: [BP_Drowned_C_94] -7580.0
+[2020.02.16-22.04.33:337][526]LogBlueprintUserMessages: [BP_Drowned_C_12] -7600.0
+[2020.02.16-22.04.33:356][528]LogBlueprintUserMessages: [BP_Drowned_C_85] -7620.0
+[2020.02.16-22.04.33:365][529]LogBlueprintUserMessages: [BP_Drowned_C_31] -7640.0
+[2020.02.16-22.04.33:374][530]LogBlueprintUserMessages: [BP_Drowned_C_24] -7660.0
+[2020.02.16-22.04.34:392][641]LogBlueprintUserMessages: [BP_Drowned_C_62] -7680.0
+[2020.02.16-22.04.34:429][645]LogBlueprintUserMessages: [BP_Drowned_C_10] -7700.0
+[2020.02.16-22.04.34:485][651]LogBlueprintUserMessages: [BP_Drowned_C_53] -7720.0
+[2020.02.16-22.04.34:615][665]LogBlueprintUserMessages: [BP_Drowned_C_41] -7740.0
+[2020.02.16-22.04.34:625][666]LogBlueprintUserMessages: [BP_Drowned_C_58] -7760.0
+[2020.02.16-22.04.34:671][671]LogBlueprintUserMessages: [BP_Drowned_C_0] -7780.0
+[2020.02.16-22.04.34:671][671]LogBlueprintUserMessages: [BP_Drowned_C_68] -7800.0
+[2020.02.16-22.04.34:928][698]LogBlueprintUserMessages: [BP_Drowned_C_6] -7820.0
+[2020.02.16-22.04.34:928][698]LogBlueprintUserMessages: [BP_Drowned_C_26] -7840.0
+[2020.02.16-22.04.34:928][698]LogBlueprintUserMessages: [BP_Drowned_C_30] -7860.0
+[2020.02.16-22.04.34:937][699]LogBlueprintUserMessages: [BP_Drowned_C_19] -7880.0
+[2020.02.16-22.04.34:947][700]LogBlueprintUserMessages: [BP_Drowned_C_71] -7900.0
+[2020.02.16-22.04.34:965][702]LogBlueprintUserMessages: [BP_Drowned_C_52] -7920.0
+[2020.02.16-22.04.34:975][703]LogBlueprintUserMessages: [BP_Drowned_C_18] -7940.0
+[2020.02.16-22.04.34:984][704]LogBlueprintUserMessages: [BP_Drowned_C_50] -7960.0
+[2020.02.16-22.04.35:068][713]LogBlueprintUserMessages: [BP_Drowned_C_1] -7980.0
+[2020.02.16-22.04.36:265][845]LogBlueprintUserMessages: [BP_Drowned_C_69] -8000.0
+[2020.02.16-22.04.37:321][956]LogBlueprintUserMessages: [BP_Drowned_C_86] -8020.0
+[2020.02.16-22.04.37:448][970]LogBlueprintUserMessages: [BP_Drowned_C_43] -8040.0
+[2020.02.16-22.04.37:573][984]LogBlueprintUserMessages: [BP_Drowned_C_37] -8060.0
+[2020.02.16-22.04.37:671][994]LogBlueprintUserMessages: [BP_Drowned_C_8] -8080.0
+[2020.02.16-22.04.37:763][  2]LogBlueprintUserMessages: [BP_Drowned_C_94] -8100.0
+[2020.02.16-22.04.40:868][362]LogBlueprintUserMessages: [BP_Drowned_C_57] -8120.0
+[2020.02.16-22.04.41:117][392]LogBlueprintUserMessages: [BP_Drowned_C_68] -8140.0
+[2020.02.16-22.04.41:267][410]LogBlueprintUserMessages: [BP_Drowned_C_49] -8160.0
+[2020.02.16-22.04.41:724][464]LogBlueprintUserMessages: [BP_Drowned_C_41] -8180.0
+[2020.02.16-22.04.41:867][481]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-38.000 Y=-188.837 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.41:868][481]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-988.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.41:869][481]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-38.000 Y=-266.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.41:869][481]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=171.000 Y=-152.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.42:228][524]LogBlueprintUserMessages: [BP_Drowned_C_73] -8200.0
+[2020.02.16-22.04.42:587][567]LogBlueprintUserMessages: [BP_Drowned_C_57] -8220.0
+[2020.02.16-22.04.42:671][577]LogBlueprintUserMessages: [BP_Drowned_C_24] -8240.0
+[2020.02.16-22.04.42:839][597]LogBlueprintUserMessages: [BP_Drowned_C_68] -8260.0
+[2020.02.16-22.04.42:988][615]LogBlueprintUserMessages: [BP_Drowned_C_49] -8280.0
+[2020.02.16-22.04.43:455][671]LogBlueprintUserMessages: [BP_Drowned_C_41] -8300.0
+[2020.02.16-22.04.43:962][731]LogBlueprintUserMessages: [BP_Drowned_C_73] -8320.0
+[2020.02.16-22.04.44:314][773]LogBlueprintUserMessages: [BP_Drowned_C_57] -8340.0
+[2020.02.16-22.04.44:405][784]LogBlueprintUserMessages: [BP_Drowned_C_24] -8360.0
+[2020.02.16-22.04.44:564][803]LogBlueprintUserMessages: [BP_Drowned_C_68] -8380.0
+[2020.02.16-22.04.44:605][808]LogBlueprintUserMessages: [BP_Drowned_C_94] -8400.0
+[2020.02.16-22.04.44:721][822]LogBlueprintUserMessages: [BP_Drowned_C_49] -8420.0
+[2020.02.16-22.04.45:182][877]LogBlueprintUserMessages: [BP_Drowned_C_41] -8440.0
+[2020.02.16-22.04.45:695][938]LogBlueprintUserMessages: [BP_Drowned_C_73] -8460.0
+[2020.02.16-22.04.46:045][980]LogBlueprintUserMessages: [BP_Drowned_C_57] -8480.0
+[2020.02.16-22.04.46:137][991]LogBlueprintUserMessages: [BP_Drowned_C_24] -8500.0
+[2020.02.16-22.04.46:289][  9]LogBlueprintUserMessages: [BP_Drowned_C_68] -8520.0
+[2020.02.16-22.04.46:329][ 14]LogBlueprintUserMessages: [BP_Drowned_C_94] -8540.0
+[2020.02.16-22.04.46:455][ 29]LogBlueprintUserMessages: [BP_Drowned_C_49] -8560.0
+[2020.02.16-22.04.46:914][ 84]LogBlueprintUserMessages: [BP_Drowned_C_41] -8580.0
+[2020.02.16-22.04.47:421][145]LogBlueprintUserMessages: [BP_Drowned_C_73] -8600.0
+[2020.02.16-22.04.47:768][186]LogBlueprintUserMessages: [BP_Drowned_C_57] -8620.0
+[2020.02.16-22.04.47:860][197]LogBlueprintUserMessages: [BP_Drowned_C_24] -8640.0
+[2020.02.16-22.04.48:011][215]LogBlueprintUserMessages: [BP_Drowned_C_68] -8660.0
+[2020.02.16-22.04.48:052][220]LogBlueprintUserMessages: [BP_Drowned_C_94] -8680.0
+[2020.02.16-22.04.48:185][236]LogBlueprintUserMessages: [BP_Drowned_C_49] -8700.0
+[2020.02.16-22.04.48:644][291]LogBlueprintUserMessages: [BP_Drowned_C_41] -8720.0
+[2020.02.16-22.04.49:152][352]LogBlueprintUserMessages: [BP_Drowned_C_73] -8740.0
+[2020.02.16-22.04.49:494][393]LogBlueprintUserMessages: [BP_Drowned_C_57] -8760.0
+[2020.02.16-22.04.49:588][404]LogBlueprintUserMessages: [BP_Drowned_C_24] -8780.0
+[2020.02.16-22.04.49:731][421]LogBlueprintUserMessages: [BP_Drowned_C_68] -8800.0
+[2020.02.16-22.04.49:773][426]LogBlueprintUserMessages: [BP_Drowned_C_94] -8820.0
+[2020.02.16-22.04.49:914][442]LogBlueprintUserMessages: [BP_Drowned_C_49] -8840.0
+[2020.02.16-22.04.50:373][497]LogBlueprintUserMessages: [BP_Drowned_C_41] -8860.0
+[2020.02.16-22.04.50:881][558]LogBlueprintUserMessages: [BP_Drowned_C_73] -8880.0
+[2020.02.16-22.04.50:882][558]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-988.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.51:219][598]LogBlueprintUserMessages: [BP_Drowned_C_57] -8900.0
+[2020.02.16-22.04.51:310][609]LogBlueprintUserMessages: [BP_Drowned_C_24] -8920.0
+[2020.02.16-22.04.51:460][627]LogBlueprintUserMessages: [BP_Drowned_C_68] -8940.0
+[2020.02.16-22.04.51:502][632]LogBlueprintUserMessages: [BP_Drowned_C_94] -8960.0
+[2020.02.16-22.04.51:645][649]LogBlueprintUserMessages: [BP_Drowned_C_49] -8980.0
+[2020.02.16-22.04.52:103][704]LogBlueprintUserMessages: [BP_Drowned_C_41] -9000.0
+[2020.02.16-22.04.52:603][764]LogBlueprintUserMessages: [BP_Drowned_C_73] -9020.0
+[2020.02.16-22.04.52:937][804]LogBlueprintUserMessages: [BP_Drowned_C_57] -9040.0
+[2020.02.16-22.04.53:038][816]LogBlueprintUserMessages: [BP_Drowned_C_24] -9060.0
+[2020.02.16-22.04.53:188][834]LogBlueprintUserMessages: [BP_Drowned_C_68] -9080.0
+[2020.02.16-22.04.53:230][839]LogBlueprintUserMessages: [BP_Drowned_C_94] -9100.0
+[2020.02.16-22.04.53:371][856]LogBlueprintUserMessages: [BP_Drowned_C_49] -9120.0
+[2020.02.16-22.04.53:829][911]LogBlueprintUserMessages: [BP_Drowned_C_41] -9140.0
+[2020.02.16-22.04.54:331][971]LogBlueprintUserMessages: [BP_Drowned_C_73] -9160.0
+[2020.02.16-22.04.54:665][ 11]LogBlueprintUserMessages: [BP_Drowned_C_57] -9180.0
+[2020.02.16-22.04.54:765][ 23]LogBlueprintUserMessages: [BP_Drowned_C_24] -9200.0
+[2020.02.16-22.04.54:915][ 41]LogBlueprintUserMessages: [BP_Drowned_C_68] -9220.0
+[2020.02.16-22.04.54:957][ 46]LogBlueprintUserMessages: [BP_Drowned_C_94] -9240.0
+[2020.02.16-22.04.55:091][ 62]LogBlueprintUserMessages: [BP_Drowned_C_49] -9260.0
+[2020.02.16-22.04.55:558][118]LogBlueprintUserMessages: [BP_Drowned_C_41] -9280.0
+[2020.02.16-22.04.56:058][178]LogBlueprintUserMessages: [BP_Drowned_C_73] -9300.0
+[2020.02.16-22.04.56:391][218]LogBlueprintUserMessages: [BP_Drowned_C_57] -9320.0
+[2020.02.16-22.04.56:492][230]LogBlueprintUserMessages: [BP_Drowned_C_24] -9340.0
+[2020.02.16-22.04.56:633][247]LogBlueprintUserMessages: [BP_Drowned_C_68] -9360.0
+[2020.02.16-22.04.56:675][252]LogBlueprintUserMessages: [BP_Drowned_C_94] -9380.0
+[2020.02.16-22.04.56:809][268]LogBlueprintUserMessages: [BP_Drowned_C_49] -9400.0
+[2020.02.16-22.04.56:892][278]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-1214.844 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.04.57:288][325]LogBlueprintUserMessages: [BP_Drowned_C_41] -9420.0
+[2020.02.16-22.04.57:786][384]LogBlueprintUserMessages: [BP_Drowned_C_73] -9440.0
+[2020.02.16-22.04.58:119][424]LogBlueprintUserMessages: [BP_Drowned_C_57] -9460.0
+[2020.02.16-22.04.58:214][433]LogBlueprintUserMessages: [BP_Drowned_C_24] -9480.0
+[2020.02.16-22.04.58:356][450]LogBlueprintUserMessages: [BP_Drowned_C_68] -9500.0
+[2020.02.16-22.04.58:406][456]LogBlueprintUserMessages: [BP_Drowned_C_94] -9520.0
+[2020.02.16-22.04.58:539][472]LogBlueprintUserMessages: [BP_Drowned_C_49] -9540.0
+[2020.02.16-22.04.59:014][529]LogBlueprintUserMessages: [BP_Drowned_C_41] -9560.0
+[2020.02.16-22.04.59:505][588]LogBlueprintUserMessages: [BP_Drowned_C_73] -9580.0
+[2020.02.16-22.04.59:845][628]LogBlueprintUserMessages: [BP_Drowned_C_57] -9600.0
+[2020.02.16-22.04.59:938][639]LogBlueprintUserMessages: [BP_Drowned_C_24] -9620.0
+[2020.02.16-22.05.00:082][656]LogBlueprintUserMessages: [BP_Drowned_C_68] -9640.0
+[2020.02.16-22.05.00:133][662]LogBlueprintUserMessages: [BP_Drowned_C_94] -9660.0
+[2020.02.16-22.05.00:259][677]LogBlueprintUserMessages: [BP_Drowned_C_49] -9680.0
+[2020.02.16-22.05.00:743][735]LogBlueprintUserMessages: [BP_Drowned_C_41] -9700.0
+[2020.02.16-22.05.01:235][794]LogBlueprintUserMessages: [BP_Drowned_C_73] -9720.0
+[2020.02.16-22.05.01:576][835]LogBlueprintUserMessages: [BP_Drowned_C_57] -9740.0
+[2020.02.16-22.05.01:669][846]LogBlueprintUserMessages: [BP_Drowned_C_24] -9760.0
+[2020.02.16-22.05.01:804][862]LogBlueprintUserMessages: [BP_Drowned_C_68] -9780.0
+[2020.02.16-22.05.01:854][868]LogBlueprintUserMessages: [BP_Drowned_C_94] -9800.0
+[2020.02.16-22.05.01:987][884]LogBlueprintUserMessages: [BP_Drowned_C_49] -9820.0
+[2020.02.16-22.05.02:471][942]LogBlueprintUserMessages: [BP_Drowned_C_41] -9840.0
+[2020.02.16-22.05.02:958][  0]LogBlueprintUserMessages: [BP_Drowned_C_73] -9860.0
+[2020.02.16-22.05.03:308][ 42]LogBlueprintUserMessages: [BP_Drowned_C_57] -9880.0
+[2020.02.16-22.05.03:400][ 53]LogBlueprintUserMessages: [BP_Drowned_C_24] -9900.0
+[2020.02.16-22.05.03:532][ 69]LogBlueprintUserMessages: [BP_Drowned_C_68] -9920.0
+[2020.02.16-22.05.03:582][ 75]LogBlueprintUserMessages: [BP_Drowned_C_94] -9940.0
+[2020.02.16-22.05.03:708][ 90]LogBlueprintUserMessages: [BP_Drowned_C_49] -9960.0
+[2020.02.16-22.05.04:200][149]LogBlueprintUserMessages: [BP_Drowned_C_41] -9980.0
+[2020.02.16-22.05.04:676][206]LogBlueprintUserMessages: [BP_Drowned_C_73] -10000.0
+[2020.02.16-22.05.05:029][248]LogBlueprintUserMessages: [BP_Drowned_C_57] -10020.0
+[2020.02.16-22.05.05:121][259]LogBlueprintUserMessages: [BP_Drowned_C_24] -10040.0
+[2020.02.16-22.05.05:262][276]LogBlueprintUserMessages: [BP_Drowned_C_68] -10060.0
+[2020.02.16-22.05.05:313][282]LogBlueprintUserMessages: [BP_Drowned_C_94] -10080.0
+[2020.02.16-22.05.05:437][297]LogBlueprintUserMessages: [BP_Drowned_C_49] -10100.0
+[2020.02.16-22.05.05:900][352]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-988.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.05:925][355]LogBlueprintUserMessages: [BP_Drowned_C_41] -10120.0
+[2020.02.16-22.05.06:408][413]LogBlueprintUserMessages: [BP_Drowned_C_73] -10140.0
+[2020.02.16-22.05.06:758][455]LogBlueprintUserMessages: [BP_Drowned_C_57] -10160.0
+[2020.02.16-22.05.06:850][466]LogBlueprintUserMessages: [BP_Drowned_C_24] -10180.0
+[2020.02.16-22.05.06:993][483]LogBlueprintUserMessages: [BP_Drowned_C_68] -10200.0
+[2020.02.16-22.05.07:033][488]LogBlueprintUserMessages: [BP_Drowned_C_94] -10220.0
+[2020.02.16-22.05.07:158][503]LogBlueprintUserMessages: [BP_Drowned_C_49] -10240.0
+[2020.02.16-22.05.07:651][562]LogBlueprintUserMessages: [BP_Drowned_C_41] -10260.0
+[2020.02.16-22.05.08:130][619]LogBlueprintUserMessages: [BP_Drowned_C_73] -10280.0
+[2020.02.16-22.05.08:488][662]LogBlueprintUserMessages: [BP_Drowned_C_57] -10300.0
+[2020.02.16-22.05.08:580][673]LogBlueprintUserMessages: [BP_Drowned_C_24] -10320.0
+[2020.02.16-22.05.08:721][690]LogBlueprintUserMessages: [BP_Drowned_C_68] -10340.0
+[2020.02.16-22.05.08:763][695]LogBlueprintUserMessages: [BP_Drowned_C_94] -10360.0
+[2020.02.16-22.05.08:888][710]LogBlueprintUserMessages: [BP_Drowned_C_49] -10380.0
+[2020.02.16-22.05.09:374][768]LogBlueprintUserMessages: [BP_Drowned_C_41] -10400.0
+[2020.02.16-22.05.09:849][825]LogBlueprintUserMessages: [BP_Drowned_C_73] -10420.0
+[2020.02.16-22.05.10:209][868]LogBlueprintUserMessages: [BP_Drowned_C_57] -10440.0
+[2020.02.16-22.05.10:300][879]LogBlueprintUserMessages: [BP_Drowned_C_24] -10460.0
+[2020.02.16-22.05.10:451][897]LogBlueprintUserMessages: [BP_Drowned_C_68] -10480.0
+[2020.02.16-22.05.10:493][902]LogBlueprintUserMessages: [BP_Drowned_C_94] -10500.0
+[2020.02.16-22.05.10:609][916]LogBlueprintUserMessages: [BP_Drowned_C_49] -10520.0
+[2020.02.16-22.05.11:093][974]LogBlueprintUserMessages: [BP_Drowned_C_41] -10540.0
+[2020.02.16-22.05.11:570][ 31]LogBlueprintUserMessages: [BP_Drowned_C_73] -10560.0
+[2020.02.16-22.05.11:913][ 72]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1527.357 Y=-928.751 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.11:930][ 74]LogBlueprintUserMessages: [BP_Drowned_C_57] -10580.0
+[2020.02.16-22.05.12:023][ 85]LogBlueprintUserMessages: [BP_Drowned_C_24] -10600.0
+[2020.02.16-22.05.12:172][103]LogBlueprintUserMessages: [BP_Drowned_C_68] -10620.0
+[2020.02.16-22.05.12:214][108]LogBlueprintUserMessages: [BP_Drowned_C_94] -10640.0
+[2020.02.16-22.05.12:331][122]LogBlueprintUserMessages: [BP_Drowned_C_49] -10660.0
+[2020.02.16-22.05.12:817][180]LogBlueprintUserMessages: [BP_Drowned_C_41] -10680.0
+[2020.02.16-22.05.13:293][237]LogBlueprintUserMessages: [BP_Drowned_C_73] -10700.0
+[2020.02.16-22.05.13:655][280]LogBlueprintUserMessages: [BP_Drowned_C_57] -10720.0
+[2020.02.16-22.05.13:743][290]LogBlueprintUserMessages: [BP_Drowned_C_24] -10740.0
+[2020.02.16-22.05.13:902][309]LogBlueprintUserMessages: [BP_Drowned_C_68] -10760.0
+[2020.02.16-22.05.13:944][314]LogBlueprintUserMessages: [BP_Drowned_C_94] -10780.0
+[2020.02.16-22.05.14:051][327]LogBlueprintUserMessages: [BP_Drowned_C_49] -10800.0
+[2020.02.16-22.05.14:536][385]LogBlueprintUserMessages: [BP_Drowned_C_41] -10820.0
+[2020.02.16-22.05.14:914][430]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-38.000 Y=-266.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.15:014][442]LogBlueprintUserMessages: [BP_Drowned_C_73] -10840.0
+[2020.02.16-22.05.15:373][485]LogBlueprintUserMessages: [BP_Drowned_C_57] -10860.0
+[2020.02.16-22.05.15:465][496]LogBlueprintUserMessages: [BP_Drowned_C_24] -10880.0
+[2020.02.16-22.05.15:627][515]LogBlueprintUserMessages: [BP_Drowned_C_68] -10900.0
+[2020.02.16-22.05.15:669][520]LogBlueprintUserMessages: [BP_Drowned_C_94] -10920.0
+[2020.02.16-22.05.15:779][532]LogBlueprintUserMessages: [BP_Drowned_C_49] -10940.0
+[2020.02.16-22.05.16:254][589]LogBlueprintUserMessages: [BP_Drowned_C_41] -10960.0
+[2020.02.16-22.05.16:747][648]LogBlueprintUserMessages: [BP_Drowned_C_73] -10980.0
+[2020.02.16-22.05.17:105][690]LogBlueprintUserMessages: [BP_Drowned_C_57] -11000.0
+[2020.02.16-22.05.17:193][700]LogBlueprintUserMessages: [BP_Drowned_C_24] -11020.0
+[2020.02.16-22.05.17:352][719]LogBlueprintUserMessages: [BP_Drowned_C_68] -11040.0
+[2020.02.16-22.05.17:393][724]LogBlueprintUserMessages: [BP_Drowned_C_94] -11060.0
+[2020.02.16-22.05.17:502][737]LogBlueprintUserMessages: [BP_Drowned_C_49] -11080.0
+[2020.02.16-22.05.17:921][787]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1747.997 Y=-1157.002 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.17:922][787]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1536.343 Y=-1382.020 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.17:923][787]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=209.000 Y=266.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.17:924][787]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-988.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.17:924][787]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.17:983][794]LogBlueprintUserMessages: [BP_Drowned_C_41] -11100.0
+[2020.02.16-22.05.18:467][852]LogBlueprintUserMessages: [BP_Drowned_C_73] -11120.0
+[2020.02.16-22.05.18:826][895]LogBlueprintUserMessages: [BP_Drowned_C_57] -11140.0
+[2020.02.16-22.05.18:918][906]LogBlueprintUserMessages: [BP_Drowned_C_24] -11160.0
+[2020.02.16-22.05.19:077][925]LogBlueprintUserMessages: [BP_Drowned_C_68] -11180.0
+[2020.02.16-22.05.19:111][929]LogBlueprintUserMessages: [BP_Drowned_C_94] -11200.0
+[2020.02.16-22.05.19:218][942]LogBlueprintUserMessages: [BP_Drowned_C_49] -11220.0
+[2020.02.16-22.05.19:710][  0]LogBlueprintUserMessages: [BP_Drowned_C_41] -11240.0
+[2020.02.16-22.05.20:186][ 57]LogBlueprintUserMessages: [BP_Drowned_C_73] -11260.0
+[2020.02.16-22.05.20:546][100]LogBlueprintUserMessages: [BP_Drowned_C_57] -11280.0
+[2020.02.16-22.05.20:639][111]LogBlueprintUserMessages: [BP_Drowned_C_24] -11300.0
+[2020.02.16-22.05.20:800][130]LogBlueprintUserMessages: [BP_Drowned_C_68] -11320.0
+[2020.02.16-22.05.20:833][134]LogBlueprintUserMessages: [BP_Drowned_C_94] -11340.0
+[2020.02.16-22.05.20:926][145]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1484.976 Y=-1034.430 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.20:952][148]LogBlueprintUserMessages: [BP_Drowned_C_49] -11360.0
+[2020.02.16-22.05.21:427][205]LogBlueprintUserMessages: [BP_Drowned_C_41] -11380.0
+[2020.02.16-22.05.21:913][262]LogBlueprintUserMessages: [BP_Drowned_C_73] -11400.0
+[2020.02.16-22.05.22:264][304]LogBlueprintUserMessages: [BP_Drowned_C_57] -11420.0
+[2020.02.16-22.05.22:365][316]LogBlueprintUserMessages: [BP_Drowned_C_24] -11440.0
+[2020.02.16-22.05.22:524][335]LogBlueprintUserMessages: [BP_Drowned_C_68] -11460.0
+[2020.02.16-22.05.22:558][339]LogBlueprintUserMessages: [BP_Drowned_C_94] -11480.0
+[2020.02.16-22.05.22:675][353]LogBlueprintUserMessages: [BP_Drowned_C_49] -11500.0
+[2020.02.16-22.05.23:152][410]LogBlueprintUserMessages: [BP_Drowned_C_41] -11520.0
+[2020.02.16-22.05.23:636][468]LogBlueprintUserMessages: [BP_Drowned_C_73] -11540.0
+[2020.02.16-22.05.23:987][509]LogBlueprintUserMessages: [BP_Drowned_C_57] -11560.0
+[2020.02.16-22.05.24:087][521]LogBlueprintUserMessages: [BP_Drowned_C_24] -11580.0
+[2020.02.16-22.05.24:246][540]LogBlueprintUserMessages: [BP_Drowned_C_68] -11600.0
+[2020.02.16-22.05.24:280][544]LogBlueprintUserMessages: [BP_Drowned_C_94] -11620.0
+[2020.02.16-22.05.24:397][558]LogBlueprintUserMessages: [BP_Drowned_C_49] -11640.0
+[2020.02.16-22.05.24:873][615]LogBlueprintUserMessages: [BP_Drowned_C_41] -11660.0
+[2020.02.16-22.05.25:359][673]LogBlueprintUserMessages: [BP_Drowned_C_73] -11680.0
+[2020.02.16-22.05.25:716][715]LogBlueprintUserMessages: [BP_Drowned_C_57] -11700.0
+[2020.02.16-22.05.25:817][727]LogBlueprintUserMessages: [BP_Drowned_C_24] -11720.0
+[2020.02.16-22.05.25:967][745]LogBlueprintUserMessages: [BP_Drowned_C_68] -11740.0
+[2020.02.16-22.05.26:001][749]LogBlueprintUserMessages: [BP_Drowned_C_94] -11760.0
+[2020.02.16-22.05.26:118][763]LogBlueprintUserMessages: [BP_Drowned_C_49] -11780.0
+[2020.02.16-22.05.26:593][820]LogBlueprintUserMessages: [BP_Drowned_C_41] -11800.0
+[2020.02.16-22.05.27:082][878]LogBlueprintUserMessages: [BP_Drowned_C_73] -11820.0
+[2020.02.16-22.05.27:433][920]LogBlueprintUserMessages: [BP_Drowned_C_57] -11840.0
+[2020.02.16-22.05.27:542][933]LogBlueprintUserMessages: [BP_Drowned_C_24] -11860.0
+[2020.02.16-22.05.27:698][951]LogBlueprintUserMessages: [BP_Drowned_C_68] -11880.0
+[2020.02.16-22.05.27:734][955]LogBlueprintUserMessages: [BP_Drowned_C_94] -11900.0
+[2020.02.16-22.05.27:843][968]LogBlueprintUserMessages: [BP_Drowned_C_49] -11920.0
+[2020.02.16-22.05.28:318][ 24]LogBlueprintUserMessages: [BP_Drowned_C_41] -11940.0
+[2020.02.16-22.05.28:805][ 82]LogBlueprintUserMessages: [BP_Drowned_C_73] -11960.0
+[2020.02.16-22.05.29:156][124]LogBlueprintUserMessages: [BP_Drowned_C_57] -11980.0
+[2020.02.16-22.05.29:265][137]LogBlueprintUserMessages: [BP_Drowned_C_24] -12000.0
+[2020.02.16-22.05.29:415][155]LogBlueprintUserMessages: [BP_Drowned_C_68] -12020.0
+[2020.02.16-22.05.29:457][160]LogBlueprintUserMessages: [BP_Drowned_C_94] -12040.0
+[2020.02.16-22.05.29:566][173]LogBlueprintUserMessages: [BP_Drowned_C_49] -12060.0
+[2020.02.16-22.05.30:041][228]LogBlueprintUserMessages: [BP_Drowned_C_41] -12080.0
+[2020.02.16-22.05.30:526][286]LogBlueprintUserMessages: [BP_Drowned_C_73] -12100.0
+[2020.02.16-22.05.30:879][328]LogBlueprintUserMessages: [BP_Drowned_C_57] -12120.0
+[2020.02.16-22.05.30:987][341]LogBlueprintUserMessages: [BP_Drowned_C_24] -12140.0
+[2020.02.16-22.05.31:139][359]LogBlueprintUserMessages: [BP_Drowned_C_68] -12160.0
+[2020.02.16-22.05.31:180][364]LogBlueprintUserMessages: [BP_Drowned_C_94] -12180.0
+[2020.02.16-22.05.31:290][377]LogBlueprintUserMessages: [BP_Drowned_C_49] -12200.0
+[2020.02.16-22.05.31:758][433]LogBlueprintUserMessages: [BP_Drowned_C_41] -12220.0
+[2020.02.16-22.05.32:246][491]LogBlueprintUserMessages: [BP_Drowned_C_73] -12240.0
+[2020.02.16-22.05.32:600][533]LogBlueprintUserMessages: [BP_Drowned_C_57] -12260.0
+[2020.02.16-22.05.32:709][546]LogBlueprintUserMessages: [BP_Drowned_C_24] -12280.0
+[2020.02.16-22.05.32:859][564]LogBlueprintUserMessages: [BP_Drowned_C_68] -12300.0
+[2020.02.16-22.05.32:901][569]LogBlueprintUserMessages: [BP_Drowned_C_94] -12320.0
+[2020.02.16-22.05.33:012][582]LogBlueprintUserMessages: [BP_Drowned_C_49] -12340.0
+[2020.02.16-22.05.33:483][638]LogBlueprintUserMessages: [BP_Drowned_C_41] -12360.0
+[2020.02.16-22.05.33:972][695]LogBlueprintUserMessages: [BP_Drowned_C_73] -12380.0
+[2020.02.16-22.05.34:324][737]LogBlueprintUserMessages: [BP_Drowned_C_57] -12400.0
+[2020.02.16-22.05.34:434][750]LogBlueprintUserMessages: [BP_Drowned_C_24] -12420.0
+[2020.02.16-22.05.34:585][768]LogBlueprintUserMessages: [BP_Drowned_C_68] -12440.0
+[2020.02.16-22.05.34:627][773]LogBlueprintUserMessages: [BP_Drowned_C_94] -12460.0
+[2020.02.16-22.05.34:736][786]LogBlueprintUserMessages: [BP_Drowned_C_49] -12480.0
+[2020.02.16-22.05.35:209][842]LogBlueprintUserMessages: [BP_Drowned_C_41] -12500.0
+[2020.02.16-22.05.35:701][900]LogBlueprintUserMessages: [BP_Drowned_C_73] -12520.0
+[2020.02.16-22.05.36:048][941]LogBlueprintUserMessages: [BP_Drowned_C_57] -12540.0
+[2020.02.16-22.05.36:157][954]LogBlueprintUserMessages: [BP_Drowned_C_24] -12560.0
+[2020.02.16-22.05.36:307][972]LogBlueprintUserMessages: [BP_Drowned_C_68] -12580.0
+[2020.02.16-22.05.36:349][977]LogBlueprintUserMessages: [BP_Drowned_C_94] -12600.0
+[2020.02.16-22.05.36:459][990]LogBlueprintUserMessages: [BP_Drowned_C_49] -12620.0
+[2020.02.16-22.05.36:928][ 46]LogBlueprintUserMessages: [BP_Drowned_C_41] -12640.0
+[2020.02.16-22.05.37:427][105]LogBlueprintUserMessages: [BP_Drowned_C_73] -12660.0
+[2020.02.16-22.05.37:775][145]LogBlueprintUserMessages: [BP_Drowned_C_57] -12680.0
+[2020.02.16-22.05.37:883][158]LogBlueprintUserMessages: [BP_Drowned_C_24] -12700.0
+[2020.02.16-22.05.38:028][175]LogBlueprintUserMessages: [BP_Drowned_C_68] -12720.0
+[2020.02.16-22.05.38:070][180]LogBlueprintUserMessages: [BP_Drowned_C_94] -12740.0
+[2020.02.16-22.05.38:180][193]LogBlueprintUserMessages: [BP_Drowned_C_49] -12760.0
+[2020.02.16-22.05.38:649][249]LogBlueprintUserMessages: [BP_Drowned_C_41] -12780.0
+[2020.02.16-22.05.39:154][309]LogBlueprintUserMessages: [BP_Drowned_C_73] -12800.0
+[2020.02.16-22.05.39:502][350]LogBlueprintUserMessages: [BP_Drowned_C_57] -12820.0
+[2020.02.16-22.05.39:611][363]LogBlueprintUserMessages: [BP_Drowned_C_24] -12840.0
+[2020.02.16-22.05.39:754][380]LogBlueprintUserMessages: [BP_Drowned_C_68] -12860.0
+[2020.02.16-22.05.39:796][385]LogBlueprintUserMessages: [BP_Drowned_C_94] -12880.0
+[2020.02.16-22.05.39:906][398]LogBlueprintUserMessages: [BP_Drowned_C_49] -12900.0
+[2020.02.16-22.05.40:374][453]LogBlueprintUserMessages: [BP_Drowned_C_41] -12920.0
+[2020.02.16-22.05.40:882][513]LogBlueprintUserMessages: [BP_Drowned_C_73] -12940.0
+[2020.02.16-22.05.41:226][554]LogBlueprintUserMessages: [BP_Drowned_C_57] -12960.0
+[2020.02.16-22.05.41:335][567]LogBlueprintUserMessages: [BP_Drowned_C_24] -12980.0
+[2020.02.16-22.05.41:480][584]LogBlueprintUserMessages: [BP_Drowned_C_68] -13000.0
+[2020.02.16-22.05.41:522][589]LogBlueprintUserMessages: [BP_Drowned_C_94] -13020.0
+[2020.02.16-22.05.41:632][602]LogBlueprintUserMessages: [BP_Drowned_C_49] -13040.0
+[2020.02.16-22.05.42:097][657]LogBlueprintUserMessages: [BP_Drowned_C_41] -13060.0
+[2020.02.16-22.05.42:604][717]LogBlueprintUserMessages: [BP_Drowned_C_73] -13080.0
+[2020.02.16-22.05.42:950][758]LogBlueprintUserMessages: [BP_Drowned_C_57] -13100.0
+[2020.02.16-22.05.43:061][771]LogBlueprintUserMessages: [BP_Drowned_C_24] -13120.0
+[2020.02.16-22.05.43:205][788]LogBlueprintUserMessages: [BP_Drowned_C_68] -13140.0
+[2020.02.16-22.05.43:248][793]LogBlueprintUserMessages: [BP_Drowned_C_94] -13160.0
+[2020.02.16-22.05.43:357][806]LogBlueprintUserMessages: [BP_Drowned_C_49] -13180.0
+[2020.02.16-22.05.43:823][861]LogBlueprintUserMessages: [BP_Drowned_C_41] -13200.0
+[2020.02.16-22.05.44:325][921]LogBlueprintUserMessages: [BP_Drowned_C_73] -13220.0
+[2020.02.16-22.05.44:670][962]LogBlueprintUserMessages: [BP_Drowned_C_57] -13240.0
+[2020.02.16-22.05.44:790][976]LogBlueprintUserMessages: [BP_Drowned_C_24] -13260.0
+[2020.02.16-22.05.44:933][993]LogBlueprintUserMessages: [BP_Drowned_C_68] -13280.0
+[2020.02.16-22.05.44:977][998]LogBlueprintUserMessages: [BP_Drowned_C_94] -13300.0
+[2020.02.16-22.05.45:080][ 10]LogBlueprintUserMessages: [BP_Drowned_C_49] -13320.0
+[2020.02.16-22.05.45:544][ 64]LogBlueprintUserMessages: [BP_Drowned_C_41] -13340.0
+[2020.02.16-22.05.46:051][124]LogBlueprintUserMessages: [BP_Drowned_C_73] -13360.0
+[2020.02.16-22.05.46:399][165]LogBlueprintUserMessages: [BP_Drowned_C_57] -13380.0
+[2020.02.16-22.05.46:517][179]LogBlueprintUserMessages: [BP_Drowned_C_24] -13400.0
+[2020.02.16-22.05.46:661][196]LogBlueprintUserMessages: [BP_Drowned_C_68] -13420.0
+[2020.02.16-22.05.46:705][201]LogBlueprintUserMessages: [BP_Drowned_C_94] -13440.0
+[2020.02.16-22.05.46:807][213]LogBlueprintUserMessages: [BP_Drowned_C_49] -13460.0
+[2020.02.16-22.05.47:266][267]LogBlueprintUserMessages: [BP_Drowned_C_41] -13480.0
+[2020.02.16-22.05.47:781][327]LogBlueprintUserMessages: [BP_Drowned_C_73] -13500.0
+[2020.02.16-22.05.47:952][347]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-988.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.48:125][367]LogBlueprintUserMessages: [BP_Drowned_C_57] -13520.0
+[2020.02.16-22.05.48:243][381]LogBlueprintUserMessages: [BP_Drowned_C_24] -13540.0
+[2020.02.16-22.05.48:389][398]LogBlueprintUserMessages: [BP_Drowned_C_68] -13560.0
+[2020.02.16-22.05.48:431][403]LogBlueprintUserMessages: [BP_Drowned_C_94] -13580.0
+[2020.02.16-22.05.48:534][415]LogBlueprintUserMessages: [BP_Drowned_C_49] -13600.0
+[2020.02.16-22.05.48:996][469]LogBlueprintUserMessages: [BP_Drowned_C_41] -13620.0
+[2020.02.16-22.05.49:506][529]LogBlueprintUserMessages: [BP_Drowned_C_73] -13640.0
+[2020.02.16-22.05.49:849][568]LogBlueprintUserMessages: [BP_Drowned_C_57] -13660.0
+[2020.02.16-22.05.49:966][582]LogBlueprintUserMessages: [BP_Drowned_C_24] -13680.0
+[2020.02.16-22.05.50:114][599]LogBlueprintUserMessages: [BP_Drowned_C_68] -13700.0
+[2020.02.16-22.05.50:157][604]LogBlueprintUserMessages: [BP_Drowned_C_94] -13720.0
+[2020.02.16-22.05.50:261][616]LogBlueprintUserMessages: [BP_Drowned_C_49] -13740.0
+[2020.02.16-22.05.50:720][670]LogBlueprintUserMessages: [BP_Drowned_C_41] -13760.0
+[2020.02.16-22.05.50:960][698]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1805.000 Y=-1398.537 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.50:961][698]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-266.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.05.51:232][729]LogBlueprintUserMessages: [BP_Drowned_C_73] -13780.0
+[2020.02.16-22.05.51:581][764]LogBlueprintUserMessages: [BP_Drowned_C_57] -13800.0
+[2020.02.16-22.05.51:701][775]LogBlueprintUserMessages: [BP_Drowned_C_24] -13820.0
+[2020.02.16-22.05.51:852][789]LogBlueprintUserMessages: [BP_Drowned_C_68] -13840.0
+[2020.02.16-22.05.51:893][793]LogBlueprintUserMessages: [BP_Drowned_C_94] -13860.0
+[2020.02.16-22.05.51:990][802]LogBlueprintUserMessages: [BP_Drowned_C_49] -13880.0
+[2020.02.16-22.05.52:447][845]LogBlueprintUserMessages: [BP_Drowned_C_41] -13900.0
+[2020.02.16-22.05.52:970][896]LogBlueprintUserMessages: [BP_Drowned_C_73] -13920.0
+[2020.02.16-22.05.53:303][928]LogBlueprintUserMessages: [BP_Drowned_C_57] -13940.0
+[2020.02.16-22.05.53:394][936]LogBlueprintUserMessages: [BP_Drowned_C_4] -13960.0
+[2020.02.16-22.05.53:438][940]LogBlueprintUserMessages: [BP_Drowned_C_24] -13980.0
+[2020.02.16-22.05.53:561][951]LogBlueprintUserMessages: [BP_Drowned_C_6] -14000.0
+[2020.02.16-22.05.53:561][951]LogBlueprintUserMessages: [BP_Drowned_C_19] -14020.0
+[2020.02.16-22.05.53:562][951]LogBlueprintUserMessages: [BP_Drowned_C_26] -14040.0
+[2020.02.16-22.05.53:562][951]LogBlueprintUserMessages: [BP_Drowned_C_30] -14060.0
+[2020.02.16-22.05.53:562][951]LogBlueprintUserMessages: [BP_Drowned_C_31] -14080.0
+[2020.02.16-22.05.53:562][951]LogBlueprintUserMessages: [BP_Drowned_C_69] -14100.0
+[2020.02.16-22.05.53:562][951]LogBlueprintUserMessages: [BP_Drowned_C_85] -14120.0
+[2020.02.16-22.05.55:527][125]LogBlueprintUserMessages: [BP_Drowned_C_125] -14140.0
+[2020.02.16-22.05.55:620][133]LogBlueprintUserMessages: [BP_Drowned_C_133] -14160.0
+[2020.02.16-22.05.55:654][136]LogBlueprintUserMessages: [BP_Drowned_C_129] -14180.0
+[2020.02.16-22.05.55:763][145]LogBlueprintUserMessages: [BP_Drowned_C_132] -14200.0
+[2020.02.16-22.05.55:775][146]LogBlueprintUserMessages: [BP_Drowned_C_104] -14220.0
+[2020.02.16-22.05.55:775][146]LogBlueprintUserMessages: [BP_Drowned_C_128] -14240.0
+[2020.02.16-22.05.55:822][150]LogBlueprintUserMessages: [BP_Drowned_C_76] -14260.0
+[2020.02.16-22.05.55:845][152]LogBlueprintUserMessages: [BP_Drowned_C_36] -14280.0
+[2020.02.16-22.05.55:881][155]LogBlueprintUserMessages: [BP_Drowned_C_25] -14300.0
+[2020.02.16-22.05.57:261][279]LogBlueprintUserMessages: [BP_Drowned_C_12] -14320.0
+[2020.02.16-22.05.57:261][279]LogBlueprintUserMessages: [BP_Drowned_C_55] -14340.0
+[2020.02.16-22.05.57:261][279]LogBlueprintUserMessages: [BP_Drowned_C_61] -14360.0
+[2020.02.16-22.05.58:005][345]LogBlueprintUserMessages: [BP_Drowned_C_57] -14380.0
+[2020.02.16-22.05.58:062][350]LogBlueprintUserMessages: [BP_Drowned_C_49] -14400.0
+[2020.02.16-22.05.58:132][356]LogBlueprintUserMessages: [BP_Drowned_C_24] -14420.0
+[2020.02.16-22.05.58:194][361]LogBlueprintUserMessages: [BP_Drowned_C_94] -14440.0
+[2020.02.16-22.05.58:359][375]LogBlueprintUserMessages: [BP_Drowned_C_73] -14460.0
+[2020.02.16-22.05.58:806][414]LogBlueprintUserMessages: [BP_Drowned_C_4] -14480.0
+[2020.02.16-22.05.58:830][416]LogBlueprintUserMessages: [BP_Drowned_C_68] -14500.0
+[2020.02.16-22.05.58:876][420]LogBlueprintUserMessages: [BP_Drowned_C_98] -14520.0
+[2020.02.16-22.05.58:967][428]LogBlueprintUserMessages: [BP_Drowned_C_6] -14540.0
+[2020.02.16-22.05.58:968][428]LogBlueprintUserMessages: [BP_Drowned_C_19] -14560.0
+[2020.02.16-22.05.58:968][428]LogBlueprintUserMessages: [BP_Drowned_C_26] -14580.0
+[2020.02.16-22.05.58:968][428]LogBlueprintUserMessages: [BP_Drowned_C_30] -14600.0
+[2020.02.16-22.05.58:968][428]LogBlueprintUserMessages: [BP_Drowned_C_69] -14620.0
+[2020.02.16-22.05.58:968][428]LogBlueprintUserMessages: [BP_Drowned_C_85] -14640.0
+[2020.02.16-22.05.58:979][429]LogBlueprintUserMessages: [BP_Drowned_C_62] -14660.0
+[2020.02.16-22.06.00:705][576]LogBlueprintUserMessages: [BP_Drowned_C_125] -14680.0
+[2020.02.16-22.06.00:821][586]LogBlueprintUserMessages: [BP_Drowned_C_29] -14700.0
+[2020.02.16-22.06.00:821][586]LogBlueprintUserMessages: [BP_Drowned_C_79] -14720.0
+[2020.02.16-22.06.00:856][589]LogBlueprintUserMessages: [BP_Drowned_C_25] -14740.0
+[2020.02.16-22.06.02:081][695]LogBlueprintUserMessages: [BP_Drowned_C_95] -14760.0
+[2020.02.16-22.06.02:196][705]LogBlueprintUserMessages: [BP_Drowned_C_103] -14780.0
+[2020.02.16-22.06.02:633][744]LogBlueprintUserMessages: [BP_Drowned_C_130] -14800.0
+[2020.02.16-22.06.02:771][756]LogBlueprintUserMessages: [BP_Drowned_C_43] -14820.0
+[2020.02.16-22.06.02:771][756]LogBlueprintUserMessages: [BP_Drowned_C_78] -14840.0
+[2020.02.16-22.06.02:830][761]LogBlueprintUserMessages: [BP_Drowned_C_140] -14860.0
+[2020.02.16-22.06.05:465][996]LogBlueprintUserMessages: [BP_Drowned_C_40] -14880.0
+[2020.02.16-22.06.06:145][ 57]LogBlueprintUserMessages: [BP_Drowned_C_14] -14900.0
+[2020.02.16-22.06.06:145][ 57]LogBlueprintUserMessages: [BP_Drowned_C_53] -14920.0
+[2020.02.16-22.06.06:376][ 77]LogBlueprintUserMessages: [BP_Drowned_C_60] -14940.0
+[2020.02.16-22.06.06:376][ 77]LogBlueprintUserMessages: [BP_Drowned_C_84] -14960.0
+[2020.02.16-22.06.06:651][100]LogBlueprintUserMessages: [BP_Drowned_C_28] -14980.0
+[2020.02.16-22.06.06:760][109]LogBlueprintUserMessages: [BP_Drowned_C_16] -15000.0
+[2020.02.16-22.06.06:831][115]LogBlueprintUserMessages: [BP_Drowned_C_10] -15020.0
+[2020.02.16-22.06.07:111][139]LogBlueprintUserMessages: [BP_Drowned_C_18] -15040.0
+[2020.02.16-22.06.07:111][139]LogBlueprintUserMessages: [BP_Drowned_C_52] -15060.0
+[2020.02.16-22.06.07:215][148]LogBlueprintUserMessages: [BP_Drowned_C_1] -15080.0
+[2020.02.16-22.06.07:215][148]LogBlueprintUserMessages: [BP_Drowned_C_38] -15100.0
+[2020.02.16-22.06.07:297][155]LogBlueprintUserMessages: [BP_Drowned_C_71] -15120.0
+[2020.02.16-22.06.08:503][259]LogBlueprintUserMessages: [BP_Drowned_C_49] -15140.0
+[2020.02.16-22.06.10:652][441]LogBlueprintUserMessages: [BP_Drowned_C_108] -15160.0
+[2020.02.16-22.06.10:799][454]LogBlueprintUserMessages: [BP_Drowned_C_128] -15180.0
+[2020.02.16-22.06.10:938][466]LogBlueprintUserMessages: [BP_Drowned_C_140] -15200.0
+[2020.02.16-22.06.11:173][486]LogBlueprintUserMessages: [BP_Drowned_C_97] -15220.0
+[2020.02.16-22.06.11:325][499]LogBlueprintUserMessages: [BP_Drowned_C_24] -15240.0
+[2020.02.16-22.06.11:465][511]LogBlueprintUserMessages: [BP_Drowned_C_5] -15260.0
+[2020.02.16-22.06.11:628][525]LogBlueprintUserMessages: [BP_Drowned_C_98] -15280.0
+[2020.02.16-22.06.11:781][538]LogBlueprintUserMessages: [BP_Drowned_C_4] -15300.0
+[2020.02.16-22.06.11:839][543]LogBlueprintUserMessages: [BP_Drowned_C_49] -15320.0
+[2020.02.16-22.06.11:873][546]LogBlueprintUserMessages: [BP_Drowned_C_48] -15340.0
+[2020.02.16-22.06.12:011][558]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-618.727 Y=-591.145 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.13:761][709]LogBlueprintUserMessages: [BP_Drowned_C_130] -15360.0
+[2020.02.16-22.06.13:857][717]LogBlueprintUserMessages: [BP_Drowned_C_129] -15380.0
+[2020.02.16-22.06.13:940][724]LogBlueprintUserMessages: [BP_Drowned_C_82] -15400.0
+[2020.02.16-22.06.13:988][728]LogBlueprintUserMessages: [BP_Drowned_C_67] -15420.0
+[2020.02.16-22.06.14:254][751]LogBlueprintUserMessages: [BP_Drowned_C_104] -15440.0
+[2020.02.16-22.06.14:312][756]LogBlueprintUserMessages: [BP_Drowned_C_125] -15460.0
+[2020.02.16-22.06.14:312][756]LogBlueprintUserMessages: [BP_Drowned_C_127] -15480.0
+[2020.02.16-22.06.15:594][874]LogBlueprintUserMessages: [BP_Drowned_C_62] -15500.0
+[2020.02.16-22.06.15:668][881]LogBlueprintUserMessages: [BP_Drowned_C_68] -15520.0
+[2020.02.16-22.06.15:668][881]LogBlueprintUserMessages: [BP_Drowned_C_71] -15540.0
+[2020.02.16-22.06.16:730][978]LogBlueprintUserMessages: [BP_Drowned_C_1] -15560.0
+[2020.02.16-22.06.17:658][ 57]LogBlueprintUserMessages: [BP_Drowned_C_16] -15580.0
+[2020.02.16-22.06.17:722][ 62]LogBlueprintUserMessages: [BP_Drowned_C_10] -15600.0
+[2020.02.16-22.06.18:030][ 87]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=779.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.18:280][108]LogBlueprintUserMessages: [BP_Drowned_C_42] -15620.0
+[2020.02.16-22.06.19:396][203]LogBlueprintUserMessages: [BP_Drowned_C_16] -15640.0
+[2020.02.16-22.06.19:454][208]LogBlueprintUserMessages: [BP_Drowned_C_10] -15660.0
+[2020.02.16-22.06.19:466][209]LogBlueprintUserMessages: [BP_Drowned_C_134] -15680.0
+[2020.02.16-22.06.19:489][211]LogBlueprintUserMessages: [BP_Drowned_C_32] -15700.0
+[2020.02.16-22.06.19:489][211]LogBlueprintUserMessages: [BP_Drowned_C_35] -15720.0
+[2020.02.16-22.06.19:500][212]LogBlueprintUserMessages: [BP_Drowned_C_29] -15740.0
+[2020.02.16-22.06.19:554][217]LogCharacterMovement: BP_Drowned_C_29 is stuck and failed to move! Velocity: X=-103.71 Y=26.92 Z=0.00 Location: X=-989.16 Y=-367.69 Z=228.43 Normal: X=-0.56 Y=-0.83 Z=0.00 PenetrationDepth:4.625 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.06.19:595][220]LogBlueprintUserMessages: [BP_Drowned_C_76] -15760.0
+[2020.02.16-22.06.19:642][224]LogBlueprintUserMessages: [BP_Drowned_C_55] -15780.0
+[2020.02.16-22.06.19:956][249]LogBlueprintUserMessages: [BP_Drowned_C_79] -15800.0
+[2020.02.16-22.06.20:015][254]LogBlueprintUserMessages: [BP_Drowned_C_25] -15820.0
+[2020.02.16-22.06.20:326][280]LogBlueprintUserMessages: [BP_Drowned_C_104] -15840.0
+[2020.02.16-22.06.21:625][391]LogBlueprintUserMessages: [BP_Drowned_C_45] -15860.0
+[2020.02.16-22.06.21:663][394]LogBlueprintUserMessages: [BP_Drowned_C_133] -15880.0
+[2020.02.16-22.06.21:687][396]LogBlueprintUserMessages: [BP_Drowned_C_67] -15900.0
+[2020.02.16-22.06.21:787][404]LogBlueprintUserMessages: [BP_Drowned_C_103] -15920.0
+[2020.02.16-22.06.21:944][417]LogBlueprintUserMessages: [BP_Drowned_C_78] -15940.0
+[2020.02.16-22.06.22:123][432]LogBlueprintUserMessages: [BP_Drowned_C_82] -15960.0
+[2020.02.16-22.06.22:123][432]LogBlueprintUserMessages: [BP_Drowned_C_117] -15980.0
+[2020.02.16-22.06.22:135][433]LogBlueprintUserMessages: [BP_Drowned_C_115] -16000.0
+[2020.02.16-22.06.22:193][438]LogBlueprintUserMessages: [BP_Drowned_C_51] -16020.0
+[2020.02.16-22.06.23:161][523]LogBlueprintUserMessages: [BP_Drowned_C_108] -16040.0
+[2020.02.16-22.06.23:161][523]LogBlueprintUserMessages: [BP_Drowned_C_129] -16060.0
+[2020.02.16-22.06.23:263][532]LogBlueprintUserMessages: [BP_Drowned_C_36] -16080.0
+[2020.02.16-22.06.23:297][535]LogBlueprintUserMessages: [BP_Drowned_C_130] -16100.0
+[2020.02.16-22.06.23:308][536]LogBlueprintUserMessages: [BP_Drowned_C_43] -16120.0
+[2020.02.16-22.06.23:354][540]LogBlueprintUserMessages: [BP_Drowned_C_45] -16140.0
+[2020.02.16-22.06.23:388][543]LogBlueprintUserMessages: [BP_Drowned_C_133] -16160.0
+[2020.02.16-22.06.23:513][554]LogBlueprintUserMessages: [BP_Drowned_C_103] -16180.0
+[2020.02.16-22.06.23:652][566]LogBlueprintUserMessages: [BP_Drowned_C_67] -16200.0
+[2020.02.16-22.06.23:675][568]LogBlueprintUserMessages: [BP_Drowned_C_78] -16220.0
+[2020.02.16-22.06.24:034][598]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.24:035][598]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=247.000 Y=-57.000 Z=330.404] for [BP_Drowned_C]
+[2020.02.16-22.06.25:443][717]LogBlueprintUserMessages: [BP_Drowned_C_49] -16240.0
+[2020.02.16-22.06.25:614][731]LogBlueprintUserMessages: [BP_Drowned_C_57] -16260.0
+[2020.02.16-22.06.26:133][774]LogBlueprintUserMessages: [BP_Drowned_C_24] -16280.0
+[2020.02.16-22.06.26:219][781]LogBlueprintUserMessages: [BP_Drowned_C_48] -16300.0
+[2020.02.16-22.06.26:443][799]LogBlueprintUserMessages: [BP_Drowned_C_97] -16320.0
+[2020.02.16-22.06.26:443][799]LogBlueprintUserMessages: [BP_Drowned_C_98] -16340.0
+[2020.02.16-22.06.26:480][802]LogBlueprintUserMessages: [BP_Drowned_C_41] -16360.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_6] -16380.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_66] -16400.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_69] -16420.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_72] -16440.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_74] -16460.0
+[2020.02.16-22.06.26:593][811]LogBlueprintUserMessages: [BP_Drowned_C_89] -16480.0
+[2020.02.16-22.06.27:038][848]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-988.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.27:977][926]LogBlueprintUserMessages: [BP_Drowned_C_36] -16500.0
+[2020.02.16-22.06.28:524][972]LogBlueprintUserMessages: [BP_Drowned_C_45] -16520.0
+[2020.02.16-22.06.28:537][973]LogBlueprintUserMessages: [BP_Drowned_C_129] -16540.0
+[2020.02.16-22.06.29:967][ 88]LogBlueprintUserMessages: [BP_Drowned_C_50] -16560.0
+[2020.02.16-22.06.30:039][ 94]LogBlueprintUserMessages: [BP_Drowned_C_30] -16580.0
+[2020.02.16-22.06.30:053][ 95]LogBlueprintUserMessages: [BP_Drowned_C_64] -16600.0
+[2020.02.16-22.06.30:155][103]LogBlueprintUserMessages: [BP_Drowned_C_1] -16620.0
+[2020.02.16-22.06.30:155][103]LogBlueprintUserMessages: [BP_Drowned_C_12] -16640.0
+[2020.02.16-22.06.30:155][103]LogBlueprintUserMessages: [BP_Drowned_C_14] -16660.0
+[2020.02.16-22.06.30:155][103]LogBlueprintUserMessages: [BP_Drowned_C_134] -16680.0
+[2020.02.16-22.06.30:735][150]LogBlueprintUserMessages: [BP_Drowned_C_8] -16700.0
+[2020.02.16-22.06.32:582][307]LogBlueprintUserMessages: [BP_Drowned_C_20] -16720.0
+[2020.02.16-22.06.34:055][424]LogBlueprintUserMessages: [BP_Drowned_C_73] -16740.0
+[2020.02.16-22.06.34:151][432]LogBlueprintUserMessages: [BP_Drowned_C_94] -16760.0
+[2020.02.16-22.06.34:298][444]LogBlueprintUserMessages: [BP_Drowned_C_69] -16780.0
+[2020.02.16-22.06.34:411][453]LogBlueprintUserMessages: [BP_Drowned_C_4] -16800.0
+[2020.02.16-22.06.36:067][586]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=247.000 Y=-57.000 Z=330.404] for [BP_Drowned_C]
+[2020.02.16-22.06.38:818][807]LogBlueprintUserMessages: [BP_Drowned_C_73] -16820.0
+[2020.02.16-22.06.38:831][808]LogBlueprintUserMessages: [BP_Drowned_C_26] -16840.0
+[2020.02.16-22.06.38:831][808]LogBlueprintUserMessages: [BP_Drowned_C_69] -16860.0
+[2020.02.16-22.06.38:831][808]LogBlueprintUserMessages: [BP_Drowned_C_71] -16880.0
+[2020.02.16-22.06.38:831][808]LogBlueprintUserMessages: [BP_Drowned_C_85] -16900.0
+[2020.02.16-22.06.38:907][814]LogBlueprintUserMessages: [BP_Drowned_C_12] -16920.0
+[2020.02.16-22.06.38:920][815]LogBlueprintUserMessages: [BP_Drowned_C_18] -16940.0
+[2020.02.16-22.06.38:920][815]LogBlueprintUserMessages: [BP_Drowned_C_34] -16960.0
+[2020.02.16-22.06.38:920][815]LogBlueprintUserMessages: [BP_Drowned_C_40] -16980.0
+[2020.02.16-22.06.38:932][816]LogBlueprintUserMessages: [BP_Drowned_C_4] -17000.0
+[2020.02.16-22.06.39:035][824]LogBlueprintUserMessages: [BP_Drowned_C_38] -17020.0
+[2020.02.16-22.06.40:533][944]LogBlueprintUserMessages: [BP_Drowned_C_107] -17040.0
+[2020.02.16-22.06.40:749][961]LogBlueprintUserMessages: [BP_Drowned_C_43] -17060.0
+[2020.02.16-22.06.40:749][961]LogBlueprintUserMessages: [BP_Drowned_C_140] -17080.0
+[2020.02.16-22.06.40:761][962]LogBlueprintUserMessages: [BP_Drowned_C_5] -17100.0
+[2020.02.16-22.06.40:762][962]LogBlueprintUserMessages: [BP_Drowned_C_111] -17120.0
+[2020.02.16-22.06.41:127][991]LogBlueprintUserMessages: [BP_Drowned_C_75] -17140.0
+[2020.02.16-22.06.41:176][995]LogBlueprintUserMessages: [BP_Drowned_C_117] -17160.0
+[2020.02.16-22.06.41:214][998]LogBlueprintUserMessages: [BP_Drowned_C_115] -17180.0
+[2020.02.16-22.06.41:226][999]LogBlueprintUserMessages: [BP_Drowned_C_95] -17200.0
+[2020.02.16-22.06.41:226][999]LogBlueprintUserMessages: [BP_Drowned_C_137] -17220.0
+[2020.02.16-22.06.41:330][  7]LogBlueprintUserMessages: [BP_Drowned_C_37] -17240.0
+[2020.02.16-22.06.41:355][  9]LogBlueprintUserMessages: [BP_Drowned_C_127] -17260.0
+[2020.02.16-22.06.45:839][384]LogBlueprintUserMessages: [BP_Drowned_C_23] -17280.0
+[2020.02.16-22.06.45:839][384]LogBlueprintUserMessages: [BP_Drowned_C_128] -17300.0
+[2020.02.16-22.06.47:812][549]LogBlueprintUserMessages: [BP_Drowned_C_98] -17320.0
+[2020.02.16-22.06.48:098][572]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=323.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.48:099][572]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.48:151][576]LogBlueprintUserMessages: [BP_Drowned_C_24] -17340.0
+[2020.02.16-22.06.48:261][584]LogBlueprintUserMessages: [BP_Drowned_C_43] -17360.0
+[2020.02.16-22.06.48:272][585]LogBlueprintUserMessages: [BP_Drowned_C_48] -17380.0
+[2020.02.16-22.06.48:389][594]LogBlueprintUserMessages: [BP_Drowned_C_49] -17400.0
+[2020.02.16-22.06.48:389][594]LogBlueprintUserMessages: [BP_Drowned_C_66] -17420.0
+[2020.02.16-22.06.48:493][602]LogBlueprintUserMessages: [BP_Drowned_C_107] -17440.0
+[2020.02.16-22.06.48:494][602]LogBlueprintUserMessages: [BP_Drowned_C_140] -17460.0
+[2020.02.16-22.06.48:507][603]LogBlueprintUserMessages: [BP_Drowned_C_97] -17480.0
+[2020.02.16-22.06.49:168][654]LogBlueprintUserMessages: [BP_Drowned_C_110] -17500.0
+[2020.02.16-22.06.51:295][833]LogBlueprintUserMessages: [BP_Drowned_C_146] -17520.0
+[2020.02.16-22.06.51:375][839]LogBlueprintUserMessages: [BP_Drowned_C_131] -17540.0
+[2020.02.16-22.06.51:375][839]LogBlueprintUserMessages: [BP_Drowned_C_134] -17560.0
+[2020.02.16-22.06.51:388][840]LogBlueprintUserMessages: [BP_Drowned_C_10] -17580.0
+[2020.02.16-22.06.51:388][840]LogBlueprintUserMessages: [BP_Drowned_C_35] -17600.0
+[2020.02.16-22.06.51:388][840]LogBlueprintUserMessages: [BP_Drowned_C_143] -17620.0
+[2020.02.16-22.06.51:532][851]LogBlueprintUserMessages: [BP_Drowned_C_28] -17640.0
+[2020.02.16-22.06.51:532][851]LogBlueprintUserMessages: [BP_Drowned_C_142] -17660.0
+[2020.02.16-22.06.51:612][857]LogBlueprintUserMessages: [BP_Drowned_C_14] -17680.0
+[2020.02.16-22.06.51:612][857]LogBlueprintUserMessages: [BP_Drowned_C_39] -17700.0
+[2020.02.16-22.06.51:625][858]LogBlueprintUserMessages: [BP_Drowned_C_58] -17720.0
+[2020.02.16-22.06.51:625][858]LogBlueprintUserMessages: [BP_Drowned_C_79] -17740.0
+[2020.02.16-22.06.51:625][858]LogBlueprintUserMessages: [BP_Drowned_C_144] -17760.0
+[2020.02.16-22.06.53:017][968]LogBlueprintUserMessages: [BP_Drowned_C_6] -17780.0
+[2020.02.16-22.06.54:113][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=57.000 Y=-304.000 Z=330.404] for [BP_Drowned_C]
+[2020.02.16-22.06.54:114][ 53]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-930.941 Y=-847.745 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.06.55:109][129]LogBlueprintUserMessages: [BP_Drowned_C_98] -17800.0
+[2020.02.16-22.06.55:334][146]LogBlueprintUserMessages: [BP_Drowned_C_107] -17820.0
+[2020.02.16-22.06.55:697][174]LogBlueprintUserMessages: [BP_Drowned_C_24] -17840.0
+[2020.02.16-22.06.55:697][174]LogBlueprintUserMessages: [BP_Drowned_C_34] -17860.0
+[2020.02.16-22.06.55:697][174]LogBlueprintUserMessages: [BP_Drowned_C_49] -17880.0
+[2020.02.16-22.06.55:697][174]LogBlueprintUserMessages: [BP_Drowned_C_66] -17900.0
+[2020.02.16-22.06.55:710][175]LogBlueprintUserMessages: [BP_Drowned_C_6] -17920.0
+[2020.02.16-22.06.57:030][279]LogBlueprintUserMessages: [BP_Drowned_C_71] -17940.0
+[2020.02.16-22.06.57:066][282]LogBlueprintUserMessages: [BP_Drowned_C_131] -17960.0
+[2020.02.16-22.06.57:077][283]LogBlueprintUserMessages: [BP_Drowned_C_18] -17980.0
+[2020.02.16-22.06.58:922][430]LogBlueprintUserMessages: [BP_Drowned_C_144] -18000.0
+[2020.02.16-22.07.01:023][587]LogBlueprintUserMessages: [BP_Drowned_C_107] -18020.0
+[2020.02.16-22.07.01:264][605]LogBlueprintUserMessages: [BP_Drowned_C_51] -18040.0
+[2020.02.16-22.07.01:264][605]LogBlueprintUserMessages: [BP_Drowned_C_111] -18060.0
+[2020.02.16-22.07.01:500][623]LogBlueprintUserMessages: [BP_Drowned_C_98] -18080.0
+[2020.02.16-22.07.01:608][631]LogBlueprintUserMessages: [BP_Drowned_C_74] -18100.0
+[2020.02.16-22.07.01:635][633]LogBlueprintUserMessages: [BP_Drowned_C_24] -18120.0
+[2020.02.16-22.07.01:635][633]LogBlueprintUserMessages: [BP_Drowned_C_89] -18140.0
+[2020.02.16-22.07.01:662][635]LogBlueprintUserMessages: [BP_Drowned_C_6] -18160.0
+[2020.02.16-22.07.02:409][692]LogBlueprintUserMessages: [BP_Drowned_C_26] -18180.0
+[2020.02.16-22.07.02:409][692]LogBlueprintUserMessages: [BP_Drowned_C_69] -18200.0
+[2020.02.16-22.07.04:726][875]LogBlueprintUserMessages: [BP_Drowned_C_20] -18220.0
+[2020.02.16-22.07.04:740][876]LogBlueprintUserMessages: [BP_Drowned_C_128] -18240.0
+[2020.02.16-22.07.04:980][894]LogBlueprintUserMessages: [BP_Drowned_C_129] -18260.0
+[2020.02.16-22.07.05:099][903]LogBlueprintUserMessages: [BP_Drowned_C_82] -18280.0
+[2020.02.16-22.07.05:099][903]LogBlueprintUserMessages: [BP_Drowned_C_130] -18300.0
+[2020.02.16-22.07.06:509][ 14]LogBlueprintUserMessages: [BP_Drowned_C_72] -18320.0
+[2020.02.16-22.07.06:608][ 22]LogBlueprintUserMessages: [BP_Drowned_C_15] -18340.0
+[2020.02.16-22.07.06:840][ 41]LogBlueprintUserMessages: [BP_Drowned_C_12] -18360.0
+[2020.02.16-22.07.06:946][ 50]LogBlueprintUserMessages: [BP_Drowned_C_26] -18380.0
+[2020.02.16-22.07.06:946][ 50]LogBlueprintUserMessages: [BP_Drowned_C_50] -18400.0
+[2020.02.16-22.07.06:970][ 52]LogBlueprintUserMessages: [BP_Drowned_C_57] -18420.0
+[2020.02.16-22.07.07:065][ 60]LogBlueprintUserMessages: [BP_Drowned_C_40] -18440.0
+[2020.02.16-22.07.07:124][ 65]LogBlueprintUserMessages: [BP_Drowned_C_6] -18460.0
+[2020.02.16-22.07.07:148][ 67]LogBlueprintUserMessages: [BP_Drowned_C_71] -18480.0
+[2020.02.16-22.07.07:173][ 69]LogBlueprintUserMessages: [BP_Drowned_C_1] -18500.0
+[2020.02.16-22.07.07:173][ 69]LogBlueprintUserMessages: [BP_Drowned_C_69] -18520.0
+[2020.02.16-22.07.07:196][ 71]LogBlueprintUserMessages: [BP_Drowned_C_34] -18540.0
+[2020.02.16-22.07.07:295][ 79]LogBlueprintUserMessages: [BP_Drowned_C_167] -18560.0
+[2020.02.16-22.07.07:426][ 90]LogBlueprintUserMessages: [BP_Drowned_C_49] -18580.0
+[2020.02.16-22.07.07:972][136]LogBlueprintUserMessages: [BP_Drowned_C_4] -18600.0
+[2020.02.16-22.07.08:080][145]LogBlueprintUserMessages: [BP_Drowned_C_41] -18620.0
+[2020.02.16-22.07.08:104][147]LogBlueprintUserMessages: [BP_Drowned_C_48] -18640.0
+[2020.02.16-22.07.08:105][147]LogBlueprintUserMessages: [BP_Drowned_C_97] -18660.0
+[2020.02.16-22.07.09:221][232]LogBlueprintUserMessages: [BP_Drowned_C_107] -18680.0
+[2020.02.16-22.07.09:365][243]LogBlueprintUserMessages: [BP_Drowned_C_75] -18700.0
+[2020.02.16-22.07.09:512][254]LogBlueprintUserMessages: [BP_Drowned_C_44] -18720.0
+[2020.02.16-22.07.09:618][262]LogBlueprintUserMessages: [BP_Drowned_C_91] -18740.0
+[2020.02.16-22.07.09:618][262]LogBlueprintUserMessages: [BP_Drowned_C_95] -18760.0
+[2020.02.16-22.07.09:618][262]LogBlueprintUserMessages: [BP_Drowned_C_137] -18780.0
+[2020.02.16-22.07.09:713][269]LogBlueprintUserMessages: [BP_Drowned_C_131] -18800.0
+[2020.02.16-22.07.10:315][314]LogBlueprintUserMessages: [BP_Drowned_C_88] -18820.0
+[2020.02.16-22.07.12:091][455]LogBlueprintUserMessages: [BP_Drowned_C_142] -18840.0
+[2020.02.16-22.07.13:562][564]LogBlueprintUserMessages: [BP_Drowned_C_0] -18860.0
+[2020.02.16-22.07.13:657][571]LogBlueprintUserMessages: [BP_Drowned_C_104] -18880.0
+[2020.02.16-22.07.13:657][571]LogBlueprintUserMessages: [BP_Drowned_C_144] -18900.0
+[2020.02.16-22.07.13:712][575]LogBlueprintUserMessages: [BP_Drowned_C_28] -18920.0
+[2020.02.16-22.07.13:752][578]LogBlueprintUserMessages: [BP_Drowned_C_36] -18940.0
+[2020.02.16-22.07.13:878][587]LogBlueprintUserMessages: [BP_Drowned_C_20] -18960.0
+[2020.02.16-22.07.14:378][623]LogBlueprintUserMessages: [BP_Drowned_C_144] 25.0
+[2020.02.16-22.07.14:742][650]LogBlueprintUserMessages: [BP_Drowned_C_130] -18980.0
+[2020.02.16-22.07.15:132][679]LogBlueprintUserMessages: [BP_Drowned_C_130] 25.0
+[2020.02.16-22.07.15:138][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-855.000 Y=1121.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.07.15:139][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=-152.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.07.15:308][691]LogBlueprintUserMessages: [BP_Drowned_C_0] -19000.0
+[2020.02.16-22.07.15:406][698]LogBlueprintUserMessages: [BP_Drowned_C_144] -19020.0
+[2020.02.16-22.07.15:694][719]LogBlueprintUserMessages: [BP_Drowned_C_28] -19040.0
+[2020.02.16-22.07.15:792][726]LogBlueprintUserMessages: [BP_Drowned_C_3] -19060.0
+[2020.02.16-22.07.15:846][730]LogBlueprintUserMessages: [BP_Drowned_C_20] -19080.0
+[2020.02.16-22.07.15:913][735]LogBlueprintUserMessages: [BP_Drowned_C_25] -19100.0
+[2020.02.16-22.07.15:914][735]LogBlueprintUserMessages: [BP_Drowned_C_82] -19120.0
+[2020.02.16-22.07.15:914][735]LogBlueprintUserMessages: [BP_Drowned_C_132] -19140.0
+[2020.02.16-22.07.15:914][735]LogBlueprintUserMessages: [BP_Drowned_C_143] -19160.0
+[2020.02.16-22.07.15:914][735]LogBlueprintUserMessages: [BP_Drowned_C_155] -19180.0
+[2020.02.16-22.07.15:935][737]LogBlueprintUserMessages: [BP_Drowned_C_7] 25.0
+[2020.02.16-22.07.15:935][737]LogBlueprintUserMessages: [BP_Drowned_C_84] 25.0
+[2020.02.16-22.07.16:675][789]LogBlueprintUserMessages: [BP_Drowned_C_24] -19200.0
+[2020.02.16-22.07.16:676][789]LogBlueprintUserMessages: [BP_Drowned_C_57] -19220.0
+[2020.02.16-22.07.16:718][792]LogBlueprintUserMessages: [BP_Drowned_C_51] -19240.0
+[2020.02.16-22.07.16:851][801]LogBlueprintUserMessages: [BP_Drowned_C_1] -19260.0
+[2020.02.16-22.07.17:141][822]LogBlueprintUserMessages: [BP_Drowned_C_89] -19280.0
+[2020.02.16-22.07.17:198][826]LogBlueprintUserMessages: [BP_Drowned_C_66] -19300.0
+[2020.02.16-22.07.17:372][839]LogBlueprintUserMessages: [BP_Drowned_C_66] 25.0
+[2020.02.16-22.07.18:018][885]LogBlueprintUserMessages: [BP_Drowned_C_158] -19320.0
+[2020.02.16-22.07.18:575][925]LogBlueprintUserMessages: [BP_Drowned_C_75] -19340.0
+[2020.02.16-22.07.18:631][929]LogBlueprintUserMessages: [BP_Drowned_C_107] -19360.0
+[2020.02.16-22.07.18:773][939]LogBlueprintUserMessages: [BP_Drowned_C_72] -19380.0
+[2020.02.16-22.07.18:881][947]LogBlueprintUserMessages: [BP_Drowned_C_97] 25.0
+[2020.02.16-22.07.18:971][953]LogBlueprintUserMessages: [BP_Drowned_C_97] -19400.0
+[2020.02.16-22.07.19:070][960]LogBlueprintUserMessages: [BP_Drowned_C_52] -19420.0
+[2020.02.16-22.07.19:302][977]LogBlueprintUserMessages: [BP_Drowned_C_137] 25.0
+[2020.02.16-22.07.19:306][977]LogBlueprintUserMessages: [BP_Drowned_C_137] -19440.0
+[2020.02.16-22.07.19:779][ 11]LogBlueprintUserMessages: [BP_Drowned_C_40] -19460.0
+[2020.02.16-22.07.19:821][ 14]LogBlueprintUserMessages: [BP_Drowned_C_71] -19480.0
+[2020.02.16-22.07.19:842][ 16]LogBlueprintUserMessages: [BP_Drowned_C_73] 25.0
+[2020.02.16-22.07.19:904][ 20]LogBlueprintUserMessages: [BP_Drowned_C_73] -19500.0
+[2020.02.16-22.07.20:444][ 60]LogBlueprintUserMessages: [BP_Drowned_C_62] 25.0
+[2020.02.16-22.07.20:478][ 62]LogBlueprintUserMessages: [BP_Drowned_C_62] -19520.0
+[2020.02.16-22.07.21:077][106]LogBlueprintUserMessages: [BP_Drowned_C_84] -19540.0
+[2020.02.16-22.07.21:083][107]LogBlueprintUserMessages: [BP_Drowned_C_82] 25.0
+[2020.02.16-22.07.22:185][187]LogBlueprintUserMessages: [BP_Drowned_C_173] -19560.0
+[2020.02.16-22.07.22:337][198]LogBlueprintUserMessages: [BP_Drowned_C_130] -19580.0
+[2020.02.16-22.07.22:375][201]LogBlueprintUserMessages: [BP_Drowned_C_173] 25.0
+[2020.02.16-22.07.22:444][206]LogBlueprintUserMessages: [BP_Drowned_C_130] 25.0
+[2020.02.16-22.07.22:462][207]LogBlueprintUserMessages: [BP_Drowned_C_3] -19600.0
+[2020.02.16-22.07.22:560][214]LogBlueprintUserMessages: [BP_Drowned_C_128] -19620.0
+[2020.02.16-22.07.22:560][214]LogBlueprintUserMessages: [BP_Drowned_C_141] -19640.0
+[2020.02.16-22.07.22:716][225]LogBlueprintUserMessages: [BP_Drowned_C_96] -19660.0
+[2020.02.16-22.07.22:758][228]LogBlueprintUserMessages: [BP_Drowned_C_168] -19680.0
+[2020.02.16-22.07.22:802][231]LogBlueprintUserMessages: [BP_Drowned_C_82] -19700.0
+[2020.02.16-22.07.22:802][231]LogBlueprintUserMessages: [BP_Drowned_C_92] -19720.0
+[2020.02.16-22.07.22:802][231]LogBlueprintUserMessages: [BP_Drowned_C_132] -19740.0
+[2020.02.16-22.07.22:802][231]LogBlueprintUserMessages: [BP_Drowned_C_143] -19760.0
+[2020.02.16-22.07.22:803][231]LogBlueprintUserMessages: [BP_Drowned_C_155] -19780.0
+[2020.02.16-22.07.23:444][278]LogBlueprintUserMessages: [BP_Drowned_C_62] 25.0
+[2020.02.16-22.07.24:090][326]LogBlueprintUserMessages: [BP_Drowned_C_41] -19800.0
+[2020.02.16-22.07.24:104][327]LogBlueprintUserMessages: [BP_Drowned_C_19] -19820.0
+[2020.02.16-22.07.24:117][328]LogBlueprintUserMessages: [BP_Drowned_C_71] -19840.0
+[2020.02.16-22.07.24:157][331]LogBlueprintUserMessages: [BP_Drowned_C_49] -19860.0
+[2020.02.16-22.07.24:438][351]LogBlueprintUserMessages: [BP_Drowned_C_161] 25.0
+[2020.02.16-22.07.25:606][434]LogBlueprintUserMessages: [BP_Drowned_C_52] 25.0
+[2020.02.16-22.07.26:218][478]LogBlueprintUserMessages: [BP_Drowned_C_66] 25.0
+[2020.02.16-22.07.26:238][479]LogBlueprintUserMessages: [BP_Drowned_C_66] -19880.0
+[2020.02.16-22.07.26:238][479]LogBlueprintUserMessages: [BP_Drowned_C_69] -19900.0
+[2020.02.16-22.07.27:069][538]LogBlueprintUserMessages: [BP_Drowned_C_1] -19920.0
+[2020.02.16-22.07.27:167][545]LogBlueprintUserMessages: [BP_Drowned_C_40] -19940.0
+[2020.02.16-22.07.27:198][547]LogBlueprintUserMessages: [BP_Drowned_C_14] -19960.0
+[2020.02.16-22.07.27:198][547]LogBlueprintUserMessages: [BP_Drowned_C_35] -19980.0
+[2020.02.16-22.07.27:198][547]LogBlueprintUserMessages: [BP_Drowned_C_39] -20000.0
+[2020.02.16-22.07.27:198][547]LogBlueprintUserMessages: [BP_Drowned_C_64] -20020.0
+[2020.02.16-22.07.27:212][548]LogBlueprintUserMessages: [BP_Drowned_C_55] -20040.0
+[2020.02.16-22.07.27:220][549]LogBlueprintUserMessages: [BP_Drowned_C_16] 25.0
+[2020.02.16-22.07.27:220][549]LogBlueprintUserMessages: [BP_Drowned_C_39] 25.0
+[2020.02.16-22.07.27:220][549]LogCharacterMovement: BP_Drowned_C_16 is stuck and failed to move! Velocity: X=-30.79 Y=-20.21 Z=0.00 Location: X=-1432.04 Y=-335.08 Z=228.29 Normal: X=-0.17 Y=-0.99 Z=0.00 PenetrationDepth:43.823 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.27:221][549]LogCharacterMovement: BP_Drowned_C_39 is stuck and failed to move! Velocity: X=-233.39 Y=-5.25 Z=0.00 Location: X=-1410.99 Y=-235.63 Z=228.43 Normal: X=0.23 Y=0.97 Z=0.00 PenetrationDepth:18.464 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.27:227][549]LogBlueprintUserMessages: [BP_Drowned_C_34] -20060.0
+[2020.02.16-22.07.27:255][551]LogBlueprintUserMessages: [BP_Drowned_C_16] -20080.0
+[2020.02.16-22.07.27:255][551]LogBlueprintUserMessages: [BP_Drowned_C_140] -20100.0
+[2020.02.16-22.07.27:298][554]LogBlueprintUserMessages: [BP_Drowned_C_18] -20120.0
+[2020.02.16-22.07.27:298][554]LogBlueprintUserMessages: [BP_Drowned_C_95] -20140.0
+[2020.02.16-22.07.27:298][554]LogBlueprintUserMessages: [BP_Drowned_C_145] -20160.0
+[2020.02.16-22.07.27:326][556]LogBlueprintUserMessages: [BP_Drowned_C_73] -20180.0
+[2020.02.16-22.07.27:341][557]LogBlueprintUserMessages: [BP_Drowned_C_151] -20200.0
+[2020.02.16-22.07.27:439][564]LogBlueprintUserMessages: [BP_Drowned_C_31] -20220.0
+[2020.02.16-22.07.27:439][564]LogBlueprintUserMessages: [BP_Drowned_C_68] -20240.0
+[2020.02.16-22.07.27:439][564]LogBlueprintUserMessages: [BP_Drowned_C_85] -20260.0
+[2020.02.16-22.07.27:439][564]LogBlueprintUserMessages: [BP_Drowned_C_119] -20280.0
+[2020.02.16-22.07.27:439][564]LogBlueprintUserMessages: [BP_Drowned_C_127] -20300.0
+[2020.02.16-22.07.27:765][588]LogBlueprintUserMessages: [BP_Drowned_C_29] -20320.0
+[2020.02.16-22.07.27:900][598]LogBlueprintUserMessages: [BP_Drowned_C_79] -20340.0
+[2020.02.16-22.07.28:064][610]LogBlueprintUserMessages: [BP_Drowned_C_57] -20360.0
+[2020.02.16-22.07.28:241][623]LogBlueprintUserMessages: [BP_Drowned_C_16] 25.0
+[2020.02.16-22.07.28:241][623]LogBlueprintUserMessages: [BP_Drowned_C_39] 25.0
+[2020.02.16-22.07.28:459][639]LogBlueprintUserMessages: [BP_Drowned_C_71] -20380.0
+[2020.02.16-22.07.28:472][640]LogBlueprintUserMessages: [BP_Drowned_C_12] -20400.0
+[2020.02.16-22.07.28:472][640]LogBlueprintUserMessages: [BP_Drowned_C_61] -20420.0
+[2020.02.16-22.07.28:473][640]LogBlueprintUserMessages: [BP_Drowned_C_83] -20440.0
+[2020.02.16-22.07.28:473][640]LogBlueprintUserMessages: [BP_Drowned_C_86] -20460.0
+[2020.02.16-22.07.28:473][640]LogBlueprintUserMessages: [BP_Drowned_C_167] -20480.0
+[2020.02.16-22.07.28:499][642]LogBlueprintUserMessages: [BP_Drowned_C_49] -20500.0
+[2020.02.16-22.07.28:546][646]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=345.32 Y=490.67 Z=0.00 Location: X=-1263.68 Y=-69.57 Z=228.40 Normal: X=0.76 Y=-0.65 Z=0.00 PenetrationDepth:28.201 Actor:BP_Drowned_C_10 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_8] -20520.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_10] -20540.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_30] -20560.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_58] -20580.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_76] -20600.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_114] -20620.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_117] -20640.0
+[2020.02.16-22.07.28:595][649]LogBlueprintUserMessages: [BP_Drowned_C_134] -20660.0
+[2020.02.16-22.07.28:602][650]LogCharacterMovement: BP_Drowned_C_10 is stuck and failed to move! Velocity: X=21.54 Y=-16.66 Z=0.00 Location: X=-1304.72 Y=-34.79 Z=228.39 Normal: X=-0.76 Y=0.65 Z=0.00 PenetrationDepth:28.201 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.28:703][657]LogBlueprintUserMessages: [BP_Drowned_C_108] -20680.0
+[2020.02.16-22.07.28:703][657]LogBlueprintUserMessages: [BP_Drowned_C_112] -20700.0
+[2020.02.16-22.07.28:750][661]LogBlueprintUserMessages: [BP_Drowned_C_30] 25.0
+[2020.02.16-22.07.28:750][661]LogBlueprintUserMessages: [BP_Drowned_C_10] 25.0
+[2020.02.16-22.07.29:045][683]LogBlueprintUserMessages: [BP_Drowned_C_18] -20720.0
+[2020.02.16-22.07.29:177][693]LogBlueprintUserMessages: [BP_Drowned_C_31] -20740.0
+[2020.02.16-22.07.29:178][693]LogBlueprintUserMessages: [BP_Drowned_C_119] -20760.0
+[2020.02.16-22.07.29:178][693]LogBlueprintUserMessages: [BP_Drowned_C_127] -20780.0
+[2020.02.16-22.07.29:608][727]LogCharacterMovement: BP_Drowned_C_10 is stuck and failed to move! Velocity: X=59.41 Y=-45.94 Z=0.00 Location: X=-1304.72 Y=-34.79 Z=228.39 Normal: X=-0.76 Y=0.65 Z=0.00 PenetrationDepth:28.201 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (65 other events since notify)
+[2020.02.16-22.07.29:816][743]LogBlueprintUserMessages: [BP_Drowned_C_103] -20800.0
+[2020.02.16-22.07.29:868][747]LogBlueprintUserMessages: [BP_Drowned_C_37] -20820.0
+[2020.02.16-22.07.29:868][747]LogBlueprintUserMessages: [BP_Drowned_C_42] -20840.0
+[2020.02.16-22.07.29:868][747]LogBlueprintUserMessages: [BP_Drowned_C_60] -20860.0
+[2020.02.16-22.07.29:868][747]LogBlueprintUserMessages: [BP_Drowned_C_105] -20880.0
+[2020.02.16-22.07.29:938][753]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=340.98 Y=493.69 Z=0.00 Location: X=-1126.80 Y=128.61 Z=228.41 Normal: X=-0.00 Y=1.00 Z=0.00 PenetrationDepth:59.724 Actor:BP_Drowned_C_60 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.29:951][754]LogBlueprintUserMessages: [BP_Drowned_C_60] 25.0
+[2020.02.16-22.07.29:951][754]LogBlueprintUserMessages: [BP_Drowned_C_103] 25.0
+[2020.02.16-22.07.29:958][754]LogBlueprintUserMessages: [BP_Drowned_C_143] -20900.0
+[2020.02.16-22.07.29:997][757]LogBlueprintUserMessages: [BP_Drowned_C_5] -20920.0
+[2020.02.16-22.07.29:997][757]LogBlueprintUserMessages: [BP_Drowned_C_62] -20940.0
+[2020.02.16-22.07.29:997][757]LogBlueprintUserMessages: [BP_Drowned_C_115] -20960.0
+[2020.02.16-22.07.29:997][757]LogBlueprintUserMessages: [BP_Drowned_C_159] -20980.0
+[2020.02.16-22.07.30:010][758]LogBlueprintUserMessages: [BP_Drowned_C_157] -21000.0
+[2020.02.16-22.07.30:049][761]LogBlueprintUserMessages: [BP_Drowned_C_110] -21020.0
+[2020.02.16-22.07.30:049][761]LogBlueprintUserMessages: [BP_Drowned_C_129] -21040.0
+[2020.02.16-22.07.30:153][769]LogBlueprintUserMessages: [BP_Drowned_C_168] -21060.0
+[2020.02.16-22.07.30:231][774]LogBlueprintUserMessages: [BP_Drowned_C_83] -21080.0
+[2020.02.16-22.07.30:334][782]LogBlueprintUserMessages: [BP_Drowned_C_58] -21100.0
+[2020.02.16-22.07.30:334][782]LogBlueprintUserMessages: [BP_Drowned_C_76] -21120.0
+[2020.02.16-22.07.30:335][782]LogBlueprintUserMessages: [BP_Drowned_C_134] -21140.0
+[2020.02.16-22.07.30:456][791]LogBlueprintUserMessages: [BP_Drowned_C_108] -21160.0
+[2020.02.16-22.07.30:456][791]LogBlueprintUserMessages: [BP_Drowned_C_112] -21180.0
+[2020.02.16-22.07.30:968][832]LogBlueprintUserMessages: [BP_Drowned_C_103] 25.0
+[2020.02.16-22.07.31:492][875]LogBlueprintUserMessages: [BP_Drowned_C_96] -21200.0
+[2020.02.16-22.07.31:530][878]LogBlueprintUserMessages: [BP_Drowned_C_84] -21220.0
+[2020.02.16-22.07.31:555][880]LogBlueprintUserMessages: [BP_Drowned_C_103] -21240.0
+[2020.02.16-22.07.31:579][882]LogBlueprintUserMessages: [BP_Drowned_C_82] -21260.0
+[2020.02.16-22.07.31:579][882]LogBlueprintUserMessages: [BP_Drowned_C_128] -21280.0
+[2020.02.16-22.07.31:579][882]LogBlueprintUserMessages: [BP_Drowned_C_155] -21300.0
+[2020.02.16-22.07.31:579][882]LogBlueprintUserMessages: [BP_Drowned_C_175] -21320.0
+[2020.02.16-22.07.31:602][884]LogBlueprintUserMessages: [BP_Drowned_C_37] -21340.0
+[2020.02.16-22.07.31:602][884]LogBlueprintUserMessages: [BP_Drowned_C_42] -21360.0
+[2020.02.16-22.07.31:620][886]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=345.50 Y=490.54 Z=0.00 Location: X=-986.66 Y=327.59 Z=228.41 Normal: X=-0.97 Y=0.25 Z=0.00 PenetrationDepth:29.601 Actor:BP_Drowned_C_175 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.31:652][888]LogBlueprintUserMessages: [BP_Drowned_C_173] -21380.0
+[2020.02.16-22.07.31:676][890]LogBlueprintUserMessages: [BP_Drowned_C_3] -21400.0
+[2020.02.16-22.07.31:677][890]LogBlueprintUserMessages: [BP_Drowned_C_25] -21420.0
+[2020.02.16-22.07.31:689][891]LogBlueprintUserMessages: [BP_Drowned_C_143] -21440.0
+[2020.02.16-22.07.31:727][894]LogBlueprintUserMessages: [BP_Drowned_C_7] -21460.0
+[2020.02.16-22.07.31:728][894]LogBlueprintUserMessages: [BP_Drowned_C_28] -21480.0
+[2020.02.16-22.07.31:789][899]LogBlueprintUserMessages: [BP_Drowned_C_96] 25.0
+[2020.02.16-22.07.31:789][899]LogBlueprintUserMessages: [BP_Drowned_C_175] 25.0
+[2020.02.16-22.07.31:795][899]LogBlueprintUserMessages: [BP_Drowned_C_110] -21500.0
+[2020.02.16-22.07.31:796][899]LogBlueprintUserMessages: [BP_Drowned_C_129] -21520.0
+[2020.02.16-22.07.31:899][907]LogBlueprintUserMessages: [BP_Drowned_C_168] -21540.0
+[2020.02.16-22.07.32:030][918]LogBlueprintUserMessages: [BP_Drowned_C_128] 25.0
+[2020.02.16-22.07.32:932][992]LogBlueprintUserMessages: [BP_Drowned_C_96] 25.0
+[2020.02.16-22.07.32:932][992]LogBlueprintUserMessages: [BP_Drowned_C_175] 25.0
+[2020.02.16-22.07.33:087][  5]LogBlueprintUserMessages: [BP_Drowned_C_128] 25.0
+[2020.02.16-22.07.33:190][ 13]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.07.33:224][ 16]LogBlueprintUserMessages: [BP_Drowned_C_96] -21560.0
+[2020.02.16-22.07.33:261][ 19]LogBlueprintUserMessages: [BP_Drowned_C_84] -21580.0
+[2020.02.16-22.07.33:286][ 21]LogBlueprintUserMessages: [BP_Drowned_C_103] -21600.0
+[2020.02.16-22.07.33:313][ 23]LogBlueprintUserMessages: [BP_Drowned_C_82] -21620.0
+[2020.02.16-22.07.33:313][ 23]LogBlueprintUserMessages: [BP_Drowned_C_128] -21640.0
+[2020.02.16-22.07.33:313][ 23]LogBlueprintUserMessages: [BP_Drowned_C_155] -21660.0
+[2020.02.16-22.07.33:313][ 23]LogBlueprintUserMessages: [BP_Drowned_C_175] -21680.0
+[2020.02.16-22.07.33:340][ 25]LogBlueprintUserMessages: [BP_Drowned_C_42] -21700.0
+[2020.02.16-22.07.33:401][ 29]LogBlueprintUserMessages: [BP_Drowned_C_173] -21720.0
+[2020.02.16-22.07.33:428][ 31]LogBlueprintUserMessages: [BP_Drowned_C_3] -21740.0
+[2020.02.16-22.07.33:428][ 31]LogBlueprintUserMessages: [BP_Drowned_C_25] -21760.0
+[2020.02.16-22.07.33:442][ 32]LogBlueprintUserMessages: [BP_Drowned_C_143] -21780.0
+[2020.02.16-22.07.33:470][ 34]LogBlueprintUserMessages: [BP_Drowned_C_7] -21800.0
+[2020.02.16-22.07.33:470][ 34]LogBlueprintUserMessages: [BP_Drowned_C_28] -21820.0
+[2020.02.16-22.07.33:539][ 39]LogBlueprintUserMessages: [BP_Drowned_C_110] -21840.0
+[2020.02.16-22.07.33:539][ 39]LogBlueprintUserMessages: [BP_Drowned_C_129] -21860.0
+[2020.02.16-22.07.33:634][ 46]LogBlueprintUserMessages: [BP_Drowned_C_168] -21880.0
+[2020.02.16-22.07.33:952][ 70]LogBlueprintUserMessages: [BP_Drowned_C_96] 25.0
+[2020.02.16-22.07.33:952][ 70]LogBlueprintUserMessages: [BP_Drowned_C_175] 25.0
+[2020.02.16-22.07.34:101][ 81]LogBlueprintUserMessages: [BP_Drowned_C_128] 25.0
+[2020.02.16-22.07.34:963][144]LogBlueprintUserMessages: [BP_Drowned_C_96] -21900.0
+[2020.02.16-22.07.34:970][145]LogBlueprintUserMessages: [BP_Drowned_C_96] 25.0
+[2020.02.16-22.07.34:973][145]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.34:973][145]LogBlueprintUserMessages: [BP_Drowned_C_175] 25.0
+[2020.02.16-22.07.34:974][145]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.35:008][147]LogBlueprintUserMessages: [BP_Drowned_C_84] -21920.0
+[2020.02.16-22.07.35:021][148]LogBlueprintUserMessages: [BP_Drowned_C_103] -21940.0
+[2020.02.16-22.07.35:045][150]LogBlueprintUserMessages: [BP_Drowned_C_168] 25.0
+[2020.02.16-22.07.35:061][151]LogBlueprintUserMessages: [BP_Drowned_C_82] -21960.0
+[2020.02.16-22.07.35:062][151]LogBlueprintUserMessages: [BP_Drowned_C_128] -21980.0
+[2020.02.16-22.07.35:062][151]LogBlueprintUserMessages: [BP_Drowned_C_155] -22000.0
+[2020.02.16-22.07.35:088][153]LogBlueprintUserMessages: [BP_Drowned_C_42] -22020.0
+[2020.02.16-22.07.35:141][157]LogBlueprintUserMessages: [BP_Drowned_C_143] 25.0
+[2020.02.16-22.07.35:145][157]LogBlueprintUserMessages: [BP_Drowned_C_173] -22040.0
+[2020.02.16-22.07.35:166][159]LogBlueprintUserMessages: [BP_Drowned_C_3] 25.0
+[2020.02.16-22.07.35:173][159]LogBlueprintUserMessages: [BP_Drowned_C_3] -22060.0
+[2020.02.16-22.07.35:173][159]LogBlueprintUserMessages: [BP_Drowned_C_25] -22080.0
+[2020.02.16-22.07.35:187][160]LogBlueprintUserMessages: [BP_Drowned_C_143] -22100.0
+[2020.02.16-22.07.35:214][162]LogBlueprintUserMessages: [BP_Drowned_C_7] -22120.0
+[2020.02.16-22.07.35:214][162]LogBlueprintUserMessages: [BP_Drowned_C_28] -22140.0
+[2020.02.16-22.07.35:214][162]LogBlueprintUserMessages: [BP_Drowned_C_146] -22160.0
+[2020.02.16-22.07.35:283][167]LogBlueprintUserMessages: [BP_Drowned_C_110] -22180.0
+[2020.02.16-22.07.35:283][167]LogBlueprintUserMessages: [BP_Drowned_C_129] -22200.0
+[2020.02.16-22.07.35:297][168]LogBlueprintUserMessages: [BP_Drowned_C_141] -22220.0
+[2020.02.16-22.07.35:379][174]LogBlueprintUserMessages: [BP_Drowned_C_168] -22240.0
+[2020.02.16-22.07.35:407][176]LogBlueprintUserMessages: [BP_Drowned_C_177] -22260.0
+[2020.02.16-22.07.36:070][226]LogBlueprintUserMessages: [BP_Drowned_C_168] 25.0
+[2020.02.16-22.07.36:160][233]LogBlueprintUserMessages: [BP_Drowned_C_143] 25.0
+[2020.02.16-22.07.36:185][235]LogBlueprintUserMessages: [BP_Drowned_C_3] 25.0
+[2020.02.16-22.07.36:741][277]LogBlueprintUserMessages: [BP_Drowned_C_84] -22280.0
+[2020.02.16-22.07.36:754][278]LogBlueprintUserMessages: [BP_Drowned_C_103] -22300.0
+[2020.02.16-22.07.36:806][282]LogBlueprintUserMessages: [BP_Drowned_C_82] -22320.0
+[2020.02.16-22.07.36:806][282]LogBlueprintUserMessages: [BP_Drowned_C_128] -22340.0
+[2020.02.16-22.07.36:807][282]LogBlueprintUserMessages: [BP_Drowned_C_155] -22360.0
+[2020.02.16-22.07.36:832][284]LogBlueprintUserMessages: [BP_Drowned_C_42] -22380.0
+[2020.02.16-22.07.36:883][288]LogBlueprintUserMessages: [BP_Drowned_C_173] -22400.0
+[2020.02.16-22.07.36:909][290]LogBlueprintUserMessages: [BP_Drowned_C_3] -22420.0
+[2020.02.16-22.07.36:909][290]LogBlueprintUserMessages: [BP_Drowned_C_25] -22440.0
+[2020.02.16-22.07.36:923][291]LogBlueprintUserMessages: [BP_Drowned_C_143] -22460.0
+[2020.02.16-22.07.36:948][293]LogBlueprintUserMessages: [BP_Drowned_C_7] -22480.0
+[2020.02.16-22.07.36:949][293]LogBlueprintUserMessages: [BP_Drowned_C_28] -22500.0
+[2020.02.16-22.07.36:949][293]LogBlueprintUserMessages: [BP_Drowned_C_146] -22520.0
+[2020.02.16-22.07.37:026][299]LogBlueprintUserMessages: [BP_Drowned_C_110] -22540.0
+[2020.02.16-22.07.37:026][299]LogBlueprintUserMessages: [BP_Drowned_C_129] -22560.0
+[2020.02.16-22.07.37:039][300]LogBlueprintUserMessages: [BP_Drowned_C_141] -22580.0
+[2020.02.16-22.07.37:115][306]LogBlueprintUserMessages: [BP_Drowned_C_168] 25.0
+[2020.02.16-22.07.37:117][306]LogBlueprintUserMessages: [BP_Drowned_C_168] -22600.0
+[2020.02.16-22.07.37:143][308]LogBlueprintUserMessages: [BP_Drowned_C_177] -22620.0
+[2020.02.16-22.07.37:178][311]LogBlueprintUserMessages: [BP_Drowned_C_143] 25.0
+[2020.02.16-22.07.37:202][313]LogBlueprintUserMessages: [BP_Drowned_C_3] 25.0
+[2020.02.16-22.07.38:127][384]LogBlueprintUserMessages: [BP_Drowned_C_168] 25.0
+[2020.02.16-22.07.38:129][384]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.38:201][389]LogBlueprintUserMessages: [BP_Drowned_C_143] 25.0
+[2020.02.16-22.07.38:205][389]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.38:228][391]LogBlueprintUserMessages: [BP_Drowned_C_3] 25.0
+[2020.02.16-22.07.38:230][391]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.38:314][397]LogBlueprintUserMessages: [BP_Drowned_C_173] 25.0
+[2020.02.16-22.07.38:364][401]LogBlueprintUserMessages: [BP_Drowned_C_42] 25.0
+[2020.02.16-22.07.38:477][409]LogBlueprintUserMessages: [BP_Drowned_C_84] -22640.0
+[2020.02.16-22.07.38:490][410]LogBlueprintUserMessages: [BP_Drowned_C_37] -22660.0
+[2020.02.16-22.07.38:490][410]LogBlueprintUserMessages: [BP_Drowned_C_103] -22680.0
+[2020.02.16-22.07.38:542][414]LogBlueprintUserMessages: [BP_Drowned_C_82] -22700.0
+[2020.02.16-22.07.38:542][414]LogBlueprintUserMessages: [BP_Drowned_C_128] -22720.0
+[2020.02.16-22.07.38:542][414]LogBlueprintUserMessages: [BP_Drowned_C_155] -22740.0
+[2020.02.16-22.07.38:551][415]LogCharacterMovement: BP_Drowned_C_128 is stuck and failed to move! Velocity: X=2.60 Y=-25.90 Z=0.00 Location: X=-989.40 Y=380.59 Z=228.43 Normal: X=-0.05 Y=1.00 Z=0.00 PenetrationDepth:28.921 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.38:581][417]LogBlueprintUserMessages: [BP_Drowned_C_42] -22760.0
+[2020.02.16-22.07.38:634][421]LogBlueprintUserMessages: [BP_Drowned_C_173] -22780.0
+[2020.02.16-22.07.38:659][423]LogBlueprintUserMessages: [BP_Drowned_C_25] -22800.0
+[2020.02.16-22.07.38:686][425]LogBlueprintUserMessages: [BP_Drowned_C_7] -22820.0
+[2020.02.16-22.07.38:686][425]LogBlueprintUserMessages: [BP_Drowned_C_28] -22840.0
+[2020.02.16-22.07.38:686][425]LogBlueprintUserMessages: [BP_Drowned_C_146] -22860.0
+[2020.02.16-22.07.38:763][431]LogBlueprintUserMessages: [BP_Drowned_C_110] -22880.0
+[2020.02.16-22.07.38:763][431]LogBlueprintUserMessages: [BP_Drowned_C_129] -22900.0
+[2020.02.16-22.07.38:775][432]LogBlueprintUserMessages: [BP_Drowned_C_141] -22920.0
+[2020.02.16-22.07.38:878][440]LogBlueprintUserMessages: [BP_Drowned_C_177] -22940.0
+[2020.02.16-22.07.39:335][476]LogBlueprintUserMessages: [BP_Drowned_C_173] 25.0
+[2020.02.16-22.07.39:384][480]LogBlueprintUserMessages: [BP_Drowned_C_42] 25.0
+[2020.02.16-22.07.39:563][494]LogCharacterMovement: BP_Drowned_C_128 is stuck and failed to move! Velocity: X=49.97 Y=-497.50 Z=0.00 Location: X=-989.40 Y=380.59 Z=228.43 Normal: X=-0.05 Y=1.00 Z=0.00 PenetrationDepth:28.921 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (78 other events since notify)
+[2020.02.16-22.07.39:747][508]LogBlueprintUserMessages: [BP_Drowned_C_180] -22960.0
+[2020.02.16-22.07.40:216][544]LogBlueprintUserMessages: [BP_Drowned_C_84] -22980.0
+[2020.02.16-22.07.40:229][545]LogBlueprintUserMessages: [BP_Drowned_C_37] -23000.0
+[2020.02.16-22.07.40:229][545]LogBlueprintUserMessages: [BP_Drowned_C_103] -23020.0
+[2020.02.16-22.07.40:279][549]LogBlueprintUserMessages: [BP_Drowned_C_82] -23040.0
+[2020.02.16-22.07.40:279][549]LogBlueprintUserMessages: [BP_Drowned_C_128] -23060.0
+[2020.02.16-22.07.40:279][549]LogBlueprintUserMessages: [BP_Drowned_C_155] -23080.0
+[2020.02.16-22.07.40:317][552]LogBlueprintUserMessages: [BP_Drowned_C_42] -23100.0
+[2020.02.16-22.07.40:353][555]LogBlueprintUserMessages: [BP_Drowned_C_173] 25.0
+[2020.02.16-22.07.40:356][555]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.40:397][558]LogBlueprintUserMessages: [BP_Drowned_C_25] -23120.0
+[2020.02.16-22.07.40:405][559]LogBlueprintUserMessages: [BP_Drowned_C_42] 25.0
+[2020.02.16-22.07.40:423][560]LogBlueprintUserMessages: [BP_Drowned_C_7] -23140.0
+[2020.02.16-22.07.40:424][560]LogBlueprintUserMessages: [BP_Drowned_C_28] -23160.0
+[2020.02.16-22.07.40:424][560]LogBlueprintUserMessages: [BP_Drowned_C_146] -23180.0
+[2020.02.16-22.07.40:459][563]LogBlueprintUserMessages: [BP_Drowned_C_177] 25.0
+[2020.02.16-22.07.40:500][566]LogBlueprintUserMessages: [BP_Drowned_C_110] -23200.0
+[2020.02.16-22.07.40:500][566]LogBlueprintUserMessages: [BP_Drowned_C_129] -23220.0
+[2020.02.16-22.07.40:513][567]LogBlueprintUserMessages: [BP_Drowned_C_141] -23240.0
+[2020.02.16-22.07.40:617][575]LogBlueprintUserMessages: [BP_Drowned_C_177] -23260.0
+[2020.02.16-22.07.40:759][586]LogBlueprintUserMessages: [BP_Drowned_C_164] -23280.0
+[2020.02.16-22.07.41:478][643]LogBlueprintUserMessages: [BP_Drowned_C_42] 25.0
+[2020.02.16-22.07.41:480][643]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.41:483][643]LogBlueprintUserMessages: [BP_Drowned_C_177] 25.0
+[2020.02.16-22.07.41:485][643]LogBlueprintUserMessages: [BP_Drowned_C_180] -23300.0
+[2020.02.16-22.07.41:533][647]LogBlueprintUserMessages: [BP_Drowned_C_141] 25.0
+[2020.02.16-22.07.41:697][660]LogBlueprintUserMessages: [BP_Drowned_C_103] 25.0
+[2020.02.16-22.07.41:962][680]LogBlueprintUserMessages: [BP_Drowned_C_84] -23320.0
+[2020.02.16-22.07.41:962][680]LogBlueprintUserMessages: [BP_Drowned_C_157] -23340.0
+[2020.02.16-22.07.41:962][680]LogBlueprintUserMessages: [BP_Drowned_C_159] -23360.0
+[2020.02.16-22.07.41:977][681]LogBlueprintUserMessages: [BP_Drowned_C_37] -23380.0
+[2020.02.16-22.07.41:977][681]LogBlueprintUserMessages: [BP_Drowned_C_103] -23400.0
+[2020.02.16-22.07.42:030][685]LogBlueprintUserMessages: [BP_Drowned_C_155] -23420.0
+[2020.02.16-22.07.42:043][686]LogBlueprintUserMessages: [BP_Drowned_C_58] -23440.0
+[2020.02.16-22.07.42:043][686]LogBlueprintUserMessages: [BP_Drowned_C_60] -23460.0
+[2020.02.16-22.07.42:043][686]LogBlueprintUserMessages: [BP_Drowned_C_76] -23480.0
+[2020.02.16-22.07.42:043][686]LogBlueprintUserMessages: [BP_Drowned_C_105] -23500.0
+[2020.02.16-22.07.42:105][691]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=-338.32 Y=-495.52 Z=0.00 Location: X=-1159.66 Y=165.74 Z=228.41 Normal: X=0.81 Y=-0.59 Z=-0.00 PenetrationDepth:67.209 Actor:BP_Drowned_C_105 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.42:110][691]LogCharacterMovement: BP_Drowned_C_108 is stuck and failed to move! Velocity: X=15.26 Y=24.37 Z=0.00 Location: X=-1164.36 Y=94.77 Z=228.43 Normal: X=-0.07 Y=-1.00 Z=0.00 PenetrationDepth:10.873 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.42:156][694]LogBlueprintUserMessages: [BP_Drowned_C_36] -23520.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_53] -23540.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_62] -23560.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_83] -23580.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_108] -23600.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_112] -23620.0
+[2020.02.16-22.07.42:200][697]LogBlueprintUserMessages: [BP_Drowned_C_115] -23640.0
+[2020.02.16-22.07.42:244][700]LogBlueprintUserMessages: [BP_Drowned_C_129] -23660.0
+[2020.02.16-22.07.42:271][702]LogBlueprintUserMessages: [BP_Drowned_C_134] -23680.0
+[2020.02.16-22.07.43:123][768]LogBlueprintUserMessages: [BP_Drowned_C_10] -23700.0
+[2020.02.16-22.07.43:123][768]LogBlueprintUserMessages: [BP_Drowned_C_30] -23720.0
+[2020.02.16-22.07.43:123][768]LogBlueprintUserMessages: [BP_Drowned_C_117] -23740.0
+[2020.02.16-22.07.43:200][774]LogBlueprintUserMessages: [BP_Drowned_C_12] -23760.0
+[2020.02.16-22.07.43:200][774]LogBlueprintUserMessages: [BP_Drowned_C_61] -23780.0
+[2020.02.16-22.07.43:200][774]LogBlueprintUserMessages: [BP_Drowned_C_119] -23800.0
+[2020.02.16-22.07.43:200][774]LogBlueprintUserMessages: [BP_Drowned_C_167] -23820.0
+[2020.02.16-22.07.43:263][779]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=-122.12 Y=-587.44 Z=0.00 Location: X=-1231.72 Y=-66.34 Z=228.41 Normal: X=-0.99 Y=-0.10 Z=0.00 PenetrationDepth:5.789 Actor:BP_Drowned_C_61 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.43:264][779]LogCharacterMovement: BP_Drowned_C_30 is stuck and failed to move! Velocity: X=12.23 Y=28.59 Z=0.00 Location: X=-1234.25 Y=-75.06 Z=228.44 Normal: X=-0.28 Y=-0.96 Z=0.00 PenetrationDepth:72.923 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.43:362][786]LogBlueprintUserMessages: [BP_Drowned_C_8] -23840.0
+[2020.02.16-22.07.43:362][786]LogBlueprintUserMessages: [BP_Drowned_C_18] -23860.0
+[2020.02.16-22.07.43:362][786]LogBlueprintUserMessages: [BP_Drowned_C_114] -23880.0
+[2020.02.16-22.07.43:427][791]LogBlueprintUserMessages: [BP_Drowned_C_31] -23900.0
+[2020.02.16-22.07.43:427][791]LogBlueprintUserMessages: [BP_Drowned_C_86] -23920.0
+[2020.02.16-22.07.43:427][791]LogBlueprintUserMessages: [BP_Drowned_C_127] -23940.0
+[2020.02.16-22.07.43:788][819]LogBlueprintUserMessages: [BP_Drowned_C_58] -23960.0
+[2020.02.16-22.07.43:930][830]LogBlueprintUserMessages: [BP_Drowned_C_83] -23980.0
+[2020.02.16-22.07.43:930][830]LogBlueprintUserMessages: [BP_Drowned_C_108] -24000.0
+[2020.02.16-22.07.43:931][830]LogBlueprintUserMessages: [BP_Drowned_C_112] -24020.0
+[2020.02.16-22.07.44:011][836]LogBlueprintUserMessages: [BP_Drowned_C_134] -24040.0
+[2020.02.16-22.07.44:023][837]LogBlueprintUserMessages: [BP_Drowned_C_76] -24060.0
+[2020.02.16-22.07.44:480][871]LogBlueprintUserMessages: [BP_Drowned_C_171] -24080.0
+[2020.02.16-22.07.44:518][874]LogBlueprintUserMessages: [BP_Drowned_C_15] -24100.0
+[2020.02.16-22.07.44:518][874]LogBlueprintUserMessages: [BP_Drowned_C_64] -24120.0
+[2020.02.16-22.07.44:518][874]LogBlueprintUserMessages: [BP_Drowned_C_85] -24140.0
+[2020.02.16-22.07.44:518][874]LogBlueprintUserMessages: [BP_Drowned_C_88] -24160.0
+[2020.02.16-22.07.44:518][874]LogBlueprintUserMessages: [BP_Drowned_C_133] -24180.0
+[2020.02.16-22.07.44:576][879]LogCharacterMovement: ThirdPersonCharacter_2 is stuck and failed to move! Velocity: X=6.25 Y=-599.97 Z=0.00 Location: X=-1207.03 Y=-306.33 Z=228.41 Normal: X=0.92 Y=0.38 Z=0.00 PenetrationDepth:15.629 Actor:BP_Drowned_C_85 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.44:579][879]LogCharacterMovement: BP_Drowned_C_74 is stuck and failed to move! Velocity: X=-1.36 Y=27.45 Z=0.00 Location: X=-1198.10 Y=-370.21 Z=228.48 Normal: X=0.14 Y=-0.99 Z=0.00 PenetrationDepth:17.502 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.44:583][879]LogBlueprintUserMessages: [BP_Drowned_C_74] -24200.0
+[2020.02.16-22.07.44:583][879]LogBlueprintUserMessages: [BP_Drowned_C_135] -24220.0
+[2020.02.16-22.07.44:583][879]LogBlueprintUserMessages: [BP_Drowned_C_145] -24240.0
+[2020.02.16-22.07.44:814][897]LogBlueprintUserMessages: [BP_Drowned_C_95] -24260.0
+[2020.02.16-22.07.45:096][919]LogBlueprintUserMessages: [BP_Drowned_C_8] -24280.0
+[2020.02.16-22.07.45:096][919]LogBlueprintUserMessages: [BP_Drowned_C_18] -24300.0
+[2020.02.16-22.07.45:096][919]LogBlueprintUserMessages: [BP_Drowned_C_114] -24320.0
+[2020.02.16-22.07.45:158][924]LogBlueprintUserMessages: [BP_Drowned_C_31] -24340.0
+[2020.02.16-22.07.45:159][924]LogBlueprintUserMessages: [BP_Drowned_C_86] -24360.0
+[2020.02.16-22.07.45:159][924]LogBlueprintUserMessages: [BP_Drowned_C_127] -24380.0
+[2020.02.16-22.07.45:212][928]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1567.485 Y=-393.947 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.07.45:463][948]LogCharacterMovement: BP_Drowned_C_135 is stuck and failed to move! Velocity: X=-22.21 Y=9.73 Z=0.00 Location: X=-1130.10 Y=-327.72 Z=228.43 Normal: X=0.96 Y=-0.27 Z=-0.00 PenetrationDepth:2.158 Actor:ThirdPersonCharacter_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2020.02.16-22.07.45:735][970]LogBlueprintUserMessages: [BP_Drowned_C_72] -24400.0
+[2020.02.16-22.07.45:735][970]LogBlueprintUserMessages: [BP_Drowned_C_107] -24420.0
+[2020.02.16-22.07.45:735][970]LogBlueprintUserMessages: [BP_Drowned_C_131] -24440.0
+[2020.02.16-22.07.45:735][970]LogBlueprintUserMessages: [BP_Drowned_C_140] -24460.0
+[2020.02.16-22.07.45:809][976]LogBlueprintUserMessages: [BP_Drowned_C_44] -24480.0
+[2020.02.16-22.07.46:051][996]LogBlueprintUserMessages: [BP_Drowned_C_111] -24500.0
+[2020.02.16-22.07.46:101][  0]LogBlueprintUserMessages: [BP_Drowned_C_98] -24520.0
+[2020.02.16-22.07.46:373][ 21]LogBlueprintUserMessages: [BP_Drowned_C_97] -24540.0
+[2020.02.16-22.07.47:247][ 90]LogBlueprintUserMessages: [BP_Drowned_C_66] -24560.0
+[2020.02.16-22.07.47:345][ 97]LogBlueprintUserMessages: [BP_Drowned_C_52] -24580.0
+[2020.02.16-22.07.47:345][ 97]LogBlueprintUserMessages: [BP_Drowned_C_137] -24600.0
+[2020.02.16-22.07.47:485][107]LogBlueprintUserMessages: [BP_Drowned_C_40] -24620.0
+[2020.02.16-22.07.47:485][107]LogBlueprintUserMessages: [BP_Drowned_C_69] -24640.0
+[2020.02.16-22.07.47:718][124]LogBlueprintUserMessages: [BP_Drowned_C_4] -24660.0
+[2020.02.16-22.07.47:774][128]LogBlueprintUserMessages: [BP_Drowned_C_14] -24680.0
+[2020.02.16-22.07.47:774][128]LogBlueprintUserMessages: [BP_Drowned_C_55] -24700.0
+[2020.02.16-22.07.47:788][129]LogBlueprintUserMessages: [BP_Drowned_C_111] -24720.0
+[2020.02.16-22.07.47:816][131]LogBlueprintUserMessages: [BP_Drowned_C_34] -24740.0
+[2020.02.16-22.07.49:230][232]LogBlueprintUserMessages: [BP_Drowned_C_92] -24760.0
+[2020.02.16-22.07.49:622][260]LogBlueprintUserMessages: [BP_Drowned_C_146] -24780.0
+[2020.02.16-22.07.49:704][266]LogBlueprintUserMessages: [BP_Drowned_C_132] -24800.0
+[2020.02.16-22.07.49:860][277]LogBlueprintUserMessages: [BP_Drowned_C_28] -24820.0
+[2020.02.16-22.07.49:945][283]LogBlueprintUserMessages: [BP_Drowned_C_82] -24840.0
+[2020.02.16-22.07.49:945][283]LogBlueprintUserMessages: [BP_Drowned_C_110] -24860.0
+[2020.02.16-22.07.49:945][283]LogBlueprintUserMessages: [BP_Drowned_C_164] -24880.0
+[2020.02.16-22.07.49:946][283]LogBlueprintUserMessages: [BP_Drowned_C_181] -24900.0
+[2020.02.16-22.07.50:018][288]LogBlueprintUserMessages: [BP_Drowned_C_180] -24920.0
+[2020.02.16-22.07.50:611][330]LogBlueprintUserMessages: [BP_Drowned_C_98] 25.0
+[2020.02.16-22.07.50:646][332]LogBlueprintUserMessages: [BP_Drowned_C_94] -24940.0
+[2020.02.16-22.07.50:688][335]LogBlueprintUserMessages: [BP_Drowned_C_98] -24960.0
+[2020.02.16-22.07.51:743][412]LogBlueprintUserMessages: [BP_Drowned_C_43] -24980.0
+[2020.02.16-22.07.51:813][417]LogBlueprintUserMessages: [BP_Drowned_C_66] -25000.0
+[2020.02.16-22.07.51:879][422]LogBlueprintUserMessages: [BP_Drowned_C_43] 25.0
+[2020.02.16-22.07.51:980][429]LogBlueprintUserMessages: [BP_Drowned_C_135] -25020.0
+[2020.02.16-22.07.52:049][434]LogBlueprintUserMessages: [BP_Drowned_C_69] -25040.0
+[2020.02.16-22.07.52:049][434]LogBlueprintUserMessages: [BP_Drowned_C_78] -25060.0
+[2020.02.16-22.07.52:072][436]LogBlueprintUserMessages: [BP_Drowned_C_66] 25.0
+[2020.02.16-22.07.52:223][446]LogBlueprintUserMessages: [BP_Drowned_C_72] -25080.0
+[2020.02.16-22.07.52:377][457]LogBlueprintUserMessages: [BP_Drowned_C_130] -25100.0
+[2020.02.16-22.07.52:878][493]LogBlueprintUserMessages: [BP_Drowned_C_52] -25120.0
+[2020.02.16-22.07.52:901][495]LogBlueprintUserMessages: [BP_Drowned_C_43] 25.0
+[2020.02.16-22.07.52:974][500]LogBlueprintUserMessages: [BP_Drowned_C_130] 25.0
+[2020.02.16-22.07.53:068][507]LogBlueprintUserMessages: [BP_Drowned_C_52] 25.0
+[2020.02.16-22.07.53:096][509]LogBlueprintUserMessages: [BP_Drowned_C_66] 25.0
+[2020.02.16-22.07.53:098][509]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.53:117][510]LogBlueprintUserMessages: [BP_Drowned_C_137] -25140.0
+[2020.02.16-22.07.53:230][518]LogBlueprintUserMessages: [BP_Drowned_C_152] -25160.0
+[2020.02.16-22.07.53:356][527]LogBlueprintUserMessages: [BP_Drowned_C_133] -25180.0
+[2020.02.16-22.07.53:440][533]LogBlueprintUserMessages: [BP_Drowned_C_44] -25200.0
+[2020.02.16-22.07.53:497][537]LogBlueprintUserMessages: [BP_Drowned_C_43] -25220.0
+[2020.02.16-22.07.53:511][538]LogBlueprintUserMessages: [BP_Drowned_C_176] -25240.0
+[2020.02.16-22.07.53:713][553]LogBlueprintUserMessages: [BP_Drowned_C_135] -25260.0
+[2020.02.16-22.07.53:780][558]LogBlueprintUserMessages: [BP_Drowned_C_69] -25280.0
+[2020.02.16-22.07.53:780][558]LogBlueprintUserMessages: [BP_Drowned_C_78] -25300.0
+[2020.02.16-22.07.53:920][569]LogBlueprintUserMessages: [BP_Drowned_C_43] 25.0
+[2020.02.16-22.07.53:949][571]LogBlueprintUserMessages: [BP_Drowned_C_176] 25.0
+[2020.02.16-22.07.53:965][572]LogBlueprintUserMessages: [BP_Drowned_C_72] -25320.0
+[2020.02.16-22.07.53:988][574]LogBlueprintUserMessages: [BP_Drowned_C_130] 25.0
+[2020.02.16-22.07.53:990][574]LogBlueprintUserMessages: Warning: SetTimer passed a bad function (endInv) or object (None)
+[2020.02.16-22.07.54:060][579]LogBlueprintUserMessages: [BP_Drowned_C_164] -25340.0
+[2020.02.16-22.07.54:249][593]LogBlueprintUserMessages: [BP_Drowned_C_52] 25.0
+[2020.02.16-22.07.54:527][613]LogBlueprintUserMessages: [BP_Drowned_C_15] -25360.0
+[2020.02.16-22.07.54:527][613]LogBlueprintUserMessages: [BP_Drowned_C_85] -25380.0
+[2020.02.16-22.07.54:528][613]LogBlueprintUserMessages: [BP_Drowned_C_88] -25400.0
+[2020.02.16-22.07.54:562][616]LogBlueprintUserMessages: [BP_Drowned_C_86] 25.0
+[2020.02.16-22.07.54:584][617]LogBlueprintUserMessages: [BP_Drowned_C_74] -25420.0
+[2020.02.16-22.07.55:159][659]LogBlueprintUserMessages: [BP_Drowned_C_119] 25.0
+[2020.02.16-22.07.56:225][736]LogBlueprintUserMessages: [BP_Drowned_C_148] -25440.0
+[2020.02.16-22.07.56:379][747]LogBlueprintUserMessages: [BP_Drowned_C_148] 25.0
+[2020.02.16-22.07.56:454][752]LogBlueprintUserMessages: [BP_Drowned_C_158] -25460.0
+[2020.02.16-22.07.56:528][757]LogBlueprintUserMessages: [BP_Drowned_C_0] -25480.0
+[2020.02.16-22.07.56:704][769]LogBlueprintUserMessages: [BP_Drowned_C_38] -25500.0
+[2020.02.16-22.07.56:897][782]LogBlueprintUserMessages: [BP_Drowned_C_75] -25520.0
+[2020.02.16-22.07.56:940][785]LogBlueprintUserMessages: [BP_Drowned_C_35] -25540.0
+[2020.02.16-22.07.56:940][785]LogBlueprintUserMessages: [BP_Drowned_C_39] -25560.0
+[2020.02.16-22.07.56:940][785]LogBlueprintUserMessages: [BP_Drowned_C_68] -25580.0
+[2020.02.16-22.07.56:940][785]LogBlueprintUserMessages: [BP_Drowned_C_79] -25600.0
+[2020.02.16-22.07.57:000][789]LogBlueprintUserMessages: [BP_Drowned_C_40] -25620.0
+[2020.02.16-22.07.57:007][790]LogBlueprintUserMessages: [BP_Drowned_C_64] 25.0
+[2020.02.16-22.07.57:007][790]LogBlueprintUserMessages: [BP_Drowned_C_95] 25.0
+[2020.02.16-22.07.57:014][790]LogBlueprintUserMessages: [BP_Drowned_C_31] -25640.0
+[2020.02.16-22.07.58:405][885]LogBlueprintUserMessages: [BP_Drowned_C_146] -25660.0
+[2020.02.16-22.07.58:507][892]LogBlueprintUserMessages: [BP_Drowned_C_20] -25680.0
+[2020.02.16-22.07.58:507][892]LogBlueprintUserMessages: [BP_Drowned_C_82] -25700.0
+[2020.02.16-22.07.59:067][932]LogBlueprintUserMessages: [BP_Drowned_C_174] 25.0
+[2020.02.16-22.08.00:105][  6]LogBlueprintUserMessages: [BP_Drowned_C_134] 25.0
+[2020.02.16-22.08.00:170][ 10]LogBlueprintUserMessages: [BP_Drowned_C_184] -25720.0
+[2020.02.16-22.08.00:244][ 15]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=209.000 Y=-95.000 Z=140.404] for [BP_Drowned_C]
+[2020.02.16-22.08.00:245][ 15]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=443.416 Y=7.440 Z=354.930] for [BP_Drowned_C]
+[2020.02.16-22.08.00:299][ 19]LogBlueprintUserMessages: [BP_Drowned_C_36] -25740.0
+[2020.02.16-22.08.00:314][ 20]LogBlueprintUserMessages: [BP_Drowned_C_134] -25760.0
+[2020.02.16-22.08.01:177][ 80]LogBlueprintUserMessages: [BP_Drowned_C_7] -25780.0
