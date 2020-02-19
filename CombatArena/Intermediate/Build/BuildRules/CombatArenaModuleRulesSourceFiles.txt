@@ -1,3 +1,0 @@
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena\CombatArena.Build.cs
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArena.Target.cs
-E:\school\3rd year\Production\Proto1\CombatArena\Source\CombatArenaEditor.Target.cs
