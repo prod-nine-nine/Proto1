@@ -20,6 +20,15 @@ class ACombatArenaCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
 
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* RHColl;
+
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* LHColl;
+
+	UPROPERTY(EditAnywhere)
+		class UBoxComponent* SwordColl;
+
 public:
 	ACombatArenaCharacter();
 
