@@ -49,10 +49,10 @@ public:
 		bool gSlice = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		float Health = 100;
+		float Health = 1000;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		float MaxHealth = 100;
+		float MaxHealth = 1000;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool blocking = false;
