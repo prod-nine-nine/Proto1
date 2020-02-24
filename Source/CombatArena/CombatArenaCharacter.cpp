@@ -6,6 +6,8 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/BoxComponent.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -55,6 +57,17 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
+	RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
+	RHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("RPalm"));
+	RHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+
+	LHColl = CreateDefaultSubobject<USphereComponent>(TEXT("LHColl"));
+	LHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("LPalm"));
+	LHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+
+	SwordColl = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordColl"));
+	SwordColl->SetupAttachment((USceneComponent*)GetMesh(), FName("Sword"));
+	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -187,7 +200,7 @@ void ACombatArenaCharacter::PickUpWeapon()
 		{
 			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale);
 			currentWeapon = Weapon;
-			currentWeapon->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			weaponInRange = false;
 			currentWeapon->MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Overlap);
 			currentWeapon->MyMesh->SetVisibility(false);
 		}
@@ -274,20 +287,7 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 
 		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
 
-		if (Weapon)
-		{
-			if (previousTarget)
-			{
-				previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-			}
-			Weapon->MyMesh->SetMaterial(0, (UMaterialInterface*)Weapon->OnMaterial);
-			previousTarget = Weapon;
-		}
-		else if (previousTarget)
-		{
-			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-			previousTarget = 0;
-		}
+		weaponInRange = (bool)Weapon;
 	}
 	else
 	{

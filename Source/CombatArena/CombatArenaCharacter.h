@@ -20,6 +20,15 @@ class ACombatArenaCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
 
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* RHColl;
+
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* LHColl;
+
+	UPROPERTY(EditAnywhere)
+		class UBoxComponent* SwordColl;
+
 public:
 	ACombatArenaCharacter();
 
@@ -42,6 +51,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
 		float Health = 100;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		float MaxHealth = 100;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool blocking = false;
 
@@ -53,6 +65,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
 		float dodgeRechargePercent = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		bool weaponInRange = false;
 
 	float dodgeAmount = 2000;
 	float percentPerSecond = 100;

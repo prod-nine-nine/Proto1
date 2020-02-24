@@ -22,8 +22,8 @@ ASwordBase::ASwordBase(const FObjectInitializer& OI):Super(OI)
 
 	ProjMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjMovement"));
 
-	OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
-	OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
+	//OnMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OnMaterial"));
+	//OffMaterial = CreateDefaultSubobject<UMaterial>(TEXT("OffMaterial"));
 }
 
 void ASwordBase::DamageWeapon(float damage)
@@ -36,7 +36,7 @@ void ASwordBase::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MyMesh->SetMaterial(0, (UMaterialInterface*)OffMaterial);
+	//MyMesh->SetMaterial(0, (UMaterialInterface*)OffMaterial);
 }
 
 // Called every frame
