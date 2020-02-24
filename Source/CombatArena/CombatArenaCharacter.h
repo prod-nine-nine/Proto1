@@ -49,10 +49,10 @@ public:
 		bool gSlice = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		float Health = 100;
+		float Health = 1000;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		float MaxHealth = 100;
+		float MaxHealth = 1000;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool blocking = false;
@@ -80,6 +80,9 @@ public:
 	float throwRange = 1000;
 
 	ASwordBase* previousTarget = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool gotHit = false;
 
 protected:
 
@@ -132,6 +135,9 @@ protected:
 	void ThrowWeapon();
 
 	void PickUpOrThrowWeapon() { if (currentWeapon) { ThrowWeapon(); } else { PickUpWeapon(); }}
+
+	UFUNCTION(BlueprintCallable, Category = Player)
+		void Knockback(FVector From, float scale);
 
 	UFUNCTION(BlueprintCallable, Category = Player)
 		void damagePlayer(float damage);

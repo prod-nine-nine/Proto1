@@ -262,6 +262,15 @@ void ACombatArenaCharacter::ThrowWeapon()
 	currentWeapon = 0;
 }
 
+void ACombatArenaCharacter::Knockback(FVector from, float scale)
+{
+	FVector To = GetTransform().GetLocation() - from;
+	To.Normalize();
+
+	scale = (blocking) ? scale / 2 : scale;
+	LaunchCharacter(To * scale, false, false);
+}
+
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
 	Health -= (blocking && !attacking) ? damage / 2 : damage;
