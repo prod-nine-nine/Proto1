@@ -267,6 +267,7 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 {
 	FVector To = GetTransform().GetLocation() - from;
 	To.Normalize();
+	To.Z = 0;
 
 	scale = (blocking) ? scale / 2 : scale;
 	LaunchCharacter(To * scale, false, false);
