@@ -81,6 +81,9 @@ public:
 
 	ASwordBase* previousTarget = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool gotHit = false;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -132,6 +135,9 @@ protected:
 	void ThrowWeapon();
 
 	void PickUpOrThrowWeapon() { if (currentWeapon) { ThrowWeapon(); } else { PickUpWeapon(); }}
+
+	UFUNCTION(BlueprintCallable, Category = Player)
+		void Knockback(FVector From, float scale);
 
 	UFUNCTION(BlueprintCallable, Category = Player)
 		void damagePlayer(float damage);
