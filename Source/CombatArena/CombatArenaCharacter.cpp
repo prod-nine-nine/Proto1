@@ -6,6 +6,8 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/BoxComponent.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
@@ -55,6 +57,17 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
+	RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
+	RHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("RPalm"));
+	RHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+
+	LHColl = CreateDefaultSubobject<USphereComponent>(TEXT("LHColl"));
+	LHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("LPalm"));
+	LHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+
+	SwordColl = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordColl"));
+	SwordColl->SetupAttachment((USceneComponent*)GetMesh(), FName("Sword"));
+	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -131,7 +144,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f) && !attacking)
+	if ((Controller != NULL) && (Value != 0.0f) && canMove)
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -148,7 +161,7 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) && !attacking)
+	if ( (Controller != NULL) && (Value != 0.0f) && canMove)
 	{
 
 		// find out which way is right
@@ -187,7 +200,7 @@ void ACombatArenaCharacter::PickUpWeapon()
 		{
 			Weapon->AttachToComponent((USceneComponent*)this->GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale);
 			currentWeapon = Weapon;
-			currentWeapon->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
+			weaponInRange = false;
 			currentWeapon->MyMesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Overlap);
 			currentWeapon->MyMesh->SetVisibility(false);
 		}
@@ -210,6 +223,7 @@ void ACombatArenaCharacter::Attack(bool slice)
 	}
 
 	attacking = true;
+	canMove = false; 
 }
 
 void ACombatArenaCharacter::Dodge()
@@ -249,6 +263,15 @@ void ACombatArenaCharacter::ThrowWeapon()
 	currentWeapon = 0;
 }
 
+void ACombatArenaCharacter::Knockback(FVector from, float scale)
+{
+	FVector To = GetTransform().GetLocation() - from;
+	To.Normalize();
+
+	scale = (blocking) ? scale / 2 : scale;
+	LaunchCharacter(To * scale, false, false);
+}
+
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
 	Health -= (blocking && !attacking) ? damage / 2 : damage;
@@ -274,20 +297,7 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 
 		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
 
-		if (Weapon)
-		{
-			if (previousTarget)
-			{
-				previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-			}
-			Weapon->MyMesh->SetMaterial(0, (UMaterialInterface*)Weapon->OnMaterial);
-			previousTarget = Weapon;
-		}
-		else if (previousTarget)
-		{
-			previousTarget->MyMesh->SetMaterial(0, (UMaterialInterface*)previousTarget->OffMaterial);
-			previousTarget = 0;
-		}
+		weaponInRange = (bool)Weapon;
 	}
 	else
 	{

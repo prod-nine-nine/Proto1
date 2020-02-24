@@ -12,13 +12,22 @@ class ACombatArenaCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
-		/** Camera boom positioning the camera behind the character */
-		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-		class USpringArmComponent* CameraBoom;
+	/** Camera boom positioning the camera behind the character */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USpringArmComponent* CameraBoom;
 
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
+
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* RHColl;
+
+	UPROPERTY(EditAnywhere)
+		class USphereComponent* LHColl;
+
+	UPROPERTY(EditAnywhere)
+		class UBoxComponent* SwordColl;
 
 public:
 	ACombatArenaCharacter();
@@ -40,7 +49,10 @@ public:
 		bool gSlice = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
-		float Health = 100;
+		float Health = 1000;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		float MaxHealth = 1000;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool blocking = false;
@@ -54,6 +66,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
 		float dodgeRechargePercent = 0;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+		bool weaponInRange = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool canMove = true;
+
 	float dodgeAmount = 2000;
 	float percentPerSecond = 100;
 	float phaseTimeS = 0.2f;
@@ -65,6 +83,9 @@ public:
 	float throwRange = 1000;
 
 	ASwordBase* previousTarget = 0;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool gotHit = false;
 
 protected:
 
@@ -117,6 +138,9 @@ protected:
 	void ThrowWeapon();
 
 	void PickUpOrThrowWeapon() { if (currentWeapon) { ThrowWeapon(); } else { PickUpWeapon(); }}
+
+	UFUNCTION(BlueprintCallable, Category = Player)
+		void Knockback(FVector From, float scale);
 
 	UFUNCTION(BlueprintCallable, Category = Player)
 		void damagePlayer(float damage);

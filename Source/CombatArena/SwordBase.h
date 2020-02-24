@@ -24,11 +24,11 @@ public:
 	UPROPERTY(EditAnywhere)
 		class UBoxComponent* BoxCollision;
 
-	UPROPERTY(EditAnywhere)
+	/*UPROPERTY(EditAnywhere)
 		class UMaterial* OnMaterial;
 
 	UPROPERTY(EditAnywhere)
-		class UMaterial* OffMaterial;
+		class UMaterial* OffMaterial;*/
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Sword)
 		float durability = 100;
