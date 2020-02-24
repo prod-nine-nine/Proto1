@@ -144,7 +144,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f) && !attacking)
+	if ((Controller != NULL) && (Value != 0.0f) && canMove)
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -161,7 +161,7 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) && !attacking)
+	if ( (Controller != NULL) && (Value != 0.0f) && canMove)
 	{
 
 		// find out which way is right
@@ -223,6 +223,7 @@ void ACombatArenaCharacter::Attack(bool slice)
 	}
 
 	attacking = true;
+	canMove = false; 
 }
 
 void ACombatArenaCharacter::Dodge()
