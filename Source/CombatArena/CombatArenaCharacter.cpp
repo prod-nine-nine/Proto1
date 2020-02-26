@@ -144,7 +144,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f) && canMove)
+	if ((Controller != NULL) && (Value != 0.0f) && (canMove && !attacking))
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -161,7 +161,7 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) && canMove)
+	if ( (Controller != NULL) && (Value != 0.0f) && (canMove && !attacking))
 	{
 
 		// find out which way is right
@@ -209,21 +209,24 @@ void ACombatArenaCharacter::PickUpWeapon()
 
 void ACombatArenaCharacter::Attack(bool slice)
 {
-	gSlice = slice;
-
-	SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
-
-	if (currentWeapon)
+	if (!attacking)
 	{
-		attackDamage = (slice) ? 25.0f : 50.0f;
-	}
-	else
-	{
-		attackDamage = 10.0f;
-	}
+		gSlice = slice;
 
-	attacking = true;
-	canMove = false; 
+		SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
+
+		if (currentWeapon)
+		{
+			attackDamage = (slice) ? 25.0f : 50.0f;
+		}
+		else
+		{
+			attackDamage = 10.0f;
+		}
+
+		attacking = true;
+		canMove = false;
+	}
 }
 
 void ACombatArenaCharacter::Dodge()
@@ -267,6 +270,7 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 {
 	FVector To = GetTransform().GetLocation() - from;
 	To.Normalize();
+	To.Z = 0;
 
 	scale = (blocking) ? scale / 2 : scale;
 	LaunchCharacter(To * scale, false, false);
