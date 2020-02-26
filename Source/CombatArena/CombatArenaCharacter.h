@@ -72,7 +72,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool canMove = true;
 
-	float dodgeAmount = 2000;
+	float dodgeAmount = 3000;
 	float percentPerSecond = 100;
 	float phaseTimeS = 0.2f;
 
