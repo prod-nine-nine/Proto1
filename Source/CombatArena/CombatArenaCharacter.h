@@ -87,6 +87,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool gotHit = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool knock = false;
+
 protected:
 
 	/** Resets HMD orientation in VR. */

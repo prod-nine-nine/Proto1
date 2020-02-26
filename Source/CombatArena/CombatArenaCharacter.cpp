@@ -274,6 +274,9 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 	To.Z = 0;
 
 	scale = (blocking) ? scale / 2 : scale;
+
+	if (!knock) { knock = true; }
+
 	LaunchCharacter(To * scale, false, false);
 }
 
