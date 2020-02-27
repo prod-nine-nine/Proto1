@@ -306,7 +306,6 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 
 		weaponInRange = (bool)Weapon;
 
-		blocking = false;
 	}
 	else
 	{
@@ -315,6 +314,11 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 			currentWeapon->Destroy();
 			currentWeapon = 0;
 		}
+	}
+
+	if (!currentWeapon || !canMove || attacking)
+	{
+		blocking = false;
 	}
 
 	if (dodgeRechargePercent < 100)
