@@ -13,6 +13,9 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
+#include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
+
 #include "Engine/EngineTypes.h"
 
 //debugging includes
@@ -275,18 +278,14 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 
 	scale = (blocking) ? scale / 2 : scale;
 
-	if (!knock) { knock = true; }
+	if (scale > 3000) { knock = true; }
 
 	LaunchCharacter(To * scale, false, false);
 }
 
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
-	Health -= (blocking && !attacking) ? damage / 2 : damage;
-	if (Health <= 0)
-	{
-		//this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
-	}
+	Health -= (blocking && !attacking) ? 0 : damage;
 }
 
 // Called every frame
@@ -306,6 +305,8 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
 
 		weaponInRange = (bool)Weapon;
+
+		blocking = false;
 	}
 	else
 	{
