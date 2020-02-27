@@ -232,7 +232,7 @@ void ACombatArenaCharacter::Attack(bool slice)
 
 void ACombatArenaCharacter::Dodge()
 {
-	if (dodgeRechargePercent == 100 && !attacking) { 
+	if (dodgeRechargePercent == 100 && (canMove && !attacking)) {
 		dodgeRechargePercent = 0;
 		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		phaseOn = true;
