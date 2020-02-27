@@ -20,14 +20,14 @@ class ACombatArenaCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class UCameraComponent* FollowCamera;
 
-	UPROPERTY(EditAnywhere)
-		class USphereComponent* RHColl;
+	//UPROPERTY(EditAnywhere)
+	//	class USphereComponent* RHColl;
 
-	UPROPERTY(EditAnywhere)
-		class USphereComponent* LHColl;
+	//UPROPERTY(EditAnywhere)
+	//	class USphereComponent* LHColl;
 
-	UPROPERTY(EditAnywhere)
-		class UBoxComponent* SwordColl;
+	//UPROPERTY(EditAnywhere)
+	//	class UBoxComponent* SwordColl;
 
 public:
 	ACombatArenaCharacter();
@@ -72,7 +72,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool canMove = true;
 
-	float dodgeAmount = 2000;
+	float dodgeAmount = 3000;
 	float percentPerSecond = 100;
 	float phaseTimeS = 0.2f;
 
@@ -86,6 +86,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool gotHit = false;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
+		bool knock = false;
 
 protected:
 
