@@ -84,7 +84,7 @@ public:
 
 	ASwordBase* previousTarget = 0;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Player)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
 		bool gotHit = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Player)
