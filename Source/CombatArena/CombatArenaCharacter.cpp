@@ -57,9 +57,10 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
-	RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
+	/*RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
 	RHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("RPalm"));
 	RHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+	
 
 	LHColl = CreateDefaultSubobject<USphereComponent>(TEXT("LHColl"));
 	LHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("LPalm"));
@@ -67,7 +68,7 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 
 	SwordColl = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordColl"));
 	SwordColl->SetupAttachment((USceneComponent*)GetMesh(), FName("Sword"));
-	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);*/
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -231,7 +232,7 @@ void ACombatArenaCharacter::Attack(bool slice)
 
 void ACombatArenaCharacter::Dodge()
 {
-	if (dodgeRechargePercent == 100 && !attacking) { 
+	if (dodgeRechargePercent == 100 && (canMove && !attacking)) {
 		dodgeRechargePercent = 0;
 		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		phaseOn = true;
@@ -273,6 +274,9 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 	To.Z = 0;
 
 	scale = (blocking) ? scale / 2 : scale;
+
+	if (!knock) { knock = true; }
+
 	LaunchCharacter(To * scale, false, false);
 }
 
