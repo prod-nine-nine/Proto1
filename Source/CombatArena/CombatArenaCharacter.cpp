@@ -13,6 +13,9 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
+#include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
+
 #include "Engine/EngineTypes.h"
 
 //debugging includes
@@ -57,9 +60,10 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
-	RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
+	/*RHColl = CreateDefaultSubobject<USphereComponent>(TEXT("RHColl"));
 	RHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("RPalm"));
 	RHColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+	
 
 	LHColl = CreateDefaultSubobject<USphereComponent>(TEXT("LHColl"));
 	LHColl->SetupAttachment((USceneComponent*)GetMesh(), FName("LPalm"));
@@ -67,7 +71,7 @@ ACombatArenaCharacter::ACombatArenaCharacter()
 
 	SwordColl = CreateDefaultSubobject<UBoxComponent>(TEXT("SwordColl"));
 	SwordColl->SetupAttachment((USceneComponent*)GetMesh(), FName("Sword"));
-	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);
+	SwordColl->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Overlap);*/
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -144,7 +148,7 @@ void ACombatArenaCharacter::LookUpAtRate(float Rate)
 
 void ACombatArenaCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f) && canMove)
+	if ((Controller != NULL) && (Value != 0.0f) && (canMove && !attacking))
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -161,7 +165,7 @@ void ACombatArenaCharacter::MoveForward(float Value)
 
 void ACombatArenaCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) && canMove)
+	if ( (Controller != NULL) && (Value != 0.0f) && (canMove && !attacking))
 	{
 
 		// find out which way is right
@@ -209,26 +213,29 @@ void ACombatArenaCharacter::PickUpWeapon()
 
 void ACombatArenaCharacter::Attack(bool slice)
 {
-	gSlice = slice;
-
-	SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
-
-	if (currentWeapon)
+	if (!attacking)
 	{
-		attackDamage = (slice) ? 25.0f : 50.0f;
-	}
-	else
-	{
-		attackDamage = 10.0f;
-	}
+		gSlice = slice;
 
-	attacking = true;
-	canMove = false; 
+		SetActorRotation(FRotator(0, FollowCamera->GetComponentRotation().Yaw, 0), ETeleportType::ResetPhysics);
+
+		if (currentWeapon)
+		{
+			attackDamage = (slice) ? 25.0f : 50.0f;
+		}
+		else
+		{
+			attackDamage = 10.0f;
+		}
+
+		attacking = true;
+		canMove = false;
+	}
 }
 
 void ACombatArenaCharacter::Dodge()
 {
-	if (dodgeRechargePercent == 100 && !attacking) { 
+	if (dodgeRechargePercent == 100 && (canMove && !attacking)) {
 		dodgeRechargePercent = 0;
 		GetCapsuleComponent()->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Ignore);
 		phaseOn = true;
@@ -270,16 +277,15 @@ void ACombatArenaCharacter::Knockback(FVector from, float scale)
 	To.Z = 0;
 
 	scale = (blocking) ? scale / 2 : scale;
+
+	if (scale > 3000) { knock = true; }
+
 	LaunchCharacter(To * scale, false, false);
 }
 
 void ACombatArenaCharacter::damagePlayer(float damage)
 {
-	Health -= (blocking && !attacking) ? damage / 2 : damage;
-	if (Health <= 0)
-	{
-		//this->GetWorld()->Exec(GetWorld(), TEXT("restartlevel"));
-	}
+	Health -= (blocking && !attacking) ? 0 : damage;
 }
 
 // Called every frame
@@ -299,6 +305,7 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 		ASwordBase* Weapon = Cast<ASwordBase>(hit.GetActor());
 
 		weaponInRange = (bool)Weapon;
+
 	}
 	else
 	{
@@ -307,6 +314,11 @@ void ACombatArenaCharacter::Tick(float DeltaTime)
 			currentWeapon->Destroy();
 			currentWeapon = 0;
 		}
+	}
+
+	if (!currentWeapon || !canMove || attacking)
+	{
+		blocking = false;
 	}
 
 	if (dodgeRechargePercent < 100)
